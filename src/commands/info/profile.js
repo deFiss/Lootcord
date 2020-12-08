@@ -6,7 +6,7 @@ module.exports = {
 	args: {
 		'@user/discord#tag': 'User\'s profile to check.'
 	},
-	examples: ['profile blobfysh#4679'],
+	examples: ['profile dream#3333'],
 	ignoreHelp: false,
 	requiresAcc: true,
 	requiresActive: false,

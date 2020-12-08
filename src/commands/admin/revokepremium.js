@@ -1,8 +1,8 @@
 module.exports = {
 	name: 'revokepremium',
 	aliases: [''],
-	description: 'Revokes user Lootcord premium.',
-	long: 'Revokes user Lootcord premium.',
+	description: 'Revokes user SW Mercs RPG premium.',
+	long: 'Revokes user SW Mercs RPG premium.',
 	args: {
 		'User ID': 'ID of user to revoke premium perks from.'
 	},

@@ -27,8 +27,8 @@
                 "xp": 50,
                 "items": [
                     "metal_spring|1",
-                    "pump_shotgun|1",
-                    "revolver|1",
+                    "8g_shotgun|1",
+                    "blaster_pistol|1",
                     "12g_buckshot|1",
                     "pistol_bullet|1",
                     "gunpowder|1",
@@ -39,10 +39,10 @@
             "8": {
                 "xp": 35,
                 "items": [
-                    "crossbow|1",
+                    "energy_bow|1",
                     "f1_grenade|1",
                     "medical_syringe|1",
-                    "waterpipe_shotgun|1",
+                    "salvaged_shotgun|1",
                     "handmade_shell|1",
                     "bone_armor|1"
                 ]
@@ -268,10 +268,10 @@
                     "rifle_bullet|1",
                     "tech_trash|1",
                     "large_medkit|1",
-                    "semi_pistol|1",
+                    "dc-17_handgun|1",
                     "metal_spring|1",
-                    "custom_smg|1",
-                    "m92_pistol|1"
+                    "el-16_rifle|1",
+                    "se-14_pistol|1"
                 ]
             },
             "34": {
@@ -280,7 +280,7 @@
                     "semi_body|1",
                     "bow|1",
                     "medical_syringe|1",
-                    "waterpipe_shotgun|1",
+                    "salvaged_shotgun|1",
                     "arrow|1",
                     "handmade_shell|1"
                 ]
@@ -301,10 +301,10 @@
                 "xp": 40,
                 "items": [
                     "cloth|1",
-                    "revolver|1",
+                    "blaster_pistol|1",
                     "pistol_bullet|1",
-                    "pump_shotgun|1",
-                    "crossbow|1",
+                    "8g_shotgun|1",
+                    "energy_bow|1",
                     "12g_buckshot|1",
                     "gunpowder|1",
                     "rifle_body|1",
@@ -314,10 +314,10 @@
             "0.5": {
                 "xp": 70,
                 "items": [
-                    "thompson|1",
-                    "semi_rifle|1",
+                    "rskf-44_blaster|1",
+                    "e-11_rifle|1",
                     "supply_signal|1",
-                    "assault_rifle|1"
+                    "ee-3_carabine|1"
                 ]
             }
         },
@@ -357,21 +357,21 @@
                 "xp": 140,
                 "items": [
                     "rocket|1",
-                    "assault_rifle|1",
-                    "bolt_rifle|1",
-                    "spas-12|1"
+                    "ee-3_carabine|1",
+                    "amban_phase_blaster|1",
+                    "dp-23_shotgun|1"
                 ]
             },
             "34": {
                 "xp": 90,
                 "items": [
-                    "semi_pistol|1",
+                    "dc-17_handgun|1",
                     "rifle_bullet|1",
-                    "custom_smg|1",
-                    "m92_pistol|1",
-                    "pump_shotgun|1",
+                    "el-16_rifle|1",
+                    "se-14_pistol|1",
+                    "8g_shotgun|1",
                     "gunpowder|1",
-                    "semi_rifle|1",
+                    "e-11_rifle|1",
                     "large_medkit|1"
                 ]
             },
@@ -390,7 +390,7 @@
                 "xp": 110,
                 "items": [
                     "12g_slug|1",
-                    "thompson|1",
+                    "rskf-44_blaster|1",
                     "rocket_launcher|1",
                     "hv_rifle_bullet|1",
                     "metal_armor|1"
@@ -444,27 +444,27 @@
                 "xp": 75,
                 "items": [
                     "rocket_launcher|1",
-                    "bolt_rifle|1",
+                    "amban_phase_blaster|1",
                     "rocket|1",
                     "40mm_he_grenade|1",
                     "40mm_smoke_grenade|1",
-                    "mp5|1",
-                    "lr-300|1"
+                    "e-5_rifle|1",
+                    "t-21_rifle|1"
                 ]
             },
             "67": {
                 "xp": 50,
                 "items": [
                     "12g_slug|1",
-                    "thompson|1",
+                    "rskf-44_blaster|1",
                     "hv_rifle_bullet|1",
                     "metal_armor|1",
                     "large_medkit|1",
-                    "assault_rifle|1",
-                    "python|1",
-                    "m92_pistol|1",
-                    "spas-12|1",
-                    "custom_smg|1"
+                    "ee-3_carabine|1",
+                    "dl-44_blaster|1",
+                    "se-14_pistol|1",
+                    "dp-23_shotgun|1",
+                    "el-16_rifle|1"
                 ]
             }
         },
@@ -682,7 +682,7 @@
         },
         "buy": "",
         "sell": 1954,
-        "desc": "Has a chance to contain `500 - 2,000` Lootcoin\n**Christmas event item.**",
+        "desc": "Has a chance to contain `500 - 2,000` Credits\n**Christmas event item.**",
         "image": "https://cdn.discordapp.com/attachments/732785297363959902/734405933098074142/stocking.png",
         "icon": "<:stocking:734405868296208394>",
         "breaksOnUse": "",
@@ -977,20 +977,20 @@
             "20": {
                 "xp": 15,
                 "items": [
-                    "pump_shotgun|1",
+                    "8g_shotgun|1",
                     "12g_buckshot|1",
                     "chainsaw|1",
                     "rifle_bullet|1",
-                    "python|1"
+                    "dl-44_blaster|1"
                 ]
             },
             "70": {
                 "xp": 10,
                 "items": [
                     "pistol_bullet|1",
-                    "revolver|1",
-                    "crossbow|1",
-                    "waterpipe_shotgun|1"
+                    "blaster_pistol|1",
+                    "energy_bow|1",
+                    "salvaged_shotgun|1"
                 ]
             }
         },
@@ -1028,7 +1028,7 @@
             "10": {
                 "xp": 60,
                 "items": [
-                    "m249|1"
+                    "dlt-19_rifle|1"
                 ]
             },
             "90": {
@@ -1037,9 +1037,9 @@
                     "rifle_bullet|1",
                     "grenade_launcher|1",
                     "40mm_he_grenade|1",
-                    "lr-300|1",
+                    "t-21_rifle|1",
                     "rocket|1",
-                    "mp5|1"
+                    "e-5_rifle|1"
                 ]
             }
         },

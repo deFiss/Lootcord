@@ -1,20 +1,20 @@
 {
   "confirm": "✅",
   "cancel": "❌",
-  "money": "<:Lootcoin:698425524606730271>",
-  "scrap": "<:Scrap:734032182867263578>",
-  "clan_icon": "<:clanicon:602143018514120704>",
-  "clan_leader_crown": "<:owner:585789630800986114>",
-  "death_skull": "<:deth:601324554199236618>",
-  "plus": "<:gained:610502532003004435>",
-  "minus": "<:lost:610502520590041089>",
+  "money": "<:credit:784288168819818536>",
+  "scrap": "<:scrap:782385375372902411>",
+  "clan_icon": "<:clan:784289045210726400>",
+  "clan_leader_crown": "<:owner:784289413608767519>",
+  "death_skull": "<:skull:>",
+  "plus": "<:plus:785021511396229140>",
+  "minus": "<:minus:785021511291109394>",
   "loading": "<a:loadgif:594877067837833237>",
-  "blackjack_dealer_won": "<:OHNONO:625030797375832133>",
-  "blackjack_dealer_lost": "<:iamlose:625031548961292349>",
-  "blackjack_dealer_neutral": "<:ez:625030742296100902>",
-  "slots_toprow_gif": "<a:slotsTop:734087756627574824>",
-  "slots_midrow_gif": "<a:slotsMid:734087756304875631>",
-  "slots_botrow_gif": "<a:slotsBot:734087756472647750>",
+  "blackjack_dealer_won": "<:bj_win:785019518652514335>",
+  "blackjack_dealer_lost": "<:lose:784306654434951219>",
+  "blackjack_dealer_neutral": "<:yay:785017703831306250>",
+  "slots_toprow_gif": "<a:rnd:785043680851525632>",
+  "slots_midrow_gif": "<a:rnd:785043680851525632>",
+  "slots_botrow_gif": "<a:rnd:785043680851525632>",
   "slots_common_icon": "💵",
   "slots_rare_icon": "💸",
   "slots_epic_icon": "💰",
@@ -23,19 +23,19 @@
   "locked_text_channel": "<:locked_text_channel:741087747212836865>",
   "voice_channel": "<:voice_channel:741087747661365269>",
   "health": {
-    "full": "<:heart_full:708361975922556990>",
-    "empty": "<:heart_empty_new:708362448121495644>",
-    "percent_25": "<:heart_13rd:708363044639604767>",
-    "percent_50": "<:heart_half:708363065279905912>",
-    "percent_75": "<:heart_23rd:708363054479573012>"
+    "full": "<:heart_full:782328921479053324>",
+    "empty": "<:heart_empty:782381168146251797>",
+    "percent_25": "<:heart_25:782382602865868810>",
+    "percent_50": "<:heart_half:782381168112566343>",
+    "percent_75": "<:heart_quater:782381168040869898>"
   },
   "accounts": {
-    "active": "<:active_in_this_server:601375984347774977>",
-    "inactive": "<:not_active_in_this_server:601375984804954142>"
+    "active": "<:active:784305722300694568>",
+    "inactive": "<:inactive:784305722052968449>"
   },
   "tiers": {
-    "1": "<:tier1:750119430947864678>",
-    "2": "<:tier2:750119431346061373>",
-    "3": "<:tier3:750119431333740544>"
+    "1": "<:t_1:785399109388730398>",
+    "2": "<:t_2:785399111406059550>",
+    "3": "<:t_3:785399111352057886>"
   }
 }

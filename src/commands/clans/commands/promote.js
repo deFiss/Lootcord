@@ -4,7 +4,7 @@ module.exports = {
 	description: 'Promote a user in your clan.',
 	long: 'Promote a user in your clan.',
 	args: { '@user/discord#tag': 'User to promote.' },
-	examples: ['clan promote @blobfysh'],
+	examples: ['clan promote @dream'],
 	requiresClan: true,
 	requiresActive: true,
 	minimumRank: 3,

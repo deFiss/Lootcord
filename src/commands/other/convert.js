@@ -3,9 +3,9 @@
 module.exports = {
 	name: 'convert',
 	aliases: [''],
-	description: 'Convert Lootcord Lootcoin to another bot\'s currency using Discoin.',
-	long: 'Lvl Required: 3+\nConvert your Lootcord Lootcoin to another bot\'s currency using [Discoin](https://discoin.gitbook.io/docs/users-guide). You can find participating bots and their currency codes [here](https://dash.discoin.zws.im/#/currencies).',
-	args: { amount: 'Amount of Lootcoin to convert.', currency: '3-Letter currency code of currency you want to convert to.' },
+	description: 'Convert Credits to another bot\'s currency using Discoin.',
+	long: 'Lvl Required: 3+\nConvert your Credits to another bot\'s currency using [Discoin](https://discoin.gitbook.io/). You can find participating bots and their currency codes [here](https://dash.discoin.zws.im/#/currencies).',
+	args: { amount: 'Amount of Credits to convert.', currency: '3-Letter currency code of currency you want to convert to.' },
 	examples: ['convert 1000 DTS'],
 	ignoreHelp: false,
 	requiresAcc: true,

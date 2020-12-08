@@ -4,7 +4,7 @@ module.exports = {
 	description: 'Report another player for breaking the rules.',
 	long: 'Send a report to the moderators. Examples include cheaters, alt accounts or just general errors you have with the bot. Supports image attachments.',
 	args: { message: 'The content of your report.' },
-	examples: ['report blobfysh#4679 looked at me funny'],
+	examples: ['report dream#3333 looked at me funny'],
 	ignoreHelp: false,
 	requiresAcc: true,
 	requiresActive: false,

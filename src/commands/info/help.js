@@ -56,14 +56,14 @@ module.exports = {
 			timeZone: 'America/New_York'
 		}))
 		const todaysMonth = converted.getMonth()
-		let description = '**[Help keep the bot running and get rewards!](https://www.patreon.com/lootcord)**' +
-		`\nFor details on using clan commands, you can type \`${prefix}clan help\`, or check this [link](https://lootcord.com/guides/clans).` +
+		let description = '**[Help keep the bot running and get rewards!](https://www.patreon.com/)**' +
+		`\nFor details on using clan commands, you can type \`${prefix}clan help\`, or check this [link](https://www.merc-wars.online/guides/clans).` +
         `\n\n__**Tip:**__\n${tips[Math.floor(Math.random() * tips.length)]}`
 
 		converted.setDate(converted.getDate() + 10)
 
 		const embed = new app.Embed()
-			.setAuthor('Lootcord Commands', message.author.avatarURL)
+			.setAuthor('Star Wars Mercenaries War Commands', message.author.avatarURL)
 			.setFooter(`To see more about a command, use ${prefix}help <command>`)
 			.setColor(13451564)
 

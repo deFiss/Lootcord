@@ -1,5 +1,5 @@
 {
-    "m249": {
+    "dlt-19_rifle": {
         "rarity": "Ultra",
         "isWeap": true,
         "isItem": false,
@@ -22,9 +22,9 @@
         "buy": "",
         "sell": 248305,
         "desc": "Military light machine gun that can only drop from the Patrol Helicopter and Bradley.",
-        "image": "https://cdn.discordapp.com/attachments/732785161661317224/733246776793890897/m249.png",
-        "unboxImage": "https://cdn.discordapp.com/attachments/732785161661317224/733246776793890897/m249.png",
-        "icon": "<:m249:750105298101993472>",
+        "image": "https://i.imgur.com/QkQJwuC.png",
+        "unboxImage": "https://i.imgur.com/QkQJwuC.png",
+        "icon": "<:dlt19:785409221096112138>",
         "breaksOnUse": false,
         "chanceToBreak": 0.08,
         "canBeStolen": true,
@@ -35,9 +35,9 @@
         "artist": "",
         "category": "Ranged",
         "aliases": [
-            "m2",
+            "dlt19",
             "machine_gun",
-            "light_machine_gun"
+            "dlt-19"
         ],
         "tier": 3
     },
@@ -67,8 +67,8 @@
         "buy": "",
         "sell": 3356,
         "desc": "",
-        "image": "https://cdn.discordapp.com/attachments/497302646521069570/732929491059605544/hunting_bow.png",
-        "icon": "<:hunting_bow:732853948758753280>",
+        "image": "https://i.ibb.co/fG6qdmc/bow.jpg",
+        "icon": "<:bow:785252804059070464>",
         "breaksOnUse": false,
         "chanceToBreak": 0.5,
         "canBeStolen": true,
@@ -81,7 +81,7 @@
         "aliases": [],
         "tier": 0
     },
-    "revolver": {
+    "blaster_pistol": {
         "rarity": "Rare",
         "isWeap": true,
         "isItem": false,
@@ -105,8 +105,8 @@
         "buy": "",
         "sell": 4037,
         "desc": "",
-        "image": "https://cdn.discordapp.com/attachments/497302646521069570/732929789962354778/revolver.png",
-        "icon": "<:revolver:750105092308467763>",
+        "image": "https://i.ibb.co/tqKhcgX/Blaster-Pistol.png",
+        "icon": "<:Blaster_Pistol:785243025886150656>",
         "breaksOnUse": false,
         "chanceToBreak": 0.34,
         "canBeStolen": true,
@@ -117,13 +117,13 @@
         "artist": "",
         "category": "Ranged",
         "aliases": [
-            "revvy",
-            "revvie",
-            "revo"
+            "bpistol",
+            "blasterpistol",
+            "blaster"
         ],
         "tier": 1
     },
-    "thompson": {
+    "rskf-44_blaster": {
         "rarity": "Rare",
         "isWeap": true,
         "isItem": false,
@@ -149,8 +149,8 @@
         "buy": "",
         "sell": 19736,
         "desc": "",
-        "image": "https://cdn.discordapp.com/attachments/497302646521069570/733261093731958794/thompson.png",
-        "icon": "<:thompson:750105123899834428>",
+        "image": "https://i.ibb.co/GcLwDQh/rskf-44-blaster.png",
+        "icon": "<:RSKF44:785275160541790219>",
         "breaksOnUse": false,
         "chanceToBreak": 0.35,
         "canBeStolen": true,
@@ -161,12 +161,13 @@
         "artist": "",
         "category": "Ranged",
         "aliases": [
-            "tommy",
-            "thommy"
+            "rskf",
+            "rskf-44",
+            "rskf44"
         ],
         "tier": 2
     },
-    "mp5": {
+    "e-5_rifle": {
         "rarity": "Rare",
         "isWeap": true,
         "isItem": false,
@@ -192,8 +193,8 @@
         "buy": "",
         "sell": 52573,
         "desc": "",
-        "image": "https://cdn.discordapp.com/attachments/732785161661317224/733325647857844274/mp5.png",
-        "icon": "<:mp5:750105298114707506>",
+        "image": "https://i.ibb.co/0tydRCY/e5.png",
+        "icon": "<:e5:785403752609611806>",
         "breaksOnUse": false,
         "chanceToBreak": 0.12,
         "canBeStolen": true,
@@ -203,10 +204,14 @@
         "phrase": "{attacker} fires a {ammoIcon}`{ammo}` straight at {victim} using a {weaponIcon}`{weapon}`! **{damage}** damage dealt!",
         "artist": "",
         "category": "Ranged",
-        "aliases": [],
+        "aliases": [
+            "e5",
+            "e-5",
+            "e5rifle"
+        ],
         "tier": 3
     },
-    "custom_smg": {
+    "el-16_rifle": {
         "rarity": "Rare",
         "isWeap": true,
         "isItem": false,
@@ -230,8 +235,8 @@
         "buy": "",
         "sell": 17252,
         "desc": "",
-        "image": "https://cdn.discordapp.com/attachments/732785161661317224/733250239665799188/custom_smg.png",
-        "icon": "<:custom_smg:750105123065167872>",
+        "image": "https://i.ibb.co/3zB4Hzw/EL-16-rifle.png",
+        "icon": "<:EL16_rifle:785376605677289473>",
         "breaksOnUse": false,
         "chanceToBreak": 0.38,
         "canBeStolen": true,
@@ -242,12 +247,13 @@
         "artist": "",
         "category": "Ranged",
         "aliases": [
-            "custom",
-            "smg"
+            "el16",
+            "el16rifle",
+            "el-16"
         ],
         "tier": 2
     },
-    "python": {
+    "dl-44_blaster": {
         "rarity": "Rare",
         "isWeap": true,
         "isItem": false,
@@ -271,8 +277,8 @@
         "buy": "",
         "sell": 17157,
         "desc": "",
-        "image": "https://cdn.discordapp.com/attachments/732785161661317224/733575765198766110/python.png",
-        "icon": "<:python:750105123631661076>",
+        "image": "https://i.ibb.co/qRxQVtG/Dl44.png",
+        "icon": "<:dl44:785349381435424808>",
         "breaksOnUse": false,
         "chanceToBreak": 0.59,
         "canBeStolen": true,
@@ -282,10 +288,15 @@
         "phrase": "{attacker} fires a {ammoIcon}`{ammo}` straight at {victim} using a {weaponIcon}`{weapon}`! **{damage}** damage dealt!",
         "artist": "",
         "category": "Ranged",
-        "aliases": [],
+        "aliases": [
+            "dl44",
+            "dl44blaster",
+            "hansolo",
+            "dl-44"
+        ],
         "tier": 2
     },
-    "m92_pistol": {
+    "se-14_pistol": {
         "rarity": "Rare",
         "isWeap": true,
         "isItem": false,
@@ -303,8 +314,8 @@
         "buy": "",
         "sell": 18157,
         "desc": "",
-        "image": "https://cdn.discordapp.com/attachments/732785161661317224/734000982392045628/m92_pistol.png",
-        "icon": "<:m92_pistol:750105123002253393>",
+        "image": "https://i.ibb.co/Ht7xpgd/se-14.png",
+        "icon": "<:se_14:785374490993491998>",
         "breaksOnUse": false,
         "chanceToBreak": 0.27,
         "canBeStolen": true,
@@ -315,12 +326,12 @@
         "artist": "",
         "category": "Ranged",
         "aliases": [
-            "m92",
-            "m9"
+            "se14",
+            "se14pistol"
         ],
         "tier": 2
     },
-    "bolt_rifle": {
+    "amban_phase_blaster": {
         "rarity": "Rare",
         "isWeap": true,
         "isItem": false,
@@ -347,8 +358,8 @@
         "buy": "",
         "sell": 96621,
         "desc": "",
-        "image": "https://cdn.discordapp.com/attachments/732785161661317224/733262499440492544/bolt_rifle.png",
-        "icon": "<:bolt_rifle:750105297485299802>",
+        "image": "https://i.ibb.co/HXb0Scv/amban.jpg",
+        "icon": "<:amban:785412739408592946>",
         "breaksOnUse": false,
         "chanceToBreak": 0.26,
         "canBeStolen": true,
@@ -359,14 +370,14 @@
         "artist": "",
         "category": "Ranged",
         "aliases": [
-            "bolty",
+            "amban",
             "sniper",
-            "bolt",
-            "bolt_action"
+            "amban_rifle",
+            "amban_blaster"
         ],
         "tier": 3
     },
-    "semi_rifle": {
+    "e-11_rifle": {
         "rarity": "Rare",
         "isWeap": true,
         "isItem": false,
@@ -394,8 +405,8 @@
         "buy": "",
         "sell": 21037,
         "desc": "",
-        "image": "https://cdn.discordapp.com/attachments/732785161661317224/733248648275558400/semi_rifle.png",
-        "icon": "<:semi_rifle:750105123757359114>",
+        "image": "https://i.ibb.co/8jCtdZ8/E11.png",
+        "icon": "<:e11:785345608462237696>",
         "breaksOnUse": false,
         "chanceToBreak": 0.35,
         "canBeStolen": true,
@@ -406,12 +417,12 @@
         "artist": "",
         "category": "Ranged",
         "aliases": [
-            "sar",
-            "semi"
+            "e11",
+            "e11rifle"
         ],
         "tier": 2
     },
-    "semi_pistol": {
+    "dc-17_handgun": {
         "rarity": "Rare",
         "isWeap": true,
         "isItem": false,
@@ -435,8 +446,8 @@
         "buy": "",
         "sell": 7156,
         "desc": "",
-        "image": "https://cdn.discordapp.com/attachments/497302646521069570/732929807179972748/semi_pistol.png",
-        "icon": "<:semi_pistol:750105123757359134>",
+        "image": "https://i.ibb.co/y60tcD2/Dc-17.png",
+        "icon": "<:Dc_17s:785347425778139156>",
         "breaksOnUse": false,
         "chanceToBreak": 0.3,
         "canBeStolen": true,
@@ -447,13 +458,13 @@
         "artist": "",
         "category": "Ranged",
         "aliases": [
-            "p2",
-            "p250",
-            "pistol"
+            "dc17",
+            "dc-17",
+            "dc17pistol"
         ],
         "tier": 2
     },
-    "crossbow": {
+    "energy_bow": {
         "rarity": "Rare",
         "isWeap": true,
         "isItem": false,
@@ -479,8 +490,8 @@
         "buy": "",
         "sell": 3662,
         "desc": "",
-        "image": "https://cdn.discordapp.com/attachments/497302646521069570/732929913145000016/crossbow.png",
-        "icon": "<:crossbow:750105090999713884>",
+        "image": "https://i.ibb.co/QrMdxfZ/Energy-Bow.png",
+        "icon": "<:Energy_Bow:785256565015445524>",
         "breaksOnUse": false,
         "chanceToBreak": 0.35,
         "canBeStolen": true,
@@ -491,12 +502,14 @@
         "artist": "",
         "category": "Ranged",
         "aliases": [
-            "crossy",
-            "crossie"
+            "ebow",
+            "e-bow",
+            "energybow",
+            "enbow"
         ],
         "tier": 1
     },
-    "pump_shotgun": {
+    "8g_shotgun": {
         "rarity": "Rare",
         "isWeap": true,
         "isItem": false,
@@ -523,8 +536,8 @@
         "buy": "",
         "sell": 24263,
         "desc": "",
-        "image": "https://cdn.discordapp.com/attachments/497302646521069570/732930012034105394/pump_shotgun.png",
-        "icon": "<:pump_shotgun:750105123098722366>",
+        "image": "https://i.ibb.co/7jZDNn1/8g-shotgun.png",
+        "icon": "<:8g_shotgun:785371094559096853>",
         "breaksOnUse": false,
         "chanceToBreak": 0.4,
         "canBeStolen": true,
@@ -536,14 +549,14 @@
         "category": "Ranged",
         "aliases": [
             "shotgun",
-            "pump",
+            "8g",
             "shotty",
-            "pumpie",
-            "pumpy"
+            "8gshootgun",
+            "8gsg"
         ],
         "tier": 2
     },
-    "spas-12": {
+    "dp-23_shotgun": {
         "rarity": "Rare",
         "isWeap": true,
         "isItem": false,
@@ -564,8 +577,8 @@
         "buy": "",
         "sell": 53621,
         "desc": "",
-        "image": "https://cdn.discordapp.com/attachments/732785161661317224/734033475807477780/spas-12.png",
-        "icon": "<:spas12:750105297892278392>",
+        "image": "https://i.ibb.co/1zZfXzW/dp-23.jpg",
+        "icon": "<:dp_23:785391856342794281>",
         "breaksOnUse": false,
         "chanceToBreak": 0.22,
         "canBeStolen": true,
@@ -576,11 +589,12 @@
         "artist": "",
         "category": "Ranged",
         "aliases": [
-            "spas"
+            "dp-23",
+            "dp23"
         ],
         "tier": 3
     },
-    "lr-300": {
+    "t-21_rifle": {
         "rarity": "Rare",
         "isWeap": true,
         "isItem": false,
@@ -602,8 +616,8 @@
         "buy": "",
         "sell": 65623,
         "desc": "",
-        "image": "https://cdn.discordapp.com/attachments/732785161661317224/733991382821109790/lr-300.png",
-        "icon": "<:lr300:750105297804329003>",
+        "image": "https://i.ibb.co/4N9PKmk/t-21.png",
+        "icon": "<:t21:785404981956182016>",
         "breaksOnUse": false,
         "chanceToBreak": 0.15,
         "canBeStolen": true,
@@ -614,11 +628,13 @@
         "artist": "",
         "category": "Ranged",
         "aliases": [
-            "lr"
+            "t21",
+            "t-21",
+            "t21rifle"
         ],
         "tier": 3
     },
-    "assault_rifle": {
+    "ee-3_carabine": {
         "rarity": "Rare",
         "isWeap": true,
         "isItem": false,
@@ -646,27 +662,26 @@
         "buy": "",
         "sell": 82571,
         "desc": "",
-        "image": "https://cdn.discordapp.com/attachments/732785161661317224/733253825418231868/ak-47.png",
-        "icon": "<:ak47:750105297108074559>",
+        "image": "https://cdn.discordapp.com/emojis/785414903778377728.png",
+        "icon": "<:ee_3_carbine:785414903778377728>",
         "breaksOnUse": false,
         "chanceToBreak": 0.23,
         "canBeStolen": true,
         "cooldown": {
             "seconds": 4561
         },
-        "phrase": "{attacker} sprays down {victim} using an {weaponIcon}`{weapon}` loaded with {ammoIcon}`{ammo}`'s! **{damage}** damage dealt!",
+        "phrase": "{attacker} shoot a {victim} using an {weaponIcon}`{weapon}` loaded with {ammoIcon}`{ammo}`'s! **{damage}** damage dealt!",
         "artist": "",
         "category": "Ranged",
         "aliases": [
-            "rifle",
-            "ak",
-            "ak-47",
-            "ak47",
-            "assault"
+            "carbine",
+            "ee-3",
+            "ee3",
+            "eecarabine"
         ],
         "tier": 3
     },
-    "waterpipe_shotgun": {
+    "salvaged_shotgun": {
         "rarity": "Rare",
         "isWeap": true,
         "isItem": false,
@@ -694,8 +709,8 @@
         "buy": "",
         "sell": 5419,
         "desc": "",
-        "image": "https://cdn.discordapp.com/attachments/732785297363959902/733222004924350484/waterpipe_shotgun.png",
-        "icon": "<:waterpipe_shotgun:750105092258267207>",
+        "image": "https://i.ibb.co/r3LgHp5/ACP-array-gun.webp",
+        "icon": "<:salv_shotg:785237676772294687>",
         "breaksOnUse": false,
         "chanceToBreak": 0.76,
         "canBeStolen": true,
@@ -706,10 +721,9 @@
         "artist": "",
         "category": "Ranged",
         "aliases": [
-            "pipey",
-            "pipy",
-            "pipie",
-            "waterpipe"
+            "salvagedshotgun",
+            "sshotgun",
+            "ssg"
         ],
         "tier": 1
     },
@@ -732,9 +746,9 @@
         "buy": "",
         "sell": 112330,
         "desc": "",
-        "image": "https://cdn.discordapp.com/attachments/497302646521069570/732930783240519712/rocket_launcher.png",
-        "unboxImage": "https://cdn.discordapp.com/attachments/497302646521069570/732930783240519712/rocket_launcher.png",
-        "icon": "<:rocket_launcher:750105298122965063>",
+        "image": "https://i.ibb.co/1rrqnpV/rocket-launcher.png",
+        "unboxImage": "https://i.ibb.co/1rrqnpV/rocket-launcher.png",
+        "icon": "<:rocket_launcher:785402149814272000>",
         "breaksOnUse": false,
         "chanceToBreak": 0.15,
         "canBeStolen": true,
@@ -770,8 +784,8 @@
         "buy": "",
         "sell": 108427,
         "desc": "",
-        "image": "https://cdn.discordapp.com/attachments/732785297363959902/736367319944659065/grenade_launcher.png",
-        "icon": "<:grenade_launcher:750105297632362496>",
+        "image": "https://i.ibb.co/kGhTTg3/grenade-launcher.png",
+        "icon": "<:grenade_launcher:785410552963923988>",
         "breaksOnUse": false,
         "chanceToBreak": 0.13,
         "canBeStolen": true,

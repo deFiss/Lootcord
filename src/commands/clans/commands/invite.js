@@ -6,7 +6,7 @@ module.exports = {
 	description: 'Invite a user to join your clan.',
 	long: 'Invite a user to join your clan.',
 	args: { '@user/discord#tag': 'User to invite.' },
-	examples: ['clan invite @blobfysh'],
+	examples: ['clan invite @dream'],
 	requiresClan: true,
 	requiresActive: true,
 	minimumRank: 2,

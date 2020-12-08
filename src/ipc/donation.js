@@ -39,7 +39,7 @@ exports.run = async function({ data }) {
 			// dont create a new account to prevent issues with users putting in other peoples ID's to spam them
 			donateEmbed.addField('User', `\`\`\`fix\n${user}\`\`\``, true)
 			donateEmbed.addField('Message', data.message)
-			donateEmbed.setFooter('❌ No Lootcord account found.')
+			donateEmbed.setFooter('❌ No Star Wars Mercenaries War account found.')
 
 			return this.messager.messageLogs(donateEmbed)
 		}
@@ -50,9 +50,9 @@ exports.run = async function({ data }) {
 
 		const patronEmbed = new this.Embed()
 			.setTitle('😲 a donator!')
-			.setFooter('💙 blobfysh')
+			.setFooter('💙 Dream')
 			.setColor('#29ABE0')
-			.setDescription('Thank you for helping me create Lootcord!!')
+			.setDescription('Thank you for helping me create Star Wars Mercenaries War!!')
 			.addField('Items Received', `${coffees}x ${this.itemdata.military_crate.icon}\`military_crate\`\n1x ${this.itemdata.kofi_king.icon}\`kofi_king\``)
 
 		try {

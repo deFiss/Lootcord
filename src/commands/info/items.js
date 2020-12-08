@@ -6,7 +6,7 @@ module.exports = {
 	description: 'Shows information about an item.',
 	long: 'Specify an item to see detailed information about it.',
 	args: { item: 'Item to search.' },
-	examples: ['item ak47'],
+	examples: ['item ee-3'],
 	ignoreHelp: false,
 	requiresAcc: false,
 	requiresActive: false,

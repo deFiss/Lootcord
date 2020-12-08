@@ -7,7 +7,7 @@ module.exports = {
 	description: 'Changes the clan status.',
 	long: 'Changes the clan status.',
 	args: { status: 'Status to set.' },
-	examples: ['clan setstatus Better than u'],
+	examples: ['clan setstatus Never tell me the odds!'],
 	requiresClan: true,
 	requiresActive: true,
 	minimumRank: 2,

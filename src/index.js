@@ -32,12 +32,12 @@ const sharder = new Sharder(`Bot ${config.botToken}`, '/src/app.js', {
 		defaultImageSize: 256,
 		restMode: true,
 		intents: [
-			'guilds',
-			'guildMembers',
-			'guildMessages',
-			'guildMessageReactions',
-			'directMessages'
-		]
+				'guilds',
+				'guildMembers',
+				'guildMessages',
+				'guildMessageReactions',
+				'directMessages'
+			]
 	}
 })
 

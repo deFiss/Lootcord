@@ -3,7 +3,7 @@ exports.debug = process.env.NODE_ENV !== 'production'
 exports.prefix = 't-'
 
 // IDs of users that have admin privileges.
-exports.adminUsers = ['168958344361541633', '246828746789617665', '221087115893669889']
+exports.adminUsers = ['319036148662009857', '318286931815563265']
 
 exports.botToken = process.env.BOT_TOKEN
 

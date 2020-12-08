@@ -75,7 +75,7 @@ module.exports = {
 			embedLeader.addField(armor ? 'Armor Active' : '🛡 Armor Active', armor ? `${app.itemdata[armor].icon}\`${armorCD}\`` : `\`${armorCD}\``, true)
 		}
 		if (passiveShield) {
-			embedLeader.addField('🛡 Passive Shield', `\`${passiveShield}\` [?](https://lootcord.com/faq#what-is-a-passive-shield 'A passive shield is a 24 hour attack shield given to you when you are killed.\n\nThis shield will automatically be removed if you decide to attack someone.')`, true)
+			embedLeader.addField('🛡 Passive Shield', `\`${passiveShield}\` [?](https://www.merc-wars.online/faq#what-is-a-passive-shield 'A passive shield is a 24 hour attack shield given to you when you are killed.\n\nThis shield will automatically be removed if you decide to attack someone.')`, true)
 		}
 		if (xp_potionCD) {
 			embedLeader.addField('xp_potion', `\`❌ ${xp_potionCD}\``, true)

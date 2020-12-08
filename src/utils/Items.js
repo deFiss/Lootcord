@@ -15,7 +15,7 @@ class Items {
 				return
 			}
 			for (let i = 0; i < item.length; i++) {
-				// store amounts in array as ["rock|5","ak47|2"] then use split("|")
+				// store amounts in array as ["rock|5","ee-3|2"] then use split("|")
 				const itemToCheck = item[i].split('|')
 				// Store id and item in array to bulk insert x times # of items.
 				const insertValues = Array(parseInt(itemToCheck[1])).fill([id, itemToCheck[0]])
@@ -41,7 +41,7 @@ class Items {
 				return
 			}
 			for (let i = 0; i < item.length; i++) {
-				// store amounts in array as ["rock|5","ak47|2"] then use split("|")
+				// store amounts in array as ["rock|5","ee-3|2"] then use split("|")
 				const itemToCheck = item[i].split('|')
 
 				await this.app.query(`DELETE FROM user_items WHERE userId = ${id} AND item = '${itemToCheck[0]}' LIMIT ${parseInt(itemToCheck[1])}`)
@@ -250,7 +250,7 @@ class Items {
 		let totalItemCt = 0
 		for (let i = 0; i < list.length; i++) {
 			// do stuff for each item
-			// store amounts in array as ["rock|5","ak47|2"] then use split("|")
+			// store amounts in array as ["rock|5","ee-3|2"] then use split("|")
 			const itemToCheck = list[i].split('|')
 			totalItemCt += parseInt(itemToCheck[1])
 		}

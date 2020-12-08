@@ -80,10 +80,10 @@ class CommandHandler {
 
 		// check if command is patrons only
 		else if (command.patronTier1Only && !await this.app.patreonHandler.isPatron(message.author.id) && !this.app.sets.adminUsers.has(message.author.id)) {
-			return message.channel.createMessage(`❌ \`${command.name}\` is exclusive for patreon donators. Support Lootcord on patreon to get access: https://www.patreon.com/lootcord`)
+			return message.channel.createMessage(`❌ \`${command.name}\` is exclusive for patreon donators. Support Star Wars Mercenaries War on patreon to get access: https://www.patreon.com/`)
 		}
 		else if (command.patronTier2Only && !await this.app.patreonHandler.isPatron(message.author.id, 2) && !this.app.sets.adminUsers.has(message.author.id)) {
-			return message.channel.createMessage(`❌ \`${command.name}\` is exclusive for **Loot Hoarder**+ patreon donators. Support Lootcord on patreon to get access: https://www.patreon.com/lootcord`)
+			return message.channel.createMessage(`❌ \`${command.name}\` is exclusive for **Loot Hoarder**+ patreon donators. Support Star Wars Mercenaries War on patreon to get access: https://www.patreon.com/`)
 		}
 
 		// check if user has manage server permission before running guildModsOnly command

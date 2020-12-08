@@ -41,7 +41,7 @@ module.exports = {
 				.setAuthor(`${userInfo.username}#${userInfo.discriminator}`)
 				.setThumbnail(app.common.getAvatar(userInfo))
 				.addField('Joined Discord', discordAccCreated)
-				.addField('Joined Lootcord', createdString, true)
+				.addField('Joined Star Wars Mercenaries War', createdString, true)
 				.addField('Last Active', activeString, true)
 				.addField(`Activated in ${activeRows.length} servers`, codeWrap(activeRows.length > 0 ? activeRows.map(g => g.guildId).join('\n') : 'None', 'js'))
 

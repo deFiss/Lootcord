@@ -3,8 +3,8 @@ const usersPerPage = 10
 module.exports = {
 	name: 'active',
 	aliases: ['players'],
-	description: 'Displays all active users on the server.',
-	long: 'Displays all active users on the server.',
+	description: 'Displays all active Mercenaries on the server.',
+	long: 'Displays all active Mercenaries on the server.',
 	args: {},
 	examples: [],
 	ignoreHelp: false,

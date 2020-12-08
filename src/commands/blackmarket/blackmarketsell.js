@@ -48,7 +48,7 @@ module.exports = {
 				return message.reply('Please enter a lower price o.o')
 			}
 			else if (itemCost < 100) {
-				return message.reply(`Please enter a higher price! Minimum **${app.common.formatNumber(100)}** Lootcoin`)
+				return message.reply(`Please enter a higher price! Minimum **${app.common.formatNumber(100)}** Credits`)
 			}
 			else if (itemCost <= (app.itemdata[itemName].sell * itemAmnt)) {
 				return message.reply('You can `sell` that for more money! You should list for more money, or sell them to the bot instead.')
@@ -58,7 +58,7 @@ module.exports = {
 				.setTitle('List an item on the Black Market')
 				.addField('Item:', `${app.itemdata[itemName].icon}\`${itemName}\``, true)
 				.addField('Quantity:', itemAmnt, true)
-				.addField('Price:', `**${app.common.formatNumber(itemCost)}** Lootcoin`)
+				.addField('Price:', `**${app.common.formatNumber(itemCost)}** Credits`)
 				.setColor(13451564)
 
 			const listingFee = Math.floor(itemCost * listing_fee)
@@ -145,7 +145,7 @@ module.exports = {
 
 						amount = newAmnt
 						bmEmbed.addField('Quantity:', amount, true)
-						bmEmbed.setDescription(`Enter the price in **Lootcoin** for all **${amount}**:`)
+						bmEmbed.setDescription(`Enter the price in **Credits** for all **${amount}**:`)
 						botMessage = await message.channel.createMessage(bmEmbed)
 						return
 					}
@@ -160,7 +160,7 @@ module.exports = {
 							return m.channel.createMessage('Please enter a lower value.')
 						}
 						else if (newCost < 100) {
-							return m.channel.createMessage(`Please enter a higher price! Minimum **${app.common.formatNumber(100)}** Lootcoin`)
+							return m.channel.createMessage(`Please enter a higher price! Minimum **${app.common.formatNumber(100)}** Credits`)
 						}
 						else if (newCost <= (app.itemdata[item].sell * amount)) {
 							return m.channel.createMessage('You can `sell` that for more money! You should list for more money, or sell them using the sell command instead.')

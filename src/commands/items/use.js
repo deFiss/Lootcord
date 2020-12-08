@@ -4,9 +4,9 @@ module.exports = {
 	name: 'use',
 	aliases: ['attack', 'heal'],
 	description: 'Use items on yourself or use weapons to attack others!',
-	long: 'Use an item on yourself or attack another user with a weapon. If you\'re opening a box, you can specify an amount to open.',
+	long: 'Use an item on yourself or attack another user with a weapon. If you\'re opening a crate, you can specify an amount to open.',
 	args: { 'item': 'Item to use.', '@user': 'User to attack item with.' },
-	examples: ['use assault rifle @blobfysh', 'use medkit', 'use rock random', 'use crate 4'],
+	examples: ['use Vibroblade @dream', 'use Bandage', 'use T-21 random', 'use crate 4'],
 	ignoreHelp: false,
 	requiresAcc: true,
 	requiresActive: true,
@@ -152,13 +152,13 @@ module.exports = {
 					await app.query(`UPDATE scores SET health = 100 WHERE userId = ${message.author.id}`)
 				}
 
-				message.reply(`You read the ${app.itemdata.reroll_scroll.icon}\`reroll_scroll\` and feel a sense of renewal. Your skills have been reset.`)
+				message.reply(`You used the ${app.itemdata.reroll_scroll.icon}\`reroll_chip\` and feel a sense of renewal. Your skills have been reset.`)
 			}
 			else if (item === 'c4') {
 				const clanName = args
 
 				if (!clanName.length) {
-					return message.reply(`You need to specify a clan to use your explosive on! \`${prefix}use c4 <clan name>\``)
+					return message.reply(`You need to specify a clan to use your explosive on! \`${prefix}use Laser_mine <clan name>\``)
 				}
 
 				const clanRow = await app.clans.searchClanRow(clanName.join(' '))
@@ -175,7 +175,7 @@ module.exports = {
 				await app.itm.removeItem(message.author.id, 'c4', 1)
 				await app.query('UPDATE clans SET reduction = reduction + 5 WHERE clanId = ?', [clanRow.clanId])
 				await app.query('INSERT INTO cooldown (userId, type, start, length) VALUES (?, ?, ?, ?)', [clanRow.clanId, 'explosion', new Date().getTime(), 3600 * 1000])
-				app.clans.addLog(clanRow.clanId, `${`${message.author.username}#${message.author.discriminator}`} used explosives on the clan! (c4)`)
+				app.clans.addLog(clanRow.clanId, `${`${message.author.username}#${message.author.discriminator}`} used explosives on the clan! (Laser_mine)`)
 
 				setTimeout(async() => {
 					await app.query('UPDATE clans SET reduction = reduction - 5 WHERE clanId = ?', [clanRow.clanId])
@@ -228,7 +228,7 @@ module.exports = {
 						bonusDamage = app.itemdata[ammoUsed].damage
 						await app.itm.removeItem(message.author.id, ammoUsed, 1)
 					}
-					else if (!ammoUsed && monster.title === 'Patrol Helicopter') { return message.reply('❌ The Patrol Helicopter is immune to melee weapons!') }
+					else if (!ammoUsed && monster.title === 'TIE fighter') { return message.reply('❌ The TIE fighter is immune to melee weapons!') }
 				}
 				catch (err) {
 					return message.reply('❌ You don\'t have any ammo for that weapon!')
@@ -292,7 +292,7 @@ module.exports = {
 					const killedReward = new app.Embed()
 						.setTitle('Loot Received')
 						.setColor(7274496)
-						.addField('Lootcoin Stolen', app.common.formatNumber(monsterRow.money))
+						.addField('Credits Stolen', app.common.formatNumber(monsterRow.money))
 						.addField('Items', `${app.itm.getDisplay([bestItem])}\n\n**and...**\n${app.itm.getDisplay(extras.sort(app.itm.sortItemsHighLow.bind(app))).join('\n')}`)
 						.setFooter(`⭐ ${monster.xp} XP earned!`)
 

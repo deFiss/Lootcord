@@ -1,6 +1,6 @@
 <div>
   <p align="center">
-    <a href="https://discordapp.com/oauth2/authorize?client_id=493316754689359874&permissions=388160&scope=bot"><img src="https://cdn.discordapp.com/attachments/497302646521069570/764344112299507763/lootcord_icon_transparent_small.png"/></a>
+    <a href="https://discordapp.com/oauth2/authorize?&client_id=784863742827298848&scope=bot&permissions=387136"><img src="https://i.ibb.co/VN40QtP/small-icon.png"/></a>
   </p>
   <h1 align="center">
     Lootcord
@@ -14,12 +14,12 @@
 </div>
 
 ## About
-Website: https://lootcord.com<br>
-Invite: https://discord.com/oauth2/authorize?client_id=493316754689359874&permissions=519232&scope=bot<br>
-Discord Server: https://discord.gg/7XNbdzP<br>
+Website: https://www.merc-wars.online/<br>
+Invite: https://discordapp.com/oauth2/authorize?&client_id=784863742827298848&scope=bot&permissions=387136<br>
+Discord Server: https://discord.gg/8KanHfaBfB<br>
 
 ## Commands
-Commands can be found [here](https://lootcord.com/commands).
+Commands can be found [here](https:/www.merc-wars.online/commands).
 
 ## Self-hosting when?
 

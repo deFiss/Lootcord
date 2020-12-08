@@ -34,7 +34,7 @@ module.exports = {
 
 		if (!guildInfo) return message.reply('❌ I am not in a guild with that ID.')
 
-		const botMessage = await message.reply(`Ban and remove Lootcord from **${guildInfo.name}**?`)
+		const botMessage = await message.reply(`Ban and remove Star Wars Mercenaries War from **${guildInfo.name}**?`)
 
 		try {
 			const confirmed = await app.react.getConfirmation(message.author.id, botMessage)

@@ -6,7 +6,7 @@ module.exports = {
 	description: 'Get Scrap for your items.',
 	long: 'Exchange your items for Scrap! Scrapping your items gives you 1.5x their sell value.',
 	args: { item: 'Item to scrap.', amount: '**OPTIONAL** Amount of item to scrap.' },
-	examples: ['scrap assault_rifle 2', 'scrap rock 1 rpg 3 item_box 2'],
+	examples: ['scrap DP-23_Shotgun 2', 'scrap Vibroknuckler 1 rpg 3'],
 	ignoreHelp: false,
 	requiresAcc: true,
 	requiresActive: false,

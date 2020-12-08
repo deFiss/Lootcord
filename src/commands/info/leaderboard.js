@@ -1,7 +1,7 @@
 module.exports = {
 	name: 'leaderboard',
 	aliases: ['lb'],
-	description: 'Show the best players overall or in the current server.',
+	description: 'Show the best Mercenary overall or in the current server.',
 	long: 'Displays a leaderboard of all players with the highest level and amount of money.',
 	args: { g: '**OPTIONAL** Will show the global leaderboard' },
 	examples: [],
@@ -17,7 +17,7 @@ module.exports = {
 			const embedLeader = new app.Embed()
 				.setTitle('Global Leaderboard')
 				.setColor('#000000')
-				.addField('Richest - Lootcoin', leaders.moneyLB.join('\n'), true)
+				.addField('Richest - Credits', leaders.moneyLB.join('\n'), true)
 				.addField('Richest - Scrap', leaders.scrapLB.join('\n'), true)
 				.addField('Level', leaders.levelLB.join('\n'))
 				.addField('Kills', leaders.killLB.join('\n'))
@@ -100,7 +100,7 @@ module.exports = {
 			.setFooter(`Top ${leaders.length}`)
 
 		if (leaders.length) {
-			embedLeader.addField('Richest - Lootcoin', leaders.join('\n'))
+			embedLeader.addField('Richest - Credits', leaders.join('\n'))
 			embedLeader.addField('Richest - Scrap', scrapLeaders.join('\n'))
 			embedLeader.addField('Level', levelLeaders.join('\n'))
 			embedLeader.addField('Kills', killLeaders.join('\n'))

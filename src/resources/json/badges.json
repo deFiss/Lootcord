@@ -8,13 +8,13 @@
     "specialist": {
         "icon": "<:glock:551394726624886796>",
         "description": "Obtain 20 or more kills.",
-        "image": "https://cdn.discordapp.com/attachments/497302646521069570/698393828087955556/glockTest.png",
+        "image": "https://i.ibb.co/h9J6CQg/20kill-icon5050.png",
         "artist": "221087115893669889"
     },
     "executioner": {
         "icon": "<:awpT:551398648408178703>",
         "description": "Obtain 100 or more kills.",
-        "image": "https://cdn.discordapp.com/attachments/497302646521069570/698395123918045224/awpT.png",
+        "image": "https://i.ibb.co/Xz6v9XB/100kills-icon.png",
         "artist": "221087115893669889"
     },
     "loot_goblin": {
@@ -49,19 +49,19 @@
     },
     "og_looter": {
         "icon": "<:og_lootcord:736435639179804788>",
-        "description": "Played Lootcord before the August 1st Rust update.",
-        "image": "https://cdn.discordapp.com/attachments/732785297363959902/736435600990666862/og_lootcord.png",
+        "description": "Played Star Wars Mercenaries War before the Jan 1st.",
+        "image": "https://i.ibb.co/k5dv6fZ/hs-transp.png",
         "artist": ""
     },
     "dev_slayer": {
         "icon": "<:wickmode:744409719581573210>",
-        "description": "Kill blobfysh#4679 (the developer of the bot), you can find him in the official Discord server! `t-discord`",
-        "image": "https://cdn.discordapp.com/attachments/542248243313246208/747420490821271632/wickmode.png",
+        "description": "Kill dream#3333 (the developer of the bot), you can find him in the official Discord server! `t-discord`",
+        "image": "https://i.ibb.co/NWYk60R/boba.png",
         "artist": ""
     },
     "loot_lord": {
         "icon": "💎",
-        "description": "An exclusive badge for Loot Lord patreon donators!",
+        "description": "An exclusive badge for Star Wars Mercenaries War patreon donators!",
         "image": "https://cdn.discordapp.com/attachments/497302646521069570/754010748115615844/gem-stone_1f48e.png",
         "artist": ""
     }

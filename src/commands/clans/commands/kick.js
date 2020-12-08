@@ -4,7 +4,7 @@ module.exports = {
 	description: 'Kick a user from your clan (using mention or user id).',
 	long: 'Kick a user from your clan. You can kick using a mention, Discord#tag or by using their number from the clan member list.',
 	args: { '@user/discord ID': 'User to kick.' },
-	examples: ['clan kick @blobfysh', 'clan kick 3'],
+	examples: ['clan kick @dream', 'clan kick 3'],
 	requiresClan: true,
 	requiresActive: true,
 	minimumRank: 4,

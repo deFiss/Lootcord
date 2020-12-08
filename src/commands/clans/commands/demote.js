@@ -4,7 +4,7 @@ module.exports = {
 	description: 'Demote a user in your clan.',
 	long: 'Demote a user in your clan.',
 	args: { '@user/discord#tag': 'User to demote.' },
-	examples: ['clan demote @blobfysh'],
+	examples: ['clan demote @dream'],
 	requiresClan: true,
 	requiresActive: true,
 	minimumRank: 3,

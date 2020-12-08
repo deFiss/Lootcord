@@ -5,9 +5,9 @@ module.exports = {
 	name: 'trade',
 	aliases: [''],
 	description: 'Trade items and money with another player.',
-	long: 'Lvl Required: 3+\nStart a trade with another user. Trade commands include:\n\n`add <item> <amount>` - Item to add to trade\n`remove <item>` - Remove item from trade\n`addmoney <amount>` - Amount of Lootcoin to add\n`accept`\n`cancel`',
+	long: 'Lvl Required: 3+\nStart a trade with another user. Trade commands include:\n\n`add <item> <amount>` - Item to add to trade\n`remove <item>` - Remove item from trade\n`addmoney <amount>` - Amount of Credits to add\n`accept`\n`cancel`',
 	args: { '@user': 'User to trade with.' },
-	examples: ['trade @blobfysh'],
+	examples: ['trade @dream'],
 	ignoreHelp: false,
 	requiresAcc: true,
 	requiresActive: true,
@@ -54,7 +54,7 @@ module.exports = {
 			return message.reply(`❌ **${user.nick || user.username}** is not level 3. The target player must be at least level 3.`)
 		}
 		else if (await app.cd.getCD(user.id, 'blinded')) {
-			return message.reply(`❌ **${user.nick || user.username}** is blinded by a ${app.itemdata['40mm_smoke_grenade'].icon}\`40mm_smoke_grenade\`!`)
+			return message.reply(`❌ **${user.nick || user.username}** is blinded by a ${app.itemdata['40mm_smoke_grenade'].icon}\`smoke_grenade\`!`)
 		}
 
 		const botMessage = await message.channel.createMessage(`<@${user.id}>, **${message.member.nick || message.member.username}** would like to trade with you!`)
@@ -169,10 +169,10 @@ module.exports = {
 						const amount = app.parse.numbers(userArgs)[0]
 
 						if (!amount) {
-							return m.channel.createMessage(`❌ You should specify an amount of Lootcoin. You currently have **${app.common.formatNumber(row.money)}**`)
+							return m.channel.createMessage(`❌ You should specify an amount of Credits. You currently have **${app.common.formatNumber(row.money)}**`)
 						}
 						else if (row.money < amount) {
-							return m.channel.createMessage(`❌ You don't have that much Lootcoin. You currently have **${app.common.formatNumber(row.money)}**`)
+							return m.channel.createMessage(`❌ You don't have that much Credits. You currently have **${app.common.formatNumber(row.money)}**`)
 						}
 
 						if (player === 1) {

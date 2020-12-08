@@ -39,7 +39,7 @@ class Player {
 		await this.app.itm.addItem(id, 'crate', 1)
 
 		const newPlayer = new this.app.Embed()
-			.setTitle('Thanks for playing Lootcord!')
+			.setTitle('Thanks for playing Star Wars Mercenaries War!')
 			.setColor(13451564)
 			.setThumbnail(this.app.bot.user.avatarURL)
 			.setDescription(`Here's a list of commands you'll use the most:\n
@@ -48,7 +48,7 @@ class Player {
         \`use\` - Uses an item on yourself or attacks another player with said item.
         \`items\` - View a full list of items. Specify an item to see specific information about it.
         \`buy\` - Purchase items, you can also specify an amount to purchase.
-        \`sell\` - Sell your items for Lootcoin.
+        \`sell\` - Sell your items for Credits.
         \`leaderboard\` - View the best players in your server or globally.
         \`mysettings\` - Manage your settings such as notifications.
         \`hourly\` - Claim a ${this.app.itemdata.crate.icon}\`crate\` every hour.
@@ -57,10 +57,10 @@ class Player {
 
         You can also use \`t-help <command>\` to see detailed command information and examples.
 
-        ⚠️ **ALT ACCOUNTS ARE NOT ALLOWED**, make sure to follow these [rules](https://lootcord.com/rules)!
-        Check out the [faq](https://lootcord.com/rules) and these [guides](https://lootcord.com/guides) if you are confused!
+        ⚠️ **ALT ACCOUNTS ARE NOT ALLOWED**, make sure to follow these [rules](https://www.merc-wars.online/rules)!
+        Check out the [faq](https://www.merc-wars.online/rules) and these [guides](https://www.merc-wars.online/guides) if you are confused!
 
-        Join the [support server](https://discord.gg/apKSxuE) if you need more help!`)
+        Join the [support server](https://discord.gg/W9kS9XGNCN) if you need more help!`)
 			.addField('Items Received', `1x ${this.app.itemdata.crate.icon}\`crate\`\nOpen it by __using__ it: \`t-use crate\`\n\nOnce you get a weapon, you can attack another player by __using__ a weapon on them: \`t-use rock @user\``)
 			.setFooter('This message will only be sent the first time your account is created.')
 		this.app.common.messageUser(id, newPlayer)

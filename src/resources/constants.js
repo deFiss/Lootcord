@@ -32,7 +32,7 @@ const ITEM_TYPES = {
 const RULES = {
 	1: {
 		desc: 'Bug exploitation',
-		warn_message: 'Exploiting bugs to gain an unfair advantage over other players is not allowed, bugs should be reported to the bug-reports channel in the official Lootcord server.'
+		warn_message: 'Exploiting bugs to gain an unfair advantage over other players is not allowed, bugs should be reported to the bug-reports channel in the official Star Wars Mercenaries War server.'
 	},
 	2: {
 		desc: 'Alt accounts',

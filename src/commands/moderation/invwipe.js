@@ -54,7 +54,7 @@ module.exports = {
 					.setTitle('Inventory Wiped')
 					.setDescription(`Your inventory was wiped for breaking rules. Future offenses will result in a ban.\`\`\`\n${banReason}\`\`\``)
 					.setColor(16734296)
-					.setFooter('https://lootcord.com/rules | Only moderators can send you messages.')
+					.setFooter('https://www.merc-wars.online/rules | Only moderators can send you messages.')
 
 				const logMsg = new app.Embed()
 					.setTitle('Inventory Wiped')

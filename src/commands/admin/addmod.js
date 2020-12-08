@@ -1,8 +1,8 @@
 module.exports = {
 	name: 'addmod',
 	aliases: [''],
-	description: 'Makes user a Lootcord moderator.',
-	long: 'Makes user a Lootcord moderator.',
+	description: 'Makes user a SW Mercs RPG moderator.',
+	long: 'Makes user a SW Mercs RPG moderator.',
 	args: {
 		'User ID': 'ID of user to mod.'
 	},
@@ -25,7 +25,7 @@ module.exports = {
 		const modMsg = new app.Embed()
 			.setTitle(`😃 ${message.author.username}#${message.author.discriminator} made you a moderator!`)
 			.setDescription('Use `t-modhelp` to see your fancy new commands!')
-			.setFooter('You can use mod commands in the Lootcord Workshop moderator channel')
+			.setFooter('You can use mod commands in the SW Mercs RPG Workshop moderator channel')
 			.setColor(720640)
 
 		try {

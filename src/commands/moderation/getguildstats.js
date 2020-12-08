@@ -56,7 +56,7 @@ module.exports = {
 				.setAuthor(`${guildInfo.name}`)
 				.setDescription('Only a max of 15 members/channels will be shown due to length limitations.')
 				.addField('Guild Created', guildCreated, true)
-				.addField('Lootcord Joined', joinedGuild, true)
+				.addField('Star Wars Mercenaries War Joined', joinedGuild, true)
 				.setDescription(`**Owner**: ${owner.username}#${owner.discriminator} (ID: \`${guildInfo.ownerID}\`)
             **Member Count**: ${guildInfo.memberCount}
             **Prefix**: ${prefixRow ? prefixRow.prefix : app.config.prefix}

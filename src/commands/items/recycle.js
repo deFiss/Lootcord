@@ -4,7 +4,7 @@ module.exports = {
 	description: 'Break items down into parts!',
 	long: 'Recycle items for components. You can check what an item will recycle to with the `item` command.',
 	args: { item: 'Item to recycle.', amount: '**OPTIONAL** Amount of item to recycle.' },
-	examples: ['recycle semi_rifle 2'],
+	examples: ['recycle E-11_Blaster_Rifle 2'],
 	ignoreHelp: false,
 	requiresAcc: true,
 	requiresActive: false,

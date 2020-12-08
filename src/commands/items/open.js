@@ -1,10 +1,10 @@
 module.exports = {
 	name: 'open',
 	aliases: [''],
-	description: 'Opens a specified box.',
-	long: 'Opens a specified box. You can also open boxes with the use command.',
-	args: { item: 'Box to open.', amount: 'Amount to open.' },
-	examples: ['open crate 10', 'open supply drop'],
+	description: 'Opens a specified crate.',
+	long: 'Opens a specified crate. You can also open crates  with the use command.',
+	args: { item: 'Crate to open.', amount: 'Amount to open.' },
+	examples: ['open crate 10', 'open supply crate'],
 	ignoreHelp: true,
 	requiresAcc: true,
 	requiresActive: true,
@@ -16,7 +16,7 @@ module.exports = {
 		let amount = app.parse.numbers(args)[0] || 1
 
 		if (!item) {
-			return message.reply(`❌ You need to specify a box to open! \`${prefix}open <item>\`.`)
+			return message.reply(`❌ You need to specify a crate to open! \`${prefix}open <item>\`.`)
 		}
 		else if (['crate', 'military_crate', 'candy_pail', 'present', 'supply_drop', 'elite_crate', 'small_loot_bag', 'medium_loot_bag', 'large_loot_bag'].includes(item)) {
 			const userItems = await app.itm.getItemObject(message.author.id)

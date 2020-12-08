@@ -1,17 +1,17 @@
 const QUOTES = [
-	'**Oh look, I found this {icon}{item} for you!** Open it to see what\'s inside: `{prefix}use military_crate`\n\nWant more? Try the `hourly`, `vote` commands.',
-	'**Here\'s a free {icon}{item}!** Open it to see what\'s inside: `{prefix}use military_crate`\n\nWant more? Try the `hourly`, `vote` commands.',
-	'**You earned a free {icon}{item}!** Open it to see what\'s inside: `{prefix}use military_crate`\n\nWant more? Try the `hourly`, `vote` commands.'
+	'**Oh look, I found this {icon}{item} for you!** Open it to see what\'s inside: `{prefix}use Military`\n\nWant more? Try the `hourly`, `vote` commands.',
+	'**Here\'s a free {icon}{item}!** Open it to see what\'s inside: `{prefix}use Military`\n\nWant more? Try the `hourly`, `vote` commands.',
+	'**You earned a free {icon}{item}!** Open it to see what\'s inside: `{prefix}use Military`\n\nWant more? Try the `hourly`, `vote` commands.'
 ]
 const OFFICIAL_QUOTES = [
-	'You gained **2x** {icon}{item} for playing in the official Lootcord server! 😎'
+	'You gained **2x** {icon}{item} for playing in the official Star Wars Mercenaries War server! 😎'
 ]
 
 module.exports = {
 	name: 'daily',
 	aliases: [''],
-	description: 'Receive a free military_crate every day!',
-	long: 'Use this command to receive a free military_crate every day.\n\n**Receive double the reward when used in the official Discord!**',
+	description: 'Receive a free Military every day!',
+	long: 'Use this command to receive a free Military every day.\n\n**Receive double the reward when used in the official Discord!**',
 	args: {},
 	examples: [],
 	ignoreHelp: false,

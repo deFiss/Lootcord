@@ -55,7 +55,7 @@ class Discoin {
 		return new Promise((resolve, reject) => {
 			axios({
 				method: 'GET',
-				url: 'https://discoin.zws.im/transactions?s=%7B%22to.id%22%3A%20%22LCN%22%2C%20%22handled%22%3A%20false%7D'
+				url: 'https://discoin.zws.im/transactions?s='
 			}).then(result => {
 				resolve(result)
 			}).catch(err => {

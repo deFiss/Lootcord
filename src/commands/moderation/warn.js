@@ -61,7 +61,7 @@ module.exports = {
 					.setDescription(`You have been warned for breaking rules. Future offenses will result in a ban.\`\`\`\n${RULES[rule].warn_message}\`\`\`\n${
 						warnings.length === 0 ? '**It looks like this is your first warning, any more may result in a ban.**' : '**This is your last warning, please don\'t break the rules again or you will be banned!**'}`)
 					.setColor(16734296)
-					.setFooter('https://lootcord.com/rules | Only moderators can send you messages.')
+					.setFooter('https://www.merc-wars.online/rules | Only moderators can send you messages.')
 
 				try {
 					await app.query('INSERT INTO warnings (userId, modId, reason, date) VALUES (?, ?, ?, ?)', [userID, message.author.id, RULES[rule].warn_message, new Date().getTime()])

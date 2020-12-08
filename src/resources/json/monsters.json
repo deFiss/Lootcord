@@ -1,10 +1,10 @@
 {
     "m92_scientist": {
-        "title": "Scientist",
-        "mentioned": "the **Scientist**",
+        "title": "Trooper",
+        "mentioned": "the **Trooper**",
         "artist": "",
-        "image": "https://cdn.discordapp.com/attachments/732785161661317224/734001488027844608/m92_scientist.png",
-        "leftImage": "https://cdn.discordapp.com/attachments/732785161661317224/734001493467856896/m92_scientist_left.png",
+        "image": "https://i.ibb.co/P6WX8Mm/rep-blas-trooper.jpg",
+        "leftImage": "https://i.ibb.co/q9qvSG2/desert.jpg",
         "pronoun": "he",
         "special": "",
         "health": 100,
@@ -14,8 +14,8 @@
         "maxMoney": 23000,
         "xp": 70,
         "weapon": {
-            "name": "m92_pistol",
-            "icon": "<:m92_pistol:732853706294558720>"
+            "name": "se-14_pistol",
+            "icon": "<:se_14:785374490993491998>"
         },
         "ammo": "pistol_bullet",
         "extraDrops": 3,
@@ -23,15 +23,15 @@
             "main": {
                 "40": {
                     "items": [
-                        "custom_smg|1",
-                        "semi_rifle|1",
-                        "m92_pistol|1"
+                        "el-16_rifle|1",
+                        "e-11_rifle|1",
+                        "se-14_pistol|1"
                     ]
                 },
                 "60": {
                     "items": [
-                        "semi_pistol|1",
-                        "revolver|1"
+                        "dc-17_handgun|1",
+                        "blaster_pistol|1"
                     ]
                 }
             },
@@ -63,11 +63,11 @@
         }
     },
     "lr_scientist": {
-        "title": "Scientist",
-        "mentioned": "the **Scientist**",
+        "title": "Trooper",
+        "mentioned": "the **Trooper**",
         "artist": "",
-        "image": "https://cdn.discordapp.com/attachments/732785161661317224/733807895447076885/lr300_scientist.png",
-        "leftImage": "https://cdn.discordapp.com/attachments/732785161661317224/733807916037046364/lr300_scientist_left.png",
+        "image": "https://i.ibb.co/ZxFt16c/t21-troop.jpg",
+        "leftImage": "https://i.ibb.co/q9qvSG2/desert.jpg",
         "pronoun": "he",
         "special": "",
         "health": 100,
@@ -77,8 +77,8 @@
         "maxMoney": 40000,
         "xp": 80,
         "weapon": {
-            "name": "lr-300",
-            "icon": "<:lr300:732853687222927400>"
+            "name": "T-21_rifle",
+            "icon": "<:t21:785404981956182016>"
         },
         "ammo": "rifle_bullet",
         "extraDrops": 3,
@@ -86,20 +86,20 @@
             "main": {
                 "30": {
                     "items": [
-                        "custom_smg|1",
-                        "semi_rifle|1",
-                        "thompson|1"
+                        "el-16_rifle|1",
+                        "e-11_rifle|1",
+                        "rskf-44_blaster|1"
                     ]
                 },
                 "65": {
                     "items": [
-                        "semi_pistol|1",
-                        "revolver|1"
+                        "dc-17_handgun|1",
+                        "blaster_pistol|1"
                     ]
                 },
                 "5": {
                     "items": [
-                        "lr-300|1"
+                        "t-21_rifle|1"
                     ]
                 }
             },
@@ -134,8 +134,8 @@
         "title": "Scientist",
         "mentioned": "the **Scientist**",
         "artist": "",
-        "image": "https://cdn.discordapp.com/attachments/732785161661317224/733788547940614144/mp5_scientist.png",
-        "leftImage": "https://cdn.discordapp.com/attachments/732785161661317224/733788552021934120/mp5_scientist_left.png",
+        "image": "https://i.ibb.co/mtSvrQf/dlt-19-trooper.jpg",
+        "leftImage": "https://i.ibb.co/q9qvSG2/desert.jpg",
         "pronoun": "he",
         "special": "",
         "health": 100,
@@ -145,8 +145,8 @@
         "maxMoney": 40000,
         "xp": 85,
         "weapon": {
-            "name": "mp5",
-            "icon": "<:mp5:732853715966623794>"
+            "name": "e-5_rifle",
+            "icon": "<:e5:785403752609611806>"
         },
         "ammo": "pistol_bullet",
         "extraDrops": 3,
@@ -154,20 +154,20 @@
             "main": {
                 "35": {
                     "items": [
-                        "custom_smg|1",
-                        "semi_rifle|1",
-                        "thompson|1"
+                        "el-16_rifle|1",
+                        "e-11_rifle|1",
+                        "rskf-44_blaster|1"
                     ]
                 },
                 "60": {
                     "items": [
-                        "semi_pistol|1",
-                        "revolver|1"
+                        "dc-17_handgun|1",
+                        "blaster_pistol|1"
                     ]
                 },
                 "5": {
                     "items": [
-                        "mp5|1"
+                        "e-5_rifle|1"
                     ]
                 }
             },
@@ -199,11 +199,11 @@
         }
     },
     "heavy_scientist": {
-        "title": "Heavy Scientist",
-        "mentioned": "the **Heavy Scientist**",
+        "title": "Heavy Droid",
+        "mentioned": "the **Heavy Droid**",
         "artist": "",
-        "image": "https://cdn.discordapp.com/attachments/732785161661317224/733788484988436521/m249_heavy_scientist.png",
-        "leftImage": "https://cdn.discordapp.com/attachments/732785161661317224/733788489635725322/m249_heavy_scientist_left.png",
+        "image": "https://i.ibb.co/5nDPM3k/e5-droid.jpg",
+        "leftImage": "https://i.ibb.co/q9qvSG2/desert.jpg",
         "pronoun": "he",
         "special": "",
         "health": 200,
@@ -213,8 +213,8 @@
         "maxMoney": 70000,
         "xp": 70,
         "weapon": {
-            "name": "m249",
-            "icon": "<:m249:732853728146882675>"
+            "name": "dlt-19_rifle",
+            "icon": "<:dlt19:785409221096112138>"
         },
         "ammo": "rifle_bullet",
         "extraDrops": 3,
@@ -227,17 +227,17 @@
                 },
                 "30": {
                     "items": [
-                        "mp5|1",
-                        "assault_rifle|1",
-                        "spas-12|1",
+                        "e-5_rifle|1",
+                        "ee-3_carabine|1",
+                        "dp-23_shotgun|1",
                         "grenade_launcher|1",
                         "40mm_smoke_grenade|1"
                     ]
                 },
                 "55": {
                     "items": [
-                        "thompson|1",
-                        "custom_smg|1"
+                        "rskf-44_blaster|1",
+                        "el-16_rifle|1"
                     ]
                 }
             },
@@ -256,13 +256,13 @@
                         "12g_buckshot|1",
                         "rifle_bullet|1",
                         "pistol_bullet|1",
-                        "semi_rifle|1"
+                        "e-11_rifle|1"
                     ]
                 },
                 "5": {
                     "items": [
-                        "custom_smg|1",
-                        "pump_shotgun|1"
+                        "el-16_rifle|1",
+                        "8g_shotgun|1"
                     ]
                 }
             }
@@ -272,11 +272,11 @@
         }
     },
     "patrol_helicopter": {
-        "title": "Patrol Helicopter",
-        "mentioned": "the **Patrol Helicopter**",
+        "title": "Imperial transporter",
+        "mentioned": "the **Imperial transporter**",
         "artist": "",
-        "image": "https://cdn.discordapp.com/attachments/497302646521069570/758646986529308672/patrol_helicopter.png",
-        "leftImage": "https://cdn.discordapp.com/attachments/497302646521069570/758646986529308672/patrol_helicopter.png",
+        "image": "https://i.imgur.com/O4LO3og.png",
+        "leftImage": "https://i.ibb.co/q9qvSG2/desert.jpg",
         "pronoun": "it",
         "special": "Immune to melee weapons!",
         "health": 400,
@@ -286,8 +286,8 @@
         "maxMoney": 175000,
         "xp": 230,
         "weapon": {
-            "name": "m249",
-            "icon": "<:m249:732853728146882675>"
+            "name": "dlt-19_rifle",
+            "icon": "<:dlt19:785409221096112138>"
         },
         "ammo": "rifle_bullet",
         "extraDrops": 3,
@@ -295,7 +295,7 @@
             "main": {
                 "40": {
                     "items": [
-                        "m249|1",
+                        "dlt-19_rifle|1",
                         "c4|1"
                     ]
                 },
@@ -308,8 +308,8 @@
             "extras": {
                 "75": {
                     "items": [
-                        "assault_rifle|1",
-                        "thompson|1",
+                        "ee-3_carabine|1",
+                        "rskf-44_blaster|1",
                         "rifle_bullet|1",
                         "large_medkit|1",
                         "rocket_launcher|1",
@@ -335,11 +335,11 @@
         }
     },
     "bradley": {
-        "title": "Bradley",
-        "mentioned": "**Bradley**",
+        "title": "AT-ST",
+        "mentioned": "**AT-ST**",
         "artist": "",
-        "image": "https://cdn.discordapp.com/attachments/732785161661317224/733788471705206905/bradley.png",
-        "leftImage": "https://cdn.discordapp.com/attachments/732785161661317224/733788474804535428/bradley_left.png",
+        "image": "https://i.ibb.co/hBv7QhR/at-st.jpg",
+        "leftImage": "https://i.ibb.co/q9qvSG2/desert.jpg",
         "pronoun": "it",
         "special": "",
         "health": 600,
@@ -350,7 +350,7 @@
         "xp": 240,
         "weapon": {
             "name": "rocket_launcher",
-            "icon": "<:rocket_launcher:732853816675926066>"
+            "icon": "<:rocket_launcher:785402149814272000>"
         },
         "ammo": "rocket",
         "extraDrops": 3,
@@ -358,7 +358,7 @@
             "main": {
                 "55": {
                     "items": [
-                        "m249|1",
+                        "dlt-19_rifle|1",
                         "c4|1"
                     ]
                 },
@@ -373,14 +373,14 @@
                     "items": [
                         "large_medkit|1",
                         "hv_rifle_bullet|1",
-                        "thompson|1",
-                        "assault_rifle|1",
+                        "rskf-44_blaster|1",
+                        "ee-3_carabine|1",
                         "gunpowder|1"
                     ]
                 },
                 "35": {
                     "items": [
-                        "bolt_rifle|1",
+                        "amban_phase_blaster|1",
                         "rocket_launcher|1"
                     ]
                 },

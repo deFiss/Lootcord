@@ -52,8 +52,8 @@ class PatreonHandler {
 
 		const patronEmbed = new this.app.Embed()
 			.setTitle('😲 a donator!')
-			.setDescription('Thank you for helping me create Lootcord!!\n\nYou can view your benefits with the `patreon` command!')
-			.setFooter('💙 blobfysh')
+			.setDescription('Thank you for helping me create Star Wars Mercenaries War!!\n\nYou can view your benefits with the `patreon` command!')
+			.setFooter('💙 Dream')
 			.setColor('#f96854')
 
 		try {
@@ -83,8 +83,8 @@ class PatreonHandler {
 
 		const patronEmbed = new this.app.Embed()
 			.setTitle('😲 a donator!')
-			.setDescription('Thank you for helping me create Lootcord!!\n\nYou can view your benefits with the `patreon` command!')
-			.setFooter('💙 blobfysh')
+			.setDescription('Thank you for helping me create Star Wars Mercenaries War!!\n\nYou can view your benefits with the `patreon` command!')
+			.setFooter('💙 dream')
 			.setColor('#f96854')
 
 		try {
@@ -114,8 +114,8 @@ class PatreonHandler {
 
 		const patronEmbed = new this.app.Embed()
 			.setTitle('😲 a donator!')
-			.setDescription('Thank you for helping me create Lootcord!!\n\nYou can view your benefits with the `patreon` command!')
-			.setFooter('💙 blobfysh')
+			.setDescription('Thank you for helping me create Star Wars Mercenaries War!!\n\nYou can view your benefits with the `patreon` command!')
+			.setFooter('💙 dream')
 			.setColor('#f96854')
 
 		try {
@@ -146,8 +146,8 @@ class PatreonHandler {
 
 		const patronEmbed = new this.app.Embed()
 			.setTitle('😲 a donator!')
-			.setDescription('Thank you for helping me create Lootcord!!\n\nYou can view your benefits with the `patreon` command!')
-			.setFooter('💙 blobfysh')
+			.setDescription('Thank you for helping me create Star Wars Mercenaries War!!\n\nYou can view your benefits with the `patreon` command!')
+			.setFooter('💙 dream')
 			.setColor('#f96854')
 
 		try {

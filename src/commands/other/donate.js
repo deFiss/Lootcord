@@ -2,7 +2,7 @@ module.exports = {
 	name: 'donate',
 	aliases: ['patreon'],
 	description: 'Help support the bot!',
-	long: '[Help support the development of Lootcord and get some cool rewards!](https://www.patreon.com/lootcord)',
+	long: '[Help support the development of Star Wars Mercenaries War and get some cool rewards!](https://www.patreon.com/)',
 	args: {},
 	examples: [],
 	ignoreHelp: false,
@@ -12,9 +12,9 @@ module.exports = {
 
 	async execute(app, message, { args, prefix }) {
 		if (!await app.patreonHandler.isPatron(message.author.id)) {
-			return message.channel.createMessage(`**Help support the development of Lootcord!** Become a patron and get some cool rewards like:
+			return message.channel.createMessage(`**Help support the development of Star Wars Mercenaries War game!** Become a patron and get some cool rewards like:
             \n- **Access to the spawn system.** Team up to fight enemies that can spawn in a channel of your choice (you can see this in action on the official server). Enemies include a helicopter, scientists, a tank, and more!\n- **Reduced global spam cooldown** from 3 seconds to 1 second.\n- An animated ${app.itemdata.patron.icon}\`patron\` banner to show off your support.\n- A role in the official Discord server.\n- Supporting the development of the bot!
-            \nhttps://www.patreon.com/lootcord`)
+            \nhttps://www.patreon.com/`)
 		}
 
 		const spawnsInfo = await app.mysql.select('spawnChannels', 'userId', message.author.id, true)

@@ -48,7 +48,7 @@ module.exports = {
 					.setTitle(`You have been banned by ${`${message.author.username}#${message.author.discriminator}`}`)
 					.setDescription(`You have been banned for breaking rules. If you wish to challenge this ban, you can appeal at our website.\`\`\`\n${RULES[rule].warn_message}\`\`\``)
 					.setColor(16734296)
-					.setFooter('https://lootcord.com/rules | Only moderators can send you messages.')
+					.setFooter('https://www.merc-wars.online/rules | Only moderators can send you messages.')
 
 				try {
 					await app.query('INSERT INTO banned (userId, reason, date) VALUES (?, ?, ?)', [userID, RULES[rule].warn_message, new Date().getTime()])

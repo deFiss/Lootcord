@@ -1,7 +1,7 @@
 {
     "supermarket": {
-        "title": "Abandoned Supermarket",
-        "image": "https://cdn.discordapp.com/attachments/497302646521069570/738367060115193866/supermarket.png",
+        "title": "Abandoned Desert Village",
+        "image": "https://i.ibb.co/80HvhDV/aband-vil-houses.jpg",
         "suggestedLevel": "2",
         "successRate": {
             "1": 0.35,
@@ -111,7 +111,7 @@
                 },
                 "item": "",
                 "item2": "",
-                "quote": "**{user}** checked all the shelves, the back office and storage rooms, but found nothing..."
+                "quote": "**{user}** checked all the shelves, the back rooms and storage rooms, but found nothing..."
             },
             {
                 "loss": {
@@ -136,15 +136,15 @@
                     "type": "health",
                     "value": 8
                 },
-                "item": "crossbow",
+                "item": "energy_bow",
                 "item2": "",
                 "quote": "**{user}** was headshot by some loser with a {item} and lost **{damage}** health..."
             }
         ]
     },
     "gas_station": {
-        "title": "Oxum's Gas Station",
-        "image": "https://cdn.discordapp.com/attachments/497302646521069570/738367057778966609/oxums.png",
+        "title": "Catacombs",
+        "image": "https://i.ibb.co/wWmdKrp/aband-sand-ppl.jpg",
         "suggestedLevel": "2",
         "successRate": {
             "1": 0.30,
@@ -222,7 +222,7 @@
                     "type": null,
                     "value": 0
                 },
-                "quote": "**{user}** downed a looter hiding in the bathroom and stole {reward} from him!"
+                "quote": "**{user}** downed a looter hiding in the toom and stole {reward} from him!"
             },
             {
                 "reward": {
@@ -237,7 +237,7 @@
                     "type": null,
                     "value": 0
                 },
-                "quote": "**{user}** found {reward} in the station's garage."
+                "quote": "**{user}** found {reward} in the basement."
             },
             {
                 "reward": {
@@ -297,7 +297,7 @@
                     "type": "health",
                     "value": 4
                 },
-                "quote": "**{user}** is attacked by a wild boar and loses **{damage}** health. Luckily, **{user}** continues the exploration and finds {reward}."
+                "quote": "**{user}** is attacked by a wild Sand People and loses **{damage}** health. Luckily, **{user}** continues the exploration and finds {reward}."
             }
         ],
         "failed": [
@@ -362,7 +362,7 @@
                 },
                 "item": "bow",
                 "item2": "",
-                "quote": "**{user}** was attacked by another looter using a {item} and lost **{damage}** health!"
+                "quote": "**{user}** was attacked by another Merc using a {item} and lost **{damage}** health!"
             },
             {
                 "loss": {
@@ -376,8 +376,8 @@
         ]
     },
     "launch_site": {
-        "title": "Launch Site",
-        "image": "https://cdn.discordapp.com/attachments/497302646521069570/738367055530819665/launch_site2.png",
+        "title": "Cave of Evil",
+        "image": "https://i.imgur.com/h6N9V0Y.png",
         "suggestedLevel": "10",
         "successRate": {
             "1": -1.0,
@@ -415,7 +415,7 @@
                     "type": null,
                     "value": 0
                 },
-                "quote": "**{user}** dodges <:bradley_tank:750916252809035876> Bradley, climbs to the top of Launch Site, and finds {reward} at the top!"
+                "quote": "**{user}** dodges <:dark_s:784283931116830740> Dark Spirits attack, reach bottom of the Cave, and finds {reward} at the top!"
             },
             {
                 "reward": {
@@ -430,7 +430,7 @@
                     "type": "health",
                     "value": 45
                 },
-                "quote": "After not being cautious enough, <:bradley_tank:750916252809035876> Bradley spots **{user}** and fires his cannons! **{user}** loses {damage} health from the encounter but finds {reward}."
+                "quote": "After not being cautious enough, <:dark_s:784283931116830740> Dark Spirits spots **{user}** and muddied his mind! **{user}** loses {damage} health from the encounter but finds {reward}."
             },
             {
                 "reward": {
@@ -445,7 +445,7 @@
                     "type": null,
                     "value": 0
                 },
-                "quote": "After seeing <:bradley_tank:750916252809035876> Bradley circling around, **{user}** wimps out and resigns to looting the outskirts of Launch, still managing to find {reward}!"
+                "quote": "After seeing <:dark_s:784283931116830740> Dark Spirit circling around, **{user}** wimps out and resigns to looting the outskirts, still managing to find {reward}!"
             },
             {
                 "reward": {
@@ -486,7 +486,7 @@
                 },
                 "item": "",
                 "item2": "",
-                "quote": "**{user}** was spotted by <:bradley_tank:750916252809035876> Bradley and got shot by his cannons for **{damage}** damage!"
+                "quote": "**{user}** was spotted by <:dark_s:784283931116830740> Dark Spirit and got **{damage}** damage!"
             },
             {
                 "loss": {
@@ -513,13 +513,13 @@
                 },
                 "item": "",
                 "item2": "",
-                "quote": "**{user}** quietly entered the Launch Site, but was quickly spotted by <:bradley_tank:750916252809035876> Bradley and got blasted for **{damage}** damage!"
+                "quote": "**{user}** quietly entered the Cave of Evil, but was quickly spotted by <:dark_s:784283931116830740> Dark Spirit and got blasted for **{damage}** damage!"
             }
         ]
     },
     "military_tunnels": {
-        "title": "Military Tunnels",
-        "image": "https://cdn.discordapp.com/attachments/497302646521069570/750920969266135040/military_tunnels.png",
+        "title": "Imperial Tunnels",
+        "image": "https://i.ibb.co/HKsS7xZ/imp-tunels.jpg",
         "suggestedLevel": "12",
         "successRate": {
             "1": -1.0,
@@ -572,7 +572,7 @@
                     "type": "health",
                     "value": 47
                 },
-                "quote": "**{user}** is shot by multiple <:scientist:750915939675013212> Scientists and suffers **{damage}** damage but is able to find {reward}!"
+                "quote": "**{user}** is shot by multiple <:trooper_helm:784286241481818122> Troopers and suffers **{damage}** damage but is able to find {reward}!"
             },
             {
                 "reward": {
@@ -587,7 +587,7 @@
                     "type": null,
                     "value": 0
                 },
-                "quote": "**{user}** resigns to looting the outside the tunnel after seeing several <:scientist:750915939675013212> Scientists inside. {user} manages to find {reward}!"
+                "quote": "**{user}** resigns to looting the outside the tunnel after seeing several <:trooper_helm:784286241481818122> Troopers inside. {user} manages to find {reward}!"
             },
             {
                 "reward": {
@@ -628,7 +628,7 @@
                 },
                 "item": "",
                 "item2": "",
-                "quote": "**{user}** enters the tunnels... Only to be shot by 5 <:scientist:750915939675013212> Scientists for **{damage}** damage!"
+                "quote": "**{user}** enters the tunnels... Only to be shot by 5 <:trooper_helm:784286241481818122> Troopers for **{damage}** damage!"
             },
             {
                 "loss": {
@@ -637,7 +637,7 @@
                 },
                 "item": "",
                 "item2": "",
-                "quote": "**{user}** was not equipped to deal with the <:scientist:750915939675013212> Scientist guarding the entrance and gets shot for **{damage}** damage! Next time you should wear some better armor..."
+                "quote": "**{user}** was not equipped to deal with the <:trooper_helm:784286241481818122> Trooper guarding the entrance and gets shot for **{damage}** damage! Next time you should wear some better armor..."
             },
             {
                 "loss": {
@@ -653,7 +653,7 @@
                     "type": "health",
                     "value": 52
                 },
-                "item": "pump_shotgun",
+                "item": "8g_shotgun",
                 "item2": "",
                 "quote": "**{user}** enters the tunnels but gets blasted by some guy camping the entrance with a {item}! **{user}** suffers **{damage}** damage."
             },
@@ -670,7 +670,7 @@
     },
     "trainyard": {
         "title": "Train Yard",
-        "image": "https://cdn.discordapp.com/attachments/497302646521069570/740626044121382912/trainyard.png",
+        "image": "https://i.imgur.com/RrQgJed.png",
         "suggestedLevel": "7",
         "successRate": {
             "1": 0.0,
@@ -743,7 +743,7 @@
                     "type": "health",
                     "value": 19
                 },
-                "quote": "**{user}** was attacked by a wolf for **{damage}** damage but still was able to find {reward}!"
+                "quote": "**{user}** was attacked by a droid for **{damage}** damage but still was able to find {reward}!"
             },
             {
                 "reward": {
@@ -758,7 +758,7 @@
                     "type": "health",
                     "value": 21
                 },
-                "quote": "**{user}** fights another looter beside the train tracks, wins but suffers **{damage}** damage... **{user}** gained {reward}!"
+                "quote": "**{user}** fights another looter beside the train, wins but suffers **{damage}** damage... **{user}** gained {reward}!"
             }
         ],
         "failed": [
@@ -806,7 +806,7 @@
     },
     "powerplant": {
         "title": "Power Plant",
-        "image": "https://cdn.discordapp.com/attachments/497302646521069570/742518182056558742/powerplant.png",
+        "image": "https://i.ibb.co/SK5jvft/power-plant.jpg",
         "suggestedLevel": "7",
         "successRate": {
             "1": 0.0,
@@ -924,7 +924,7 @@
                     "value": 14,
                     "item": false
                 },
-                "item": "thompson",
+                "item": "rskf-44_blaster",
                 "item2": "",
                 "quote": "**{user}** was sprayed at by someone using a {item} and lost **{damage}** health..."
             },
@@ -934,7 +934,7 @@
                     "value": 0,
                     "item": false
                 },
-                "item": "revolver",
+                "item": "blaster_pistol",
                 "item2": "",
                 "quote": "**{user}** saw a group of **8** looters with {item}'s and decided against exploring..."
             }

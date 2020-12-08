@@ -28,7 +28,7 @@ module.exports = {
 			if (buyAmount > 20) buyAmount = 20
 
 			if (currency === 'money') {
-				const botMessage = await message.channel.createMessage(`Purchase ${buyAmount}x ${app.itemdata[buyItem].icon}\`${buyItem}\` for **${app.common.formatNumber(itemPrice * buyAmount)}** Lootcoin?`)
+				const botMessage = await message.channel.createMessage(`Purchase ${buyAmount}x ${app.itemdata[buyItem].icon}\`${buyItem}\` for **${app.common.formatNumber(itemPrice * buyAmount)}** Credits?`)
 
 				try {
 					const confirmed = await app.react.getConfirmation(message.author.id, botMessage)
@@ -39,7 +39,7 @@ module.exports = {
 						const hasSpace = await app.itm.hasSpace(itemCt, buyAmount)
 
 						if (row.money < itemPrice * buyAmount) {
-							return botMessage.edit(`You don't have enough Lootcoin for that purchase! You only have **${app.common.formatNumber(row.money)}**.`)
+							return botMessage.edit(`You don't have enough Credits for that purchase! You only have **${app.common.formatNumber(row.money)}**.`)
 						}
 						if (!hasSpace && !app.itemdata[buyItem].isBanner) {
 							return botMessage.edit(`❌ **You don't have enough space in your inventory!** (You need **${buyAmount}** open slot${buyAmount > 1 ? 's' : ''}, you have **${itemCt.open}**)\n\nYou can clear up space by selling some items.`)
@@ -139,7 +139,7 @@ module.exports = {
 
 			const scrapPrice = buyAmount
 
-			const botMessage = await message.channel.createMessage(`Trade **${app.common.formatNumber(scrapPrice)}** Lootcoin for **${app.common.formatNumber(buyAmount, false, true)}** Scrap?`)
+			const botMessage = await message.channel.createMessage(`Trade **${app.common.formatNumber(scrapPrice)}** Credits for **${app.common.formatNumber(buyAmount, false, true)}** Scrap?`)
 
 			try {
 				const confirmed = await app.react.getConfirmation(message.author.id, botMessage)
@@ -148,13 +148,13 @@ module.exports = {
 					const verifyRow = await app.player.getRow(message.author.id)
 
 					if (verifyRow.money < scrapPrice) {
-						return botMessage.edit(`You don't have enough Lootcoin for that purchase! You only have **${app.common.formatNumber(verifyRow.money)}**.`)
+						return botMessage.edit(`You don't have enough Credits for that purchase! You only have **${app.common.formatNumber(verifyRow.money)}**.`)
 					}
 
 					await app.player.removeMoney(message.author.id, scrapPrice)
 					await app.player.addScrap(message.author.id, buyAmount)
 
-					botMessage.edit(`Successfully traded **${app.common.formatNumber(scrapPrice)}** Lootcoin for **${app.common.formatNumber(buyAmount, false, true)}** Scrap.\n\nYou now have **${app.common.formatNumber(verifyRow.money - scrapPrice)}** Lootcoin and **${app.common.formatNumber(verifyRow.scrap + buyAmount, false, true)}** Scrap`)
+					botMessage.edit(`Successfully traded **${app.common.formatNumber(scrapPrice)}** Credits for **${app.common.formatNumber(buyAmount, false, true)}** Scrap.\n\nYou now have **${app.common.formatNumber(verifyRow.money - scrapPrice)}** Credits and **${app.common.formatNumber(verifyRow.scrap + buyAmount, false, true)}** Scrap`)
 				}
 				else {
 					botMessage.delete()
@@ -188,7 +188,7 @@ module.exports = {
 						const row = await app.player.getRow(message.author.id)
 
 						if (row.money < itemPrice) {
-							return botMessage.edit(`You don't have enough Lootcoin for that purchase! You only have **${app.common.formatNumber(row.money)}**.`)
+							return botMessage.edit(`You don't have enough Credits for that purchase! You only have **${app.common.formatNumber(row.money)}**.`)
 						}
 
 						await app.player.removeMoney(message.author.id, itemPrice)
@@ -271,7 +271,7 @@ module.exports = {
 			}
 
 			const listInfo = await app.bm.getListingInfo(buyItem)
-			const botMessage = await message.channel.createMessage(`Purchase ${listInfo.amount}x ${app.itemdata[listInfo.item].icon}\`${listInfo.item}\` for **${app.common.formatNumber(listInfo.price)}** Lootcoin?`)
+			const botMessage = await message.channel.createMessage(`Purchase ${listInfo.amount}x ${app.itemdata[listInfo.item].icon}\`${listInfo.item}\` for **${app.common.formatNumber(listInfo.price)}** Credits?`)
 
 			try {
 				const confirmed = await app.react.getConfirmation(message.author.id, botMessage)
@@ -282,7 +282,7 @@ module.exports = {
 					const hasSpace = await app.itm.hasSpace(itemCt, listInfo.amount)
 
 					if (row.money < listInfo.price) {
-						return botMessage.edit(`❌ You don't have enough Lootcoin! You only have **${app.common.formatNumber(row.money)}**`)
+						return botMessage.edit(`❌ You don't have enough Credits! You only have **${app.common.formatNumber(row.money)}**`)
 					}
 					if (!hasSpace) {
 						return botMessage.edit(`❌ **You don't have enough space in your inventory!** (You need **${listInfo.amount}** open slot${listInfo.amount > 1 ? 's' : ''}, you have **${itemCt.open}**)\n\nYou can clear up space by selling some items.`)
@@ -349,7 +349,7 @@ module.exports = {
 			}
 		}
 		else if (args[0] && args[0].toLowerCase() === 'lootcoin') {
-			message.reply('You can\'t buy Lootcoin directly using Scrap, you should instead check the daily scrap deals in the `shop`!')
+			message.reply('You can\'t buy Credits directly using Scrap, you should instead check the daily scrap deals in the `shop`!')
 		}
 		else {
 			message.reply(`You need to enter a valid item to buy! \`${prefix}buy <item> <amount>\``)

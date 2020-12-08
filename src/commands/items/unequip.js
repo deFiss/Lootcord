@@ -4,7 +4,7 @@ module.exports = {
 	description: 'Unequip an item.',
 	long: 'Unequip your current storage container or banner.',
 	args: { 'item/banner': 'Item to unequip.' },
-	examples: ['unequip wood_box', 'unequip banner', 'unequip storage'],
+	examples: ['unequip trooper_bag', 'unequip banner'],
 	ignoreHelp: false,
 	requiresAcc: true,
 	requiresActive: false,

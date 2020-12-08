@@ -2,10 +2,10 @@ const CronJob = require('cron').CronJob
 const shopData = require('../resources/json/shop')
 const STATUS_LIST = [
 	'Looting {users} players',
-	'{users} loot goblins',
+	'{users} Mercenaries',
 	'{guilds} servers!',
 	'Join the discord!',
-	'lootcord.com 👀'
+	'http://www.merc-wars.online/ 👀'
 ]
 
 class LoopTasks {
@@ -242,8 +242,8 @@ class LoopTasks {
 
 				const logEmbed = new this.app.Embed()
 					.setTitle('Discoin Conversion')
-					.setDescription(`${transaction.from.name}(${transaction.from.id}) to Lootcoin\n\n[Link](https://dash.discoin.zws.im/#/transactions/${transaction.id}/show)`)
-					.addField('Lootcoin Payout', `${this.app.common.formatNumber(payout)} (${this.app.common.formatNumber(refunded)} refunded)`, true)
+					.setDescription(`${transaction.from.name}(${transaction.from.id}) to Credits\n\n[Link](https://dash.discoin.zws.im/#/transactions/${transaction.id}/show)`)
+					.addField('Credits Payout', `${this.app.common.formatNumber(payout)} (${this.app.common.formatNumber(refunded)} refunded)`, true)
 					.addField('User', `\`\`\`\n${transaction.user}\`\`\``)
 					.setFooter(`Transaction ID: ${transaction.id}`)
 					.setColor(13451564)
