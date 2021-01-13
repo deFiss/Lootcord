@@ -4,7 +4,7 @@ module.exports = {
 	description: 'Sell items for Credits.',
 	long: 'Sell items for Credits. Use the `item` command to see how much an item can be sold for. You can also sell multiple items at once, check the examples to see how.',
 	args: { item: 'Item to sell.', amount: '**OPTIONAL** Amount of item to sell.' },
-	examples: ['sell hazmat_suit 3', 'sell E-5C_blaster_rifle 2 rock 3 crate 1'],
+	examples: ['sell hazmat_suit 3', 'sell E-5C_blaster_rifle 2 vibroblade 3 crate 1'],
 	ignoreHelp: false,
 	requiresAcc: true,
 	requiresActive: false,
@@ -23,7 +23,7 @@ module.exports = {
 				itemAmounts = app.itm.combineItems(getItemList(sellItems, sellAmounts))
 			}
 			catch (err) {
-				return message.reply(`❌ You need to specify amounts when bulk selling multiple items! For example: \`${prefix}sell rock 1 rpg 3 DL-44 2\``)
+				return message.reply(`❌ You need to specify amounts when bulk selling multiple items! For example: \`${prefix}sell vibroblade 1 rpg 3 DL-44 2\``)
 			}
 
 			for (let i = 0; i < itemAmounts.length; i++) {

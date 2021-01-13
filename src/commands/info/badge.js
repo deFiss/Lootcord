@@ -6,7 +6,7 @@ module.exports = {
 	description: 'Shows information about a badge.',
 	long: 'Specify a badge to see detailed information about it.',
 	args: { badge: 'Badge to search.' },
-	examples: ['badge elitist'],
+	examples: ['badge all-time'],
 	ignoreHelp: false,
 	requiresAcc: false,
 	requiresActive: false,

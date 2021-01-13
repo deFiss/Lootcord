@@ -33,10 +33,10 @@ module.exports = {
 			if (!userItems[item]) {
 				return message.reply(`❌ You don't have a ${app.itemdata[item].icon}\`${item}\`!`)
 			}
-			else if (item === 'c4' && userItems[item] < 1) {
+			else if (item === 'laser_mine' && userItems[item] < 1) {
 				return message.reply(`❌ You don't have enough of that item! You have **${userItems[item] || 0}x** ${app.itemdata[item].icon}\`${item}\`.`)
 			}
-			else if (item !== 'c4' && userItems[item] < amount) {
+			else if (item !== 'laser_mine' && userItems[item] < amount) {
 				return message.reply(`❌ You don't have enough of that item! You have **${userItems[item] || 0}x** ${app.itemdata[item].icon}\`${item}\`.`)
 			}
 
@@ -141,7 +141,7 @@ module.exports = {
 				await app.itm.removeItem(message.author.id, item, 1)
 				message.reply(`You open the ${app.itemdata[item].icon}\`${item}\` to find...\n${app.common.formatNumber(randAmt)}`)
 			}
-			else if (item === 'reroll_scroll') {
+			else if (item === 'reroll_chip') {
 				await app.itm.removeItem(message.author.id, item, 1)
 
 				await app.query(`UPDATE scores SET maxHealth = 100 WHERE userId = ${message.author.id}`)
@@ -152,9 +152,9 @@ module.exports = {
 					await app.query(`UPDATE scores SET health = 100 WHERE userId = ${message.author.id}`)
 				}
 
-				message.reply(`You used the ${app.itemdata.reroll_scroll.icon}\`reroll_chip\` and feel a sense of renewal. Your skills have been reset.`)
+				message.reply(`You used the ${app.itemdata.reroll_chip.icon}\`reroll_chip\` and feel a sense of renewal. Your skills have been reset.`)
 			}
-			else if (item === 'c4') {
+			else if (item === 'laser_mine') {
 				const clanName = args
 
 				if (!clanName.length) {
@@ -172,7 +172,7 @@ module.exports = {
 
 				const clanPower = await app.clans.getClanData(clanRow)
 
-				await app.itm.removeItem(message.author.id, 'c4', 1)
+				await app.itm.removeItem(message.author.id, 'laser_mine', 1)
 				await app.query('UPDATE clans SET reduction = reduction + 5 WHERE clanId = ?', [clanRow.clanId])
 				await app.query('INSERT INTO cooldown (userId, type, start, length) VALUES (?, ?, ?, ?)', [clanRow.clanId, 'explosion', new Date().getTime(), 3600 * 1000])
 				app.clans.addLog(clanRow.clanId, `${`${message.author.username}#${message.author.discriminator}`} used explosives on the clan! (Laser_mine)`)
@@ -491,7 +491,7 @@ module.exports = {
 						await app.itm.addBadge(message.author.id, 'executioner')
 					}
 					if (target.id === '168958344361541633') {
-						await app.itm.addBadge(message.author.id, 'dev_slayer')
+						await app.itm.addBadge(message.author.id, 'dream_killer')
 					}
 
 					const killedReward = new app.Embed()
@@ -529,7 +529,7 @@ module.exports = {
 				}
 				else {
 					// normal attack
-					if (ammoUsed === '40mm_smoke_grenade') {
+					if (ammoUsed === 'smoke_grenade') {
 						await app.cd.setCD(target.id, 'blinded', 7200 * 1000)
 
 						message.channel.createMessage(generateAttackString(app, message, target, victimRow, randDmg, item, ammoUsed, weaponBroke, false, victimArmor, baseDmg))
@@ -584,8 +584,8 @@ module.exports = {
 					ammoUsed = getAmmo(app, item, row, userItems)
 
 					if (ammoUsed) {
-						if (ammoUsed === '40mm_smoke_grenade' && victimBlindedCD) {
-							return message.reply(`❌ **${member.nick || member.username}** is already blinded by a ${app.itemdata['40mm_smoke_grenade'].icon}\`40mm_smoke_grenade\`!`)
+						if (ammoUsed === 'smoke_grenade' && victimBlindedCD) {
+							return message.reply(`❌ **${member.nick || member.username}** is already blinded by a ${app.itemdata['smoke_grenade'].icon}\`smoke_grenade\`!`)
 						}
 
 						bonusDamage = app.itemdata[ammoUsed].damage
@@ -681,7 +681,7 @@ module.exports = {
 						await app.itm.addBadge(message.author.id, 'executioner')
 					}
 					if (member.id === '168958344361541633') {
-						await app.itm.addBadge(message.author.id, 'dev_slayer')
+						await app.itm.addBadge(message.author.id, 'dream_killer')
 					}
 
 					const killedReward = new app.Embed()
@@ -719,7 +719,7 @@ module.exports = {
 				}
 				else {
 					// normal attack
-					if (ammoUsed === '40mm_smoke_grenade') {
+					if (ammoUsed === 'smoke_grenade') {
 						await app.cd.setCD(member.id, 'blinded', 7200 * 1000)
 
 						message.channel.createMessage(generateAttackString(app, message, member, victimRow, randDmg, item, ammoUsed, weaponBroke, false, victimArmor, baseDmg))
@@ -802,7 +802,7 @@ function generateAttackString(app, message, victim, victimRow, damage, itemUsed,
 	else if (Math.random() <= 0.5) { finalStr += `\n**${victim.nick || victim.username}** is spared with ${app.player.getHealthIcon(victimRow.health - damage, victimRow.maxHealth)} **${victimRow.health - damage}** health.` }
 	else { finalStr += `\n**${victim.nick || victim.username}** is left with ${app.player.getHealthIcon(victimRow.health - damage, victimRow.maxHealth)} **${victimRow.health - damage}** health.` }
 
-	if (ammoUsed === '40mm_smoke_grenade') {
+	if (ammoUsed === 'smoke_grenade') {
 		finalStr += `\n**${victim.nick || victim.username}** is blinded by the smoke and cannot use any commands for **2** hours!`
 	}
 
@@ -833,7 +833,7 @@ function generateAttackMobString(app, message, monsterRow, damage, itemUsed, amm
 		finalStr += `\n${monster.mentioned.charAt(0).toUpperCase() + monster.mentioned.slice(1)} is left with ${app.icons.health.full} **${monsterRow.health - damage}** health.`
 	}
 
-	if (ammoUsed === '40mm_smoke_grenade') {
+	if (ammoUsed === 'smoke_grenade') {
 		finalStr += `\n${monster.mentioned.charAt(0).toUpperCase() + monster.mentioned.slice(1)} resisted the effects of the ${app.itemdata[ammoUsed].icon}\`${ammoUsed}\`!`
 	}
 

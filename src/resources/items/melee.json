@@ -1,5 +1,5 @@
 {
-    "wooden_spear": {
+    "salvaged_ryyk_blade": {
         "rarity": "Common",
         "isWeap": true,
         "isItem": false,
@@ -14,8 +14,8 @@
         "buy": "",
         "sell": 379,
         "desc": "",
-        "image": "https://cdn.discordapp.com/attachments/497302646521069570/732928724160217118/wooden_spear.png",
-        "icon": "<:wooden_spear:732852914862817321>",
+        "image": "https://cdn.discordapp.com/attachments/793164075126751263/793402801622745118/salvaged_ryyk_blade.png",
+        "icon": "<:salvaged_ryyk_blade:793402882875457566>",
         "breaksOnUse": true,
         "canBeStolen": true,
         "cooldown": {
@@ -25,29 +25,31 @@
         "artist": "",
         "category": "Melee",
         "aliases": [
-            "spear"
+            "salryyk",
+            "salvaged-ryyk",
+            "s-ryyk"
         ],
         "tier": 0
     },
-    "bone_knife": {
+    "ryyk_blade": {
         "rarity": "Common",
         "isWeap": true,
         "isItem": false,
-        "damage": "5 - 10",
-        "minDmg": 5,
-        "maxDmg": 10,
+        "damage": "25 - 30",
+        "minDmg": 25,
+        "maxDmg": 30,
         "ammo": "",
         "craftedWith": "",
         "recyclesTo": {
             "materials": [
-                "bone_fragments|1"
+                "poly_fragments|1"
             ]
         },
         "buy": "",
         "sell": 466,
         "desc": "",
-        "image": "https://cdn.discordapp.com/attachments/497302646521069570/732928579285024818/bone_knife.png",
-        "icon": "<:bone_knife:732852965676679200>",
+        "image": "https://cdn.discordapp.com/attachments/793164075126751263/793164153665486848/ryykblade.png",
+        "icon": "<:ryykblade:793164572517072916>",
         "breaksOnUse": true,
         "canBeStolen": true,
         "cooldown": {
@@ -57,11 +59,12 @@
         "artist": "",
         "category": "Melee",
         "aliases": [
-            "knife"
+            "ryyk",
+            "ryyk-blade"
         ],
         "tier": 0
     },
-    "rock": {
+    "stun_baton": {
         "rarity": "Common",
         "isWeap": true,
         "isItem": false,
@@ -76,8 +79,8 @@
         "buy": "",
         "sell": 340,
         "desc": "",
-        "image": "https://cdn.discordapp.com/attachments/497302646521069570/732928582963167292/rock.png",
-        "icon": "<:rock:732851749710462997>",
+        "image": "https://cdn.discordapp.com/attachments/793164075126751263/793164155749793802/stunbaton.png",
+        "icon": "<:stunbaton:793164572470280212>",
         "breaksOnUse": true,
         "canBeStolen": true,
         "cooldown": {
@@ -86,10 +89,13 @@
         "phrase": "{attacker} smacks {victim} with a {weaponIcon}`{weapon}` dealing **{damage}** damage!",
         "artist": "",
         "category": "Melee",
-        "aliases": [],
+        "aliases": [
+            "stun-baton",
+            "stunbaton"
+        ],
         "tier": 0
     },
-    "salvaged_cleaver": {
+    "salvaged_vibro-ax": {
         "rarity": "Common",
         "isWeap": true,
         "isItem": false,
@@ -104,8 +110,8 @@
         "buy": "",
         "sell": 1909,
         "desc": "",
-        "image": "https://cdn.discordapp.com/attachments/497302646521069570/732928718321745990/salvaged_cleaver.png",
-        "icon": "<:salvaged_cleaver:732852862870356048>",
+        "image": "https://cdn.discordapp.com/attachments/793164075126751263/793402805037301791/salvaged_vibroax.png",
+        "icon": "<:salvaged_vibroax:793402880231997490>",
         "breaksOnUse": true,
         "canBeStolen": true,
         "cooldown": {
@@ -115,7 +121,8 @@
         "artist": "",
         "category": "Melee",
         "aliases": [
-            "cleaver",
+            "s-vibro-ax",
+            "salvaged-vibro-ax",
             "salvaged"
         ],
         "tier": 0
@@ -135,8 +142,8 @@
         "buy": "",
         "sell": 1953,
         "desc": "",
-        "image": "https://cdn.discordapp.com/attachments/497302646521069570/732929293193314454/salvaged_sword.png",
-        "icon": "<:salvaged_sword:732853386667622440>",
+        "image": "https://cdn.discordapp.com/attachments/793164075126751263/793402803246202900/salvaged_sword.png",
+        "icon": "<:salvaged_sword:793402882489319474>",
         "breaksOnUse": true,
         "canBeStolen": true,
         "cooldown": {
@@ -146,11 +153,12 @@
         "artist": "",
         "category": "Melee",
         "aliases": [
-            "sword"
+            "salvaged-sword",
+            "salv-sword"
         ],
         "tier": 0
     },
-    "machete": {
+    "polearm": {
         "rarity": "Uncommon",
         "isWeap": true,
         "isItem": false,
@@ -165,20 +173,20 @@
         "buy": "",
         "sell": 3177,
         "desc": "",
-        "image": "https://cdn.discordapp.com/attachments/732785161661317224/733224398630289438/machete.png",
-        "icon": "<:machete:733224537226870855>",
+        "image": "https://cdn.discordapp.com/attachments/793164075126751263/793164152364466236/Polearm.png",
+        "icon": "<:Polearm:793164572278128720>",
         "breaksOnUse": true,
         "canBeStolen": true,
         "cooldown": {
             "seconds": 1463
         },
-        "phrase": "{attacker} smacks {victim} with a {weaponIcon}`{weapon}` dealing **{damage}** damage!",
+        "phrase": "{attacker} stab {victim} with a {weaponIcon}`{weapon}` dealing **{damage}** damage!",
         "artist": "",
         "category": "Melee",
         "aliases": [],
         "tier": 0
     },
-    "mace": {
+    "vibroblade": {
         "rarity": "Uncommon",
         "isWeap": true,
         "isItem": false,
@@ -193,20 +201,20 @@
         "buy": "",
         "sell": 4153,
         "desc": "",
-        "image": "https://cdn.discordapp.com/attachments/732785161661317224/733224396386467860/mace.png",
-        "icon": "<:mace:732853133528793179>",
+        "image": "https://cdn.discordapp.com/attachments/793164075126751263/793164158140284928/vibroblade.png",
+        "icon": "<:vibroblade:793164572999417857>",
         "breaksOnUse": true,
         "canBeStolen": true,
         "cooldown": {
             "seconds": 2043
         },
-        "phrase": "{attacker} whacks {victim} with a {weaponIcon}`{weapon}` dealing **{damage}** damage!",
+        "phrase": "{attacker} stab {victim} with a {weaponIcon}`{weapon}` dealing **{damage}** damage!",
         "artist": "",
         "category": "Melee",
         "aliases": [],
         "tier": 0
     },
-    "pickaxe": {
+    "vibroknuckler": {
         "rarity": "Uncommon",
         "isWeap": true,
         "isItem": false,
@@ -221,14 +229,14 @@
         "buy": "",
         "sell": 532,
         "desc": "",
-        "image": "https://cdn.discordapp.com/attachments/497302646521069570/732929395303645234/pickaxe.png",
-        "icon": "<:pickaxe:732860149936553985>",
+        "image": "https://cdn.discordapp.com/attachments/793164075126751263/793164160258146304/vibroknucker.png",
+        "icon": "<:vibroknucker:793164574119034880>",
         "breaksOnUse": true,
         "canBeStolen": true,
         "cooldown": {
             "seconds": 558
         },
-        "phrase": "{attacker} smacks {victim} with a {weaponIcon}`{weapon}` dealing **{damage}** damage!",
+        "phrase": "{attacker} slice {victim} with a {weaponIcon}`{weapon}` dealing **{damage}** damage!",
         "artist": "",
         "category": "Melee",
         "aliases": [
@@ -236,7 +244,7 @@
         ],
         "tier": 0
     },
-    "hatchet": {
+    "vibro-ax": {
         "rarity": "Uncommon",
         "isWeap": true,
         "isItem": false,
@@ -251,8 +259,8 @@
         "buy": "",
         "sell": 489,
         "desc": "",
-        "image": "https://cdn.discordapp.com/attachments/732785297363959902/750839454251483277/hatchet.png",
-        "icon": "<:hatchet:750838999417094280>",
+        "image": "https://cdn.discordapp.com/attachments/793164075126751263/793164156378546197/vibroax.png",
+        "icon": "<:vibroax:793164573023666176>",
         "breaksOnUse": true,
         "canBeStolen": true,
         "cooldown": {
@@ -264,7 +272,7 @@
         "aliases": [],
         "tier": 0
     },
-    "f1_grenade": {
+    "hand_grenade": {
         "rarity": "Rare",
         "isWeap": true,
         "isItem": false,
@@ -278,8 +286,8 @@
         "buy": "",
         "sell": 4278,
         "desc": "",
-        "image": "https://cdn.discordapp.com/attachments/497302646521069570/732930107852980234/f1_grenade.png",
-        "icon": "<:f1_grenade:750105091222143056>",
+        "image": "https://cdn.discordapp.com/attachments/793164075126751263/793164151287578694/handgranade.png",
+        "icon": "<:handgranade:793164573632233522>",
         "breaksOnUse": true,
         "canBeStolen": true,
         "cooldown": {
@@ -289,27 +297,27 @@
         "artist": "",
         "category": "Melee",
         "aliases": [
-            "f1",
-            "grenade"
+            "hand-grenade",
+            "hgrenade"
         ],
         "tier": 1
     },
-    "longsword": {
+    "sword": {
         "rarity": "Rare",
         "isWeap": true,
         "isItem": false,
-        "minDmg": 24,
-        "maxDmg": 31,
+        "minDmg": 30,
+        "maxDmg": 37,
         "ammo": "",
         "craftedWith": "",
         "recyclesTo": {
             "materials": []
         },
         "buy": "",
-        "sell": 4583,
+        "sell": 6583,
         "desc": "",
-        "image": "https://cdn.discordapp.com/attachments/732785297363959902/735634596007379044/longsword.png",
-        "icon": "<:longsword:735634543779774465>",
+        "image": "https://cdn.discordapp.com/attachments/793164075126751263/793164148279869450/beskarsword.png",
+        "icon": "<:beskarsword:793164570431717398>",
         "breaksOnUse": true,
         "canBeStolen": true,
         "cooldown": {
@@ -319,7 +327,7 @@
         "artist": "",
         "category": "Melee",
         "aliases": [
-            "long"
+            "sword"
         ],
         "tier": 0
     },

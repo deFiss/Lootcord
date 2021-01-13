@@ -18,7 +18,7 @@ module.exports = {
 			.setTitle('Star Wars Mercenaries War Update Info')
 			.setColor(13451564)
 			.setThumbnail(app.bot.user.avatarURL)
-			.setDescription('Read [here](https://www.merc-wars.online/blog) for update details.\n\nStar Wars Mercenaries War is created by fans and is not affilated with Disney.')
+			.setDescription('Read [here](https://www.mercs-war.online/) for more details.\n\nStar Wars Mercenaries War is created by fans and is not affilated with Disney.')
 			.addField('Shard ID', codeWrap(message.channel.guild.shard.id.toString(), 'js'), true)
 			.addField('Cluster ID', codeWrap(app.clusterID.toString(), 'js'), true)
 			.addField('Active Servers', codeWrap(stats.guilds || '1', 'js'), true)
@@ -26,8 +26,8 @@ module.exports = {
 			.addField('Memory Usage', codeWrap(`${Math.round(used)} MB`, 'fix'), true)
 			.addField('Library', codeWrap('Eris', 'js'), true)
 			.addField('Creators', 'dream#3333 / ᴰiᶻᵇᵃᵗⁱ#4239', true)
-			.addField('Website', 'https://www.merc-wars.online/', true)
-			.addField('Discord', 'https://discord.gg/W9kS9XGNCN', true)
+			.addField('Website', 'https://www.mercs-war.online/', true)
+			.addField('Discord', 'https://discord.gg/WKWCAt8yEd', true)
 
 		message.channel.createMessage(embedInfo)
 	}

@@ -27,7 +27,7 @@ module.exports = {
 		if (channelSpawns.length > 0) return message.reply('❌ There are already spawns active in this channel.\n\nYou **CAN** call multiple spawns per server, they just have to be in different channels.')
 
 		const guildSpawns = await app.mysql.select('spawnChannels', 'guildId', message.channel.guild.id, true)
-		if (guildSpawns.length > 0 && !await app.patreonHandler.isPatron(message.author.id)) return message.reply('❌ You can only set 1 spawn channel per guild without being a patron. Consider supporting Star Wars Mercenaries War on Patreon: https://www.patreon.com/')
+		if (guildSpawns.length > 0 && !await app.patreonHandler.isPatron(message.author.id)) return message.reply('❌ You can only set 1 spawn channel per guild without being a patron. Consider supporting Star Wars Mercenaries War on Patreon: https://www.patreon.com/sw_rpg/')
 
 		await app.query('INSERT INTO spawnChannels (channelId, guildId, userId) VALUES (?, ?, ?)', [message.channel.id, message.channel.guild.id, message.author.id])
 

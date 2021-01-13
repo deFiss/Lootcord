@@ -1,16 +1,16 @@
 {
   "confirm": "✅",
   "cancel": "❌",
-  "money": "<:credit:784288168819818536>",
-  "scrap": "<:scrap:782385375372902411>",
-  "clan_icon": "<:clan:784289045210726400>",
-  "clan_leader_crown": "<:owner:784289413608767519>",
+  "money": "<:credit:796531723663573014>",
+  "scrap": "<:scrap:796531582575575040>",
+  "clan_icon": "<:clan:796532017629626368>",
+  "clan_leader_crown": "<:owner:796532017105207327>",
   "death_skull": "<:skull:>",
   "plus": "<:plus:785021511396229140>",
   "minus": "<:minus:785021511291109394>",
-  "loading": "<a:loadgif:594877067837833237>",
+  "loading": "<a:loading_gif:796533808035266570>",
   "blackjack_dealer_won": "<:bj_win:785019518652514335>",
-  "blackjack_dealer_lost": "<:lose:784306654434951219>",
+  "blackjack_dealer_lost": "<:loose:796534059815796756>",
   "blackjack_dealer_neutral": "<:yay:785017703831306250>",
   "slots_toprow_gif": "<a:rnd:785043680851525632>",
   "slots_midrow_gif": "<a:rnd:785043680851525632>",
@@ -19,19 +19,19 @@
   "slots_rare_icon": "💸",
   "slots_epic_icon": "💰",
   "slots_legendary_icon": "💎",
-  "text_channel": "<:text_channel:741087747120300133>",
-  "locked_text_channel": "<:locked_text_channel:741087747212836865>",
-  "voice_channel": "<:voice_channel:741087747661365269>",
+  "text_channel": "<:channel:796535767076962335>",
+  "locked_text_channel": "<:chann_locked:796535766947725343>",
+  "voice_channel": "<:voice:796535767316693040>",
   "health": {
-    "full": "<:heart_full:782328921479053324>",
-    "empty": "<:heart_empty:782381168146251797>",
-    "percent_25": "<:heart_25:782382602865868810>",
-    "percent_50": "<:heart_half:782381168112566343>",
-    "percent_75": "<:heart_quater:782381168040869898>"
+    "full": "<:heart_full:796532918213279775>",
+    "empty": "<:heart_empty:796532918209740840>",
+    "percent_25": "<:heart_25:796532918562455572>",
+    "percent_50": "<:heart_half:796532918272655380>",
+    "percent_75": "<:heart_quater:796532918432170034>"
   },
   "accounts": {
-    "active": "<:active:784305722300694568>",
-    "inactive": "<:inactive:784305722052968449>"
+    "active": "<:active:796536527726706690>",
+    "inactive": "<:inactive:796532017432100885>"
   },
   "tiers": {
     "1": "<:t_1:785399109388730398>",

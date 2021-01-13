@@ -7,7 +7,7 @@ module.exports = {
 	name: 'weekly',
 	aliases: [''],
 	description: 'Receive a free supply_crate every week!',
-	long: 'Use this command to receive a free supply_crate every week.\n\nThe weekly command is exclusive to patreon donators: https://www.patreon.com/.',
+	long: 'Use this command to receive a free supply_crate every week.\n\nThe weekly command is exclusive to patreon donators: https://www.patreon.com/sw_rpg/.',
 	args: {},
 	examples: [],
 	ignoreHelp: false,
@@ -31,13 +31,13 @@ module.exports = {
 		await app.cd.setCD(message.author.id, 'weekly', app.config.cooldowns.daily * 1000 * 7)
 
 		await app.itm.addItem(message.author.id, 'supply_drop', 1)
-		await app.itm.addItem(message.author.id, 'reroll_scroll', 1)
+		await app.itm.addItem(message.author.id, 'reroll_chip', 1)
 
 		message.reply(QUOTES[Math.floor(Math.random() * QUOTES.length)]
 			.replace('{ez}', app.icons.blackjack_dealer_neutral)
 			.replace('{icon}', app.itemdata.supply_drop.icon)
 			.replace('{item}', '`supply_drop`')
-			.replace('{icon2}', app.itemdata.reroll_scroll.icon)
-			.replace('{item2}', '`reroll_scroll`'))
+			.replace('{icon2}', app.itemdata.reroll_chip.icon)
+			.replace('{item2}', '`reroll_chip`'))
 	}
 }

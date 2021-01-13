@@ -1,7 +1,7 @@
 {
     "supermarket": {
         "title": "Abandoned Desert Village",
-        "image": "https://i.ibb.co/80HvhDV/aband-vil-houses.jpg",
+        "image": "https://cdn.discordapp.com/attachments/793405712037838878/793406127081127956/Ab_Desert_Village.png",
         "suggestedLevel": "2",
         "successRate": {
             "1": 0.35,
@@ -64,7 +64,7 @@
                     "type": null,
                     "value": 0
                 },
-                "quote": "**{user}** loots a dead player inside the building and finds {reward}!"
+                "quote": "**{user}** loots a dead man inside the building and finds {reward}!"
             }
         ],
         "failed": [
@@ -118,7 +118,7 @@
                     "type": "health",
                     "value": 4
                 },
-                "item": "rock",
+                "item": "stun_baton",
                 "item2": "",
                 "quote": "Someone bonked **{user}** on the head with a {item} for **{damage}** damage, and ran away!"
             },
@@ -127,7 +127,7 @@
                     "type": "health",
                     "value": 5
                 },
-                "item": "bone_knife",
+                "item": "ryyk_blade",
                 "item2": "",
                 "quote": "**{user}** got into a fight with an armed man wielding a {item} and lost **{damage}** health."
             },
@@ -138,13 +138,13 @@
                 },
                 "item": "energy_bow",
                 "item2": "",
-                "quote": "**{user}** was headshot by some loser with a {item} and lost **{damage}** health..."
+                "quote": "**{user}** was shot by some loser with a {item} and lost **{damage}** health..."
             }
         ]
     },
     "gas_station": {
         "title": "Catacombs",
-        "image": "https://i.ibb.co/wWmdKrp/aband-sand-ppl.jpg",
+        "image": "https://cdn.discordapp.com/attachments/793405712037838878/793406128112664586/Catacombs.png",
         "suggestedLevel": "2",
         "successRate": {
             "1": 0.30,
@@ -177,7 +177,7 @@
                     "type": null,
                     "value": 0
                 },
-                "quote": "**{user}** searched a players body on the floor and found {reward}!"
+                "quote": "**{user}** searched a someones body on the floor and found {reward}!"
             },
             {
                 "reward": {
@@ -192,7 +192,7 @@
                     "type": null,
                     "value": 0
                 },
-                "quote": "**{user}** found {reward} outside of the building!"
+                "quote": "**{user}** found {reward} behind one of the rocks!"
             },
             {
                 "reward": {
@@ -207,7 +207,7 @@
                     "type": null,
                     "value": 0
                 },
-                "quote": "After checking all the rooms in the building, **{user}** managed to find {reward}!"
+                "quote": "After checking everything around, **{user}** managed to find {reward}!"
             },
             {
                 "reward": {
@@ -222,7 +222,7 @@
                     "type": null,
                     "value": 0
                 },
-                "quote": "**{user}** downed a looter hiding in the toom and stole {reward} from him!"
+                "quote": "**{user}** downed a hunter behind one of the hills and stole {reward} from him!"
             },
             {
                 "reward": {
@@ -237,7 +237,7 @@
                     "type": null,
                     "value": 0
                 },
-                "quote": "**{user}** found {reward} in the basement."
+                "quote": "**{user}** found {reward} under the rubble."
             },
             {
                 "reward": {
@@ -308,7 +308,7 @@
                 },
                 "item": "",
                 "item2": "",
-                "quote": "**{user}** could not find anything inside, nor outside the building..."
+                "quote": "**{user}** could not find anything inside, nor outside the catacombs..."
             },
             {
                 "loss": {
@@ -326,7 +326,7 @@
                 },
                 "item": "",
                 "item2": "",
-                "quote": "**{user}** looked everywhere: the shelves, computer station, bathroom... but found nothing."
+                "quote": "**{user}** looked everywhere: ... but found nothing."
             },
             {
                 "loss": {
@@ -344,7 +344,7 @@
                 },
                 "item": "",
                 "item2": "",
-                "quote": "**{user}** noticed a group of looters inside. Too scared - **{user}** ran away."
+                "quote": "**{user}** noticed a group of hunters nearby. Too scared - **{user}** ran away."
             },
             {
                 "loss": {
@@ -362,22 +362,22 @@
                 },
                 "item": "bow",
                 "item2": "",
-                "quote": "**{user}** was attacked by another Merc using a {item} and lost **{damage}** health!"
+                "quote": "**{user}** was attacked by another Mercenary using a {item} and lost **{damage}** health!"
             },
             {
                 "loss": {
                     "type": "health",
                     "value": 8
                 },
-                "item": "wooden_spear",
+                "item": "salvaged_ryyk_blade",
                 "item2": "",
                 "quote": "**{user}** was stabbed by some idiot with a {item} and lost **{damage}** health..."
             }
         ]
     },
     "launch_site": {
-        "title": "Cave of Evil",
-        "image": "https://i.imgur.com/h6N9V0Y.png",
+        "title": "Toxic Dark Side Cave",
+        "image": "https://cdn.discordapp.com/attachments/793405712037838878/793406131443466240/Cave_of_Evil.png",
         "suggestedLevel": "10",
         "successRate": {
             "1": -1.0,
@@ -415,7 +415,7 @@
                     "type": null,
                     "value": 0
                 },
-                "quote": "**{user}** dodges <:dark_s:784283931116830740> Dark Spirits attack, reach bottom of the Cave, and finds {reward} at the top!"
+                "quote": "**{user}** dodges someones attack <:dark_s:784283931116830740>, reach bottom of the Cave, and finds {reward} at the top!"
             },
             {
                 "reward": {
@@ -430,7 +430,7 @@
                     "type": "health",
                     "value": 45
                 },
-                "quote": "After not being cautious enough, <:dark_s:784283931116830740> Dark Spirits spots **{user}** and muddied his mind! **{user}** loses {damage} health from the encounter but finds {reward}."
+                "quote": "After not being cautious enough, <:dark_side:794080099883941919> Dark Spirits spots **{user}** and muddied **{user}** mind! **{user}** loses {damage} health from the encounter but finds {reward}."
             },
             {
                 "reward": {
@@ -445,7 +445,7 @@
                     "type": null,
                     "value": 0
                 },
-                "quote": "After seeing <:dark_s:784283931116830740> Dark Spirit circling around, **{user}** wimps out and resigns to looting the outskirts, still managing to find {reward}!"
+                "quote": "After seeing <:dark_side:794080099883941919> Dark Spirit circling around, **{user}** wimps out and resigns to looting the outskirts, still managing to find {reward}!"
             },
             {
                 "reward": {
@@ -460,7 +460,7 @@
                     "type": null,
                     "value": 0
                 },
-                "quote": "**{user}** decides to loot the rocket and finds {reward}!"
+                "quote": "**{user}** decides to loot dead body {reward}!"
             },
             {
                 "reward": {
@@ -475,7 +475,7 @@
                     "type": "health",
                     "value": 25
                 },
-                "quote": "**{user}** encounters 2 other looters. After suffering **{damage}** damage, **{user}** takes them both out and finds {reward} on them!"
+                "quote": "**{user}** encounters 2 other hunters. After suffering **{damage}** damage, **{user}** takes them both out and finds {reward} on them!"
             }
         ],
         "failed": [
@@ -486,7 +486,7 @@
                 },
                 "item": "",
                 "item2": "",
-                "quote": "**{user}** was spotted by <:dark_s:784283931116830740> Dark Spirit and got **{damage}** damage!"
+                "quote": "**{user}** was spotted by <:dark_side:794080099883941919> Dark Spirit and got **{damage}** damage!"
             },
             {
                 "loss": {
@@ -513,13 +513,13 @@
                 },
                 "item": "",
                 "item2": "",
-                "quote": "**{user}** quietly entered the Cave of Evil, but was quickly spotted by <:dark_s:784283931116830740> Dark Spirit and got blasted for **{damage}** damage!"
+                "quote": "**{user}** quietly entered the Cave of Evil, but was quickly spotted by <:dark_side:794080099883941919> Dark Spirit and got hit for **{damage}** damage!"
             }
         ]
     },
     "military_tunnels": {
         "title": "Imperial Tunnels",
-        "image": "https://i.ibb.co/HKsS7xZ/imp-tunels.jpg",
+        "image": "https://cdn.discordapp.com/attachments/793405712037838878/793406133892022272/Imperial_Tunnels.png",
         "suggestedLevel": "12",
         "successRate": {
             "1": -1.0,
@@ -540,7 +540,7 @@
         },
         "requirement": {
             "type": "armor",
-            "value": "metal_armor",
+            "value": "beskar_armor",
             "bonus": 0.7
         },
         "success": [
@@ -572,7 +572,7 @@
                     "type": "health",
                     "value": 47
                 },
-                "quote": "**{user}** is shot by multiple <:trooper_helm:784286241481818122> Troopers and suffers **{damage}** damage but is able to find {reward}!"
+                "quote": "**{user}** is shot by multiple <:trooper_helm:796532018946375780>> Troopers and suffers **{damage}** damage but is able to find {reward}!"
             },
             {
                 "reward": {
@@ -587,7 +587,7 @@
                     "type": null,
                     "value": 0
                 },
-                "quote": "**{user}** resigns to looting the outside the tunnel after seeing several <:trooper_helm:784286241481818122> Troopers inside. {user} manages to find {reward}!"
+                "quote": "**{user}** resigns to looting the outside the tunnel after seeing several <:trooper_helm:796532018946375780>> Troopers inside. {user} manages to find {reward}!"
             },
             {
                 "reward": {
@@ -617,7 +617,7 @@
                     "type": "health",
                     "value": 28
                 },
-                "quote": "**{user}** discovers that the tunnels were occupied by 3 other looters! **{user}** sneaks by them and finds {reward} but is shot for **{damage}** damage while trying to run away!"
+                "quote": "**{user}** discovers that the tunnels were occupied by 7 <:trooper_helm:796532018946375780>> Troopers! **{user}** sneaks by them and finds {reward} but is shot for **{damage}** damage while trying to run away!"
             }
         ],
         "failed": [
@@ -628,7 +628,7 @@
                 },
                 "item": "",
                 "item2": "",
-                "quote": "**{user}** enters the tunnels... Only to be shot by 5 <:trooper_helm:784286241481818122> Troopers for **{damage}** damage!"
+                "quote": "**{user}** enters the tunnels... Only to be shot by 3 <:trooper_helm:796532018946375780>> Troopers for **{damage}** damage!"
             },
             {
                 "loss": {
@@ -637,7 +637,7 @@
                 },
                 "item": "",
                 "item2": "",
-                "quote": "**{user}** was not equipped to deal with the <:trooper_helm:784286241481818122> Trooper guarding the entrance and gets shot for **{damage}** damage! Next time you should wear some better armor..."
+                "quote": "**{user}** was not equipped to deal with the <:trooper_helm:796532018946375780> Trooper guarding the entrance and gets shot for **{damage}** damage! Next time you should wear some better armor..."
             },
             {
                 "loss": {
@@ -646,7 +646,7 @@
                 },
                 "item": "",
                 "item2": "",
-                "quote": "**{user}** noticed that the tunnels were being cleared by another group of looters and decided to leave..."
+                "quote": "**{user}** noticed that the tunnels were being cleared by another group of hunters and decided to leave..."
             },
             {
                 "loss": {
@@ -662,15 +662,15 @@
                     "type": "health",
                     "value": 58
                 },
-                "item": "metal_armor",
+                "item": "beskar_armor",
                 "item2": "",
-                "quote": "**{user}** attracts the attention of looters wearing {item} while trying to clear the tunnels. **{user}** gets shot for **{damage}** damage..."
+                "quote": "**{user}** attracts the attention of hunters wearing {item} while trying to clear the tunnels. **{user}** gets shot for **{damage}** damage..."
             }
         ]
     },
     "trainyard": {
         "title": "Train Yard",
-        "image": "https://i.imgur.com/RrQgJed.png",
+        "image": "https://cdn.discordapp.com/attachments/793405712037838878/793406136908251206/Train_Yard.png",
         "suggestedLevel": "7",
         "successRate": {
             "1": 0.0,
@@ -728,7 +728,7 @@
                     "type": null,
                     "value": 0
                 },
-                "quote": "**{user}** sneaks past another looter and finds a {reward} outside!"
+                "quote": "**{user}** sneaks past another hunter and finds a {reward} outside!"
             },
             {
                 "reward": {
@@ -758,7 +758,7 @@
                     "type": "health",
                     "value": 21
                 },
-                "quote": "**{user}** fights another looter beside the train, wins but suffers **{damage}** damage... **{user}** gained {reward}!"
+                "quote": "**{user}** fights another hunter beside the train, wins but suffers **{damage}** damage... **{user}** gained {reward}!"
             }
         ],
         "failed": [
@@ -768,9 +768,9 @@
                     "value": 15,
                     "item": false
                 },
-                "item": "metal_armor",
+                "item": "beskar_armor",
                 "item2": "",
-                "quote": "**{user}** is spotted by two looters wearing {item}, tries to run away but is shot at for **{damage}** damage!"
+                "quote": "**{user}** is spotted by two hunters wearing {item}, tries to run away but is shot at for **{damage}** damage!"
             },
             {
                 "loss": {
@@ -790,7 +790,7 @@
                 },
                 "item": "",
                 "item2": "",
-                "quote": "**{user}** saw an oncoming train full of people and ran away. <:uh:737093788937355355>"
+                "quote": "**{user}** saw an oncoming train full of people and ran away. :man_running:"
             },
             {
                 "loss": {
@@ -806,7 +806,7 @@
     },
     "powerplant": {
         "title": "Power Plant",
-        "image": "https://i.ibb.co/SK5jvft/power-plant.jpg",
+        "image": "https://cdn.discordapp.com/attachments/793405712037838878/793406135201693706/Power_Plant.png",
         "suggestedLevel": "7",
         "successRate": {
             "1": 0.0,
@@ -849,7 +849,7 @@
                     "type": null,
                     "value": 0
                 },
-                "quote": "**{user}** explores the monument without any issues and finds {reward}!"
+                "quote": "**{user}** explores the main building without any issues and finds {reward}!"
             },
             {
                 "reward": {
@@ -864,7 +864,7 @@
                     "type": "health",
                     "value": 30
                 },
-                "quote": "**{user}** saw two looters and chose to fight them! After taking **{damage}** damage, **{user}** wins and finds {reward}!"
+                "quote": "**{user}** saw two hunters and chose to fight them! After taking **{damage}** damage, **{user}** wins and finds {reward}!"
             },
             {
                 "reward": {
@@ -894,7 +894,7 @@
                     "type": null,
                     "value": 0
                 },
-                "quote": "**{user}** climbs up one of the cooling towers and finds {reward}."
+                "quote": "**{user}** climbs up one of the watch towers and finds {reward}."
             }
         ],
         "failed": [
@@ -906,7 +906,7 @@
                 },
                 "item": "hazmat_suit",
                 "item2": "",
-                "quote": "**{user}** was approached by two looters wearing {item}'s and got shot at for **{damage}** damage!"
+                "quote": "**{user}** was approached by two hunters wearing {item}'s and got shot at for **{damage}** damage!"
             },
             {
                 "loss": {
@@ -916,7 +916,7 @@
                 },
                 "item": "",
                 "item2": "",
-                "quote": "**{user}** tried to climb up one of the cooling towers but fell and took **{damage}** damage!"
+                "quote": "**{user}** tried to climb up one of the towers but fell and took **{damage}** damage!"
             },
             {
                 "loss": {
@@ -936,7 +936,7 @@
                 },
                 "item": "blaster_pistol",
                 "item2": "",
-                "quote": "**{user}** saw a group of **8** looters with {item}'s and decided against exploring..."
+                "quote": "**{user}** saw a group of **8** hunters with {item}'s and decided against exploring..."
             }
         ]
     }

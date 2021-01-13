@@ -61,15 +61,15 @@ exports.donatorRoles = {
 // Bot lists to post stats to
 exports.botLists = [
 	{
-		url: 'https://top.gg/api/bots/493316754689359874/stats',
+		url: 'https://top.gg/api/bots/784863742827298848/stats',
 		token: process.env.TOPGG_API_TOKEN
 	},
 	{
-		url: 'https://discord.bots.gg/api/v1/bots/493316754689359874/stats',
+		url: 'https://discord.bots.gg/api/v1/bots/784863742827298848/stats',
 		token: process.env.BOTSGG_API_TOKEN
 	},
 	{
-		url: 'https://botsfordiscord.com/api/bot/493316754689359874',
+		url: 'https://botsfordiscord.com/api/bot/784863742827298848',
 		token: process.env.BFD_API_TOKEN
 	},
 	{
@@ -111,5 +111,5 @@ exports.cooldowns = {
 	roulette: 180,
 	slots: 180,
 	jackpot: 300,
-	xp_potion: 180
+	xp_potion: 150
 }

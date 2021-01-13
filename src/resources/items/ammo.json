@@ -10,8 +10,7 @@
         "craftedWith": {
             "level": 2,
             "materials": [
-                "rock|1",
-                "wood|1",
+                "titanium|1",
                 "cloth|1"
             ]
         },
@@ -21,8 +20,8 @@
         "buy": "",
         "sell": 928,
         "desc": "",
-        "image": "https://cdn.discordapp.com/attachments/497302646521069570/732928578278260786/arrow.png",
-        "icon": "<:arrow:732852891299086417>",
+        "image": "https://cdn.discordapp.com/attachments/793403041994244146/793589194668638218/arrow.png",
+        "icon": "<:arrow:793594962008473621>",
         "breaksOnUse": "",
         "canBeStolen": true,
         "cooldown": "",
@@ -31,7 +30,7 @@
         "aliases": [],
         "tier": 0
     },
-    "bone_arrow": {
+    "polymer_arrow": {
         "rarity": "Common",
         "isWeap": false,
         "isItem": false,
@@ -42,8 +41,8 @@
         "craftedWith": {
             "level": 4,
             "materials": [
-                "wood|1",
-                "bone_fragments|2"
+                "titanium|1",
+                "poly_fragments|2"
             ]
         },
         "recyclesTo": {
@@ -52,17 +51,19 @@
         "buy": "",
         "sell": 2036,
         "desc": "",
-        "image": "https://cdn.discordapp.com/attachments/732785297363959902/736661914079330394/bone_arrow.png",
-        "icon": "<:bone_arrow:736661877685485578>",
+        "image": "https://cdn.discordapp.com/attachments/793403041994244146/793589239920328784/polymer_arrow.png",
+        "icon": "<:polymer_arrow:793594992995729469>",
         "breaksOnUse": "",
         "canBeStolen": true,
         "cooldown": "",
         "artist": "",
         "category": "Ammo",
-        "aliases": [],
+        "aliases": [
+            "polymer-arrow"
+        ],
         "tier": 0
     },
-    "pistol_bullet": {
+    "gas_cell": {
         "rarity": "Uncommon",
         "isWeap": false,
         "isItem": false,
@@ -73,7 +74,7 @@
         "craftedWith": {
             "level": 4,
             "materials": [
-                "gunpowder|2",
+                "gas_reactor|2",
                 "metal|2"
             ]
         },
@@ -82,26 +83,22 @@
         },
         "buy": "",
         "sell": 6056,
-        "desc": "9x19mm cartridge, also known as 9mm.",
-        "image": "https://cdn.discordapp.com/attachments/497302646521069570/732929397333426246/pistol_bullet.png",
-        "icon": "<:pistol_bullet:750105091977248860>",
+        "desc": "A fuel cell, also referred to as a fuel core or fuel rod, was a part of a blaster",
+        "image": "https://cdn.discordapp.com/attachments/793403041994244146/793589202281299969/gas_cell.png",
+        "icon": "<:gas_cell:793594961416814612>",
         "breaksOnUse": "",
         "canBeStolen": true,
         "cooldown": "",
         "artist": "",
         "category": "Ammo",
         "aliases": [
-            "9mm",
-            "9mill",
-            "9x19",
-            "bullet",
-            "pistol_ammo",
-            "ammunition",
-            "ammo"
+            "fuel-cell",
+            "gas-cell",
+            "gascell"
         ],
         "tier": 1
     },
-    "rifle_bullet": {
+    "energy_cell": {
         "rarity": "Uncommon",
         "isWeap": false,
         "isItem": false,
@@ -112,7 +109,7 @@
         "craftedWith": {
             "level": 5,
             "materials": [
-                "gunpowder|3",
+                "gas_reactor|3",
                 "metal|2"
             ]
         },
@@ -121,23 +118,23 @@
         },
         "buy": "",
         "sell": 10036,
-        "desc": "5.56 rifle ammunition.",
-        "image": "https://cdn.discordapp.com/attachments/732785161661317224/733051137774583810/rifle_bullet.png",
-        "icon": "<:rifle_bullet:750105123677798493>",
+        "desc": "Blaster rifle energy cell.",
+        "image": "https://cdn.discordapp.com/attachments/793403041994244146/793589196857016345/energy_cell.png",
+        "icon": "<:energy_cell:793594960753852416>",
         "breaksOnUse": "",
         "canBeStolen": true,
         "cooldown": "",
         "artist": "",
         "category": "Ammo",
         "aliases": [
-            "rifle_ammo",
-            "5.56x45",
-            "556x45",
-            "5.56"
+            "energy-cell",
+            "energycell",
+            "energyc",
+            "energcell"
         ],
         "tier": 2
     },
-    "hv_rifle_bullet": {
+    "energy_double_cell": {
         "rarity": "Uncommon",
         "isWeap": false,
         "isItem": false,
@@ -148,36 +145,34 @@
         "craftedWith": {
             "level": 8,
             "materials": [
-                "gunpowder|5",
+                "gas_reactor|5",
                 "metal|2"
             ]
         },
         "recyclesTo": {
             "materials": [
-                "gunpowder|1"
+                "gas_reactor|1"
             ]
         },
         "buy": "",
         "sell": 20823,
-        "desc": "High velocity 5.56 rifle ammunition.",
-        "image": "https://cdn.discordapp.com/attachments/732785297363959902/734096778466558002/hv_rifle_bullet.png",
-        "icon": "<:hv_rifle_bullet:750105298093473932>",
+        "desc": "Energy double cell for blaster rifles.",
+        "image": "https://cdn.discordapp.com/attachments/793403041994244146/793589199969320970/energy_double_cell.png",
+        "icon": "<:energy_double_cell:793594962678775808>",
         "breaksOnUse": "",
         "canBeStolen": true,
         "cooldown": "",
         "artist": "",
         "category": "Ammo",
         "aliases": [
-            "hv",
-            "hv_bullet",
-            "hv_ammo",
-            "high_velocity",
-            "hv_rifle",
-            "hight_velocity_bullet"
+            "energydoublecell",
+            "energy_double",
+            "energy-double",
+            "energy-double-cell"
         ],
         "tier": 3
     },
-    "explosive_bullet": {
+    "he_energy_cell": {
         "rarity": "Uncommon",
         "isWeap": false,
         "isItem": false,
@@ -188,14 +183,14 @@
         "craftedWith": "",
         "recyclesTo": {
             "materials": [
-                "gunpowder|2"
+                "gas_reactor|2"
             ]
         },
         "buy": "",
         "sell": 38823,
-        "desc": "Explosive 5.56 rifle ammunition. Has the ability to __penetrate armor__.",
-        "image": "https://cdn.discordapp.com/attachments/497302646521069570/777345539879862311/95273911-4aa9af00-0812-11eb-8224-8e905d8b883f.png",
-        "icon": "<:explosive_bullet:763256721786929212>",
+        "desc": "High explosive energy cell for blaster rifles. Has the ability to __penetrate armor__.",
+        "image": "https://cdn.discordapp.com/attachments/793403041994244146/793589237412003850/he_energy_cell.png",
+        "icon": "<:he_energy_cell:793594992404070420>",
         "breaksOnUse": "",
         "canBeStolen": true,
         "penetratesArmor": true,
@@ -203,19 +198,18 @@
         "artist": "",
         "category": "Ammo",
         "aliases": [
-            "explosive_rifle_bullet",
-            "explosive",
-            "explo_ammo",
-            "explo",
-            "explo_bullet",
+            "he-energy",
+            "he-energy-cell",
+            "explo_cell",
+            "he_energy",
+            "he-energy",
             "explosive_rifle",
             "explo_rifle",
-            "explo_rifle_bullet",
-            "explo_rifle_ammo"
+            "explo_rifle_cell"
         ],
         "tier": 3
     },
-    "handmade_shell": {
+    "handmade_slug": {
         "rarity": "Rare",
         "isWeap": false,
         "isItem": false,
@@ -226,8 +220,8 @@
         "craftedWith": {
             "level": 3,
             "materials": [
-                "gunpowder|1",
-                "rock|1"
+                "gas_reactor|1",
+                "stun_baton|1"
             ]
         },
         "recyclesTo": {
@@ -235,21 +229,21 @@
         },
         "buy": "",
         "sell": 2352,
-        "desc": "",
-        "image": "https://cdn.discordapp.com/attachments/732785297363959902/750166902625796188/handmade_shell.png",
-        "icon": "<:handmade_shell:750166864818208788>",
+        "desc": "Homemade combat unit for a shotgun or slugthrower",
+        "image": "https://cdn.discordapp.com/attachments/793403041994244146/793589237231779900/handmade_slug.png",
+        "icon": "<:handmade_slug:793594962733957120>",
         "breaksOnUse": "",
         "canBeStolen": true,
         "cooldown": "",
         "artist": "",
         "category": "Ammo",
         "aliases": [
-            "handmade",
+            "handmade-slug",
             "shell"
         ],
         "tier": 0
     },
-    "12g_buckshot": {
+    "slug_projectile": {
         "rarity": "Rare",
         "isWeap": false,
         "isItem": false,
@@ -260,7 +254,7 @@
         "craftedWith": {
             "level": 4,
             "materials": [
-                "gunpowder|2",
+                "gas_reactor|2",
                 "metal|1"
             ]
         },
@@ -269,27 +263,24 @@
         },
         "buy": "",
         "sell": 8134,
-        "desc": "12 Gauge buckshot shell.",
-        "image": "https://cdn.discordapp.com/attachments/497302646521069570/732930056271429632/12g_buckshot.png",
-        "icon": "<:12g_buckshot:750105123014836284>",
+        "desc": "Combat slug for a shotgun or slugthrower.",
+        "image": "https://cdn.discordapp.com/attachments/793403041994244146/793589245825777714/slug_projectile.png",
+        "icon": "<:slug_projectile:793594994178129941>",
         "breaksOnUse": "",
         "canBeStolen": true,
         "cooldown": "",
         "artist": "",
         "category": "Ammo",
         "aliases": [
-            "buck",
-            "buckshot",
-            "12_gauge",
-            "shotgun_ammo",
+            "slug-projectile",
+            "slugprojectile",
+            "shotgun_slug",
             "shotgun_bullet",
-            "shotty_ammo",
-            "shotty_bullet",
-            "12g"
+            "shotgun_ammo"
         ],
         "tier": 2
     },
-    "12g_slug": {
+    "hv_slug_projectile": {
         "rarity": "Rare",
         "isWeap": false,
         "isItem": false,
@@ -300,7 +291,7 @@
         "craftedWith": {
             "level": 7,
             "materials": [
-                "gunpowder|4",
+                "gas_reactor|4",
                 "metal|2"
             ]
         },
@@ -309,16 +300,17 @@
         },
         "buy": "",
         "sell": 36120,
-        "desc": "12 Gauge slug shell. Used for shotguns.",
-        "image": "https://cdn.discordapp.com/attachments/732785161661317224/733052371680362626/12g_slug.png",
-        "icon": "<:12g_slug:750105297481367592>",
+        "desc": "High velocity slug shell. Used for shotguns and slugthrowers.",
+        "image": "https://cdn.discordapp.com/attachments/793403041994244146/793589237655011328/hv_slug_projectile.png",
+        "icon": "<:hv_slug_projectile:793594993033347093>",
         "breaksOnUse": "",
         "canBeStolen": true,
         "cooldown": "",
         "artist": "",
         "category": "Ammo",
         "aliases": [
-            "slug"
+            "hv-slug",
+            "hv-slug-projectile"
         ],
         "tier": 3
     },
@@ -333,22 +325,22 @@
         "craftedWith": {
             "level": 10,
             "materials": [
-                "gunpowder|6",
+                "gas_reactor|6",
                 "metal|2"
             ]
         },
         "recyclesTo": {
-            "display": "2x gunpowder",
+            "display": "2x gas_reactor",
             "materials": [
-                "gunpowder|2"
+                "gas_reactor|2"
             ]
         },
-        "buy": "",
+        "buy": "Rocket for missle launcher.",
         "sell": 119850,
         "desc": "",
-        "image": "https://cdn.discordapp.com/attachments/497302646521069570/732930781508403280/rocket.png",
-        "unboxImage": "https://cdn.discordapp.com/attachments/497302646521069570/732930781508403280/rocket.png",
-        "icon": "<:rocket_basic:750105298118901822>",
+        "image": "https://cdn.discordapp.com/attachments/793403041994244146/793589242957791243/rocket.png",
+        "unboxImage": "https://cdn.discordapp.com/attachments/793403041994244146/793589242957791243/rocket.png",
+        "icon": "<:rocket:793594994748293150>",
         "breaksOnUse": "",
         "canBeStolen": true,
         "cooldown": "",
@@ -357,7 +349,7 @@
         "aliases": [],
         "tier": 3
     },
-    "40mm_smoke_grenade": {
+    "smoke_grenade": {
         "rarity": "Legendary",
         "isWeap": false,
         "isItem": false,
@@ -367,29 +359,29 @@
         "ammo": "",
         "craftedWith": "",
         "recyclesTo": {
-            "display": "1x gunpowder",
+            "display": "1x gas_reactor",
             "materials": [
-                "gunpowder|1"
+                "gas_reactor|1"
             ]
         },
         "buy": "",
         "sell": 65262,
         "desc": "Releases smoke upon impact, blinding the enemy and preventing any use of commands for **2 hours**.",
-        "image": "https://cdn.discordapp.com/attachments/732785297363959902/736367317037875221/40mm_smoke_grenade.png",
-        "icon": "<:40mm_smoke_grenade:750105297242292295>",
+        "image": "https://cdn.discordapp.com/attachments/793403041994244146/793589248645136404/smoke_grenade.png",
+        "icon": "<:smoke_grenade:793594994677383189>",
         "breaksOnUse": "",
         "canBeStolen": true,
         "cooldown": "",
         "artist": "",
         "category": "Ammo",
         "aliases": [
-            "smoke_grenade",
-            "40mm_smoke",
+            "smoke-grenade",
+            "smokegrenade",
             "smoke"
         ],
         "tier": 3
     },
-    "40mm_he_grenade": {
+    "grenade": {
         "rarity": "Legendary",
         "isWeap": false,
         "isItem": false,
@@ -399,26 +391,22 @@
         "ammo": "",
         "craftedWith": "",
         "recyclesTo": {
-            "display": "2x gunpowder",
+            "display": "2x gas_reactor",
             "materials": [
-                "gunpowder|2"
+                "gas_reactor|2"
             ]
         },
         "buy": "",
         "sell": 95421,
         "desc": "High explosive ammunition for grenade launchers.",
-        "image": "https://cdn.discordapp.com/attachments/732785297363959902/736369883683487754/40mm_he_grenade.png",
-        "icon": "<:40mm_he_grenade:750105297187766273>",
+        "image": "https://cdn.discordapp.com/attachments/793403041994244146/793589206630662195/grenade.png",
+        "icon": "<:grenade:793594961651171379>",
         "breaksOnUse": "",
         "canBeStolen": true,
         "cooldown": "",
         "artist": "",
         "category": "Ammo",
         "aliases": [
-            "40mm",
-            "he",
-            "he_grenade",
-            "40mm_grenade",
             "explosive_grenade"
         ],
         "tier": 3

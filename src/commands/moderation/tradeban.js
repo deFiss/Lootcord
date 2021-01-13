@@ -45,7 +45,7 @@ module.exports = {
 					.setTitle(`You were banned from trading by ${`${message.author.username}#${message.author.discriminator}`}`)
 					.setDescription(`You have been banned from trading for breaking rules. If you wish to challenge this ban, you can appeal at our website.\`\`\`\n${RULES[rule].warn_message}\`\`\``)
 					.setColor(16734296)
-					.setFooter('https://www.merc-wars.online/rules | Only moderators can send you messages.')
+					.setFooter('https://www.mercs-war.online/ | Only moderators can send you messages.')
 
 				try {
 					await app.query('INSERT INTO tradebanned (userId, reason, date) VALUES (?, ?, ?)', [userID, RULES[rule].warn_message, new Date().getTime()])

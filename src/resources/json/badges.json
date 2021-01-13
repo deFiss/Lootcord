@@ -1,68 +1,68 @@
 {
-    "elitist": {
+    "all-time": {
         "icon": "🥇",
         "description": "Reach #1 on the global leaderboard in any category. For the level category, you must be #1 5 days after the level wipe.",
         "image": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/twitter/236/first-place-medal_1f947.png",
         "artist": ""
     },
     "specialist": {
-        "icon": "<:glock:551394726624886796>",
+        "icon": "<:rskf44_blaster:793552428112019516>",
         "description": "Obtain 20 or more kills.",
         "image": "https://i.ibb.co/h9J6CQg/20kill-icon5050.png",
-        "artist": "221087115893669889"
+        "artist": ""
     },
     "executioner": {
-        "icon": "<:awpT:551398648408178703>",
+        "icon": "<:amban_phase_blaster:793552348915826719>",
         "description": "Obtain 100 or more kills.",
         "image": "https://i.ibb.co/Xz6v9XB/100kills-icon.png",
-        "artist": "221087115893669889"
+        "artist": ""
     },
-    "loot_goblin": {
+    "merc_inceptive": {
         "icon": "🔰",
         "description": "Reach level 5.",
         "image": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/twitter/236/japanese-symbol-for-beginner_1f530.png",
         "artist": ""
     },
-    "loot_fiend": {
+    "merc_fiend": {
         "icon": "🔹",
         "description": "Reach level 10.",
         "image": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/twitter/236/small-blue-diamond_1f539.png",
         "artist": ""
     },
-    "loot_legend": {
-        "icon": "💠",
+    "merc_legend": {
+        "icon": "<:merc_legend:793670460587507752>",
         "description": "Reach level 20.",
-        "image": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/twitter/236/diamond-shape-with-a-dot-inside_1f4a0.png",
+        "image": "https://cdn.discordapp.com/emojis/793670460587507752.png",
         "artist": ""
     },
     "gambler": {
-        "icon": "💰",
+        "icon": ":game_die:",
         "description": "Win at least 2,000,000 Scrap in a single gamble.",
-        "image": "https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/twitter/236/money-bag_1f4b0.png",
+        "image": "https://cdn.discordapp.com/emojis/793684486897532968.png",
         "artist": ""
     },
     "arms_dealer": {
-        "icon": "🕵️",
+        "icon": "<:sunglassesatnight:790363776792526888>",
         "description": "Sell 10 items on the black market.",
-        "image": "https://cdn.discordapp.com/attachments/542248243313246208/716861466782728323/detective_1f575.png",
+        "image": "https://cdn.discordapp.com/emojis/790363776792526888.png",
         "artist": ""
     },
-    "og_looter": {
-        "icon": "<:og_lootcord:736435639179804788>",
-        "description": "Played Star Wars Mercenaries War before the Jan 1st.",
-        "image": "https://i.ibb.co/k5dv6fZ/hs-transp.png",
+    "primus_merc": {
+        "icon": "<:mando:793671689912320041>",
+        "description": "Played Star Wars Mercenaries War before the Feb 1st.",
+        "image": "https://cdn.discordapp.com/emojis/793671689912320041.png",
         "artist": ""
     },
-    "dev_slayer": {
-        "icon": "<:wickmode:744409719581573210>",
-        "description": "Kill dream#3333 (the developer of the bot), you can find him in the official Discord server! `t-discord`",
-        "image": "https://i.ibb.co/NWYk60R/boba.png",
+    "dream_killer": {
+        "icon": "<:dream_kill:793676947325452288>",
+        "description": "Kill Dream (who's that guy...), you can find him in the official Discord server! `t-discord`",
+        "image": "https://cdn.discordapp.com/emojis/793676947325452288.png",
         "artist": ""
     },
-    "loot_lord": {
-        "icon": "💎",
+    "merc_lord": {
+        "icon": "<:solo:793676033097990154>",
         "description": "An exclusive badge for Star Wars Mercenaries War patreon donators!",
-        "image": "https://cdn.discordapp.com/attachments/497302646521069570/754010748115615844/gem-stone_1f48e.png",
+        "image": "https://cdn.discordapp.com/emojis/793676033097990154.png",
         "artist": ""
     }
 }

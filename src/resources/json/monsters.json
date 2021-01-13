@@ -1,10 +1,10 @@
 {
-    "m92_scientist": {
+    "Trooper": {
         "title": "Trooper",
         "mentioned": "the **Trooper**",
         "artist": "",
-        "image": "https://i.ibb.co/P6WX8Mm/rep-blas-trooper.jpg",
-        "leftImage": "https://i.ibb.co/q9qvSG2/desert.jpg",
+        "image": "https://cdn.discordapp.com/attachments/793405217017561108/793407169508409365/Trooper.png",
+        "leftImage": "https://cdn.discordapp.com/attachments/793405217017561108/793407170615705614/trooper_left.png",
         "pronoun": "he",
         "special": "",
         "health": 100,
@@ -15,9 +15,9 @@
         "xp": 70,
         "weapon": {
             "name": "se-14_pistol",
-            "icon": "<:se_14:785374490993491998>"
+            "icon": "<:se14:793552429341474888>"
         },
-        "ammo": "pistol_bullet",
+        "ammo": "gas_cell",
         "extraDrops": 3,
         "loot": {
             "main": {
@@ -39,21 +39,21 @@
                 "70": {
                     "items": [
                         "cloth|1",
-                        "wood|1",
-                        "semi_body|1",
-                        "pickaxe|1"
+                        "titanium|1",
+                        "e-dc_body|1",
+                        "vibroknuckler|1"
                     ]
                 },
                 "25": {
                     "items": [
-                        "f1_grenade|1",
-                        "pistol_bullet|1"
+                        "hand_grenade|1",
+                        "gas_cell|1"
                     ]
                 },
                 "5": {
                     "items": [
-                        "rifle_bullet|1",
-                        "12g_slug|1"
+                        "energy_cell|1",
+                        "hv_slug_projectile|1"
                     ]
                 }
             }
@@ -62,12 +62,12 @@
             "seconds": 18000
         }
     },
-    "lr_scientist": {
-        "title": "Trooper",
-        "mentioned": "the **Trooper**",
+    "T21_Trooper": {
+        "title": "T21 Trooper",
+        "mentioned": "the ** T21 Trooper**",
         "artist": "",
-        "image": "https://i.ibb.co/ZxFt16c/t21-troop.jpg",
-        "leftImage": "https://i.ibb.co/q9qvSG2/desert.jpg",
+        "image": "https://media.discordapp.net/attachments/793405217017561108/795855764354629652/t-21_trooper.png",
+        "leftImage": "https://cdn.discordapp.com/attachments/793405217017561108/793407090411438150/t-21_st_left.png",
         "pronoun": "he",
         "special": "",
         "health": 100,
@@ -78,9 +78,9 @@
         "xp": 80,
         "weapon": {
             "name": "T-21_rifle",
-            "icon": "<:t21:785404981956182016>"
+            "icon": "<:t21_rifle:793552429639663631>"
         },
-        "ammo": "rifle_bullet",
+        "ammo": "energy_cell",
         "extraDrops": 3,
         "loot": {
             "main": {
@@ -107,21 +107,21 @@
                 "70": {
                     "items": [
                         "cloth|1",
-                        "wood|1",
-                        "semi_body|1",
-                        "pickaxe|1"
+                        "titanium|1",
+                        "e-dc_body|1",
+                        "vibroknuckler|1"
                     ]
                 },
                 "25": {
                     "items": [
-                        "f1_grenade|1",
-                        "12g_buckshot|1"
+                        "hand_grenade|1",
+                        "slug_projectile|1"
                     ]
                 },
                 "5": {
                     "items": [
-                        "rifle_bullet|1",
-                        "pistol_bullet|1"
+                        "energy_cell|1",
+                        "gas_cell|1"
                     ]
                 }
             }
@@ -130,12 +130,12 @@
             "seconds": 18000
         }
     },
-    "scientist": {
-        "title": "Scientist",
-        "mentioned": "the **Scientist**",
+    "e5_droid": {
+        "title": "E5_Droid",
+        "mentioned": "the **E5 Droid**",
         "artist": "",
-        "image": "https://i.ibb.co/mtSvrQf/dlt-19-trooper.jpg",
-        "leftImage": "https://i.ibb.co/q9qvSG2/desert.jpg",
+        "image": "https://cdn.discordapp.com/attachments/793405217017561108/793407081532882954/e5_droid.png",
+        "leftImage": "https://cdn.discordapp.com/attachments/793405217017561108/793407082065297408/e5_droid_left.png",
         "pronoun": "he",
         "special": "",
         "health": 100,
@@ -146,9 +146,9 @@
         "xp": 85,
         "weapon": {
             "name": "e-5_rifle",
-            "icon": "<:e5:785403752609611806>"
+            "icon": "<:e5_rifle:793552387532783637>"
         },
-        "ammo": "pistol_bullet",
+        "ammo": "gas_cell",
         "extraDrops": 3,
         "loot": {
             "main": {
@@ -175,21 +175,21 @@
                 "70": {
                     "items": [
                         "cloth|1",
-                        "wood|1",
-                        "semi_body|1",
-                        "pickaxe|1"
+                        "titanium|1",
+                        "e-dc_body|1",
+                        "vibroknuckler|1"
                     ]
                 },
                 "25": {
                     "items": [
-                        "f1_grenade|1",
-                        "12g_buckshot|1"
+                        "hand_grenade|1",
+                        "slug_projectile|1"
                     ]
                 },
                 "5": {
                     "items": [
-                        "rifle_bullet|1",
-                        "pistol_bullet|1"
+                        "energy_cell|1",
+                        "gas_cell|1"
                     ]
                 }
             }
@@ -198,12 +198,12 @@
             "seconds": 18000
         }
     },
-    "heavy_scientist": {
-        "title": "Heavy Droid",
-        "mentioned": "the **Heavy Droid**",
+    "dlt-19_stormtrooper": {
+        "title": "DLT-19 Stormtrooper",
+        "mentioned": "the **DLT-19 Stormtrooper**",
         "artist": "",
-        "image": "https://i.ibb.co/5nDPM3k/e5-droid.jpg",
-        "leftImage": "https://i.ibb.co/q9qvSG2/desert.jpg",
+        "image": "https://cdn.discordapp.com/attachments/793405217017561108/793407078324502558/dlt-19_st.png",
+        "leftImage": "https://cdn.discordapp.com/attachments/793405217017561108/793407078592413726/dlt-19_st_left.png",
         "pronoun": "he",
         "special": "",
         "health": 200,
@@ -214,15 +214,15 @@
         "xp": 70,
         "weapon": {
             "name": "dlt-19_rifle",
-            "icon": "<:dlt19:785409221096112138>"
+            "icon": "<:dlt19_rifle:793552350459199538>"
         },
-        "ammo": "rifle_bullet",
+        "ammo": "energy_cell",
         "extraDrops": 3,
         "loot": {
             "main": {
                 "15": {
                     "items": [
-                        "40mm_he_grenade|1"
+                        "grenade|1"
                     ]
                 },
                 "30": {
@@ -231,7 +231,7 @@
                         "ee-3_carabine|1",
                         "dp-23_shotgun|1",
                         "grenade_launcher|1",
-                        "40mm_smoke_grenade|1"
+                        "smoke_grenade|1"
                     ]
                 },
                 "55": {
@@ -245,17 +245,17 @@
                 "70": {
                     "items": [
                         "cloth|1",
-                        "semi_body|1",
-                        "12g_slug|1",
-                        "pickaxe|1"
+                        "e-dc_body|1",
+                        "hv_slug_projectile|1",
+                        "vibroknuckler|1"
                     ]
                 },
                 "25": {
                     "items": [
-                        "f1_grenade|1",
-                        "12g_buckshot|1",
-                        "rifle_bullet|1",
-                        "pistol_bullet|1",
+                        "hand_grenade|1",
+                        "slug_projectile|1",
+                        "energy_cell|1",
+                        "gas_cell|1",
                         "e-11_rifle|1"
                     ]
                 },
@@ -273,10 +273,10 @@
     },
     "patrol_helicopter": {
         "title": "Imperial transporter",
-        "mentioned": "the **Imperial transporter**",
+        "mentioned": "**Imperial transporter**",
         "artist": "",
-        "image": "https://i.imgur.com/O4LO3og.png",
-        "leftImage": "https://i.ibb.co/q9qvSG2/desert.jpg",
+        "image": "https://cdn.discordapp.com/attachments/793405217017561108/793407083374313492/imp_trans.png",
+        "leftImage": "https://cdn.discordapp.com/attachments/793405217017561108/793407084111855626/imp_trans_left.png",
         "pronoun": "it",
         "special": "Immune to melee weapons!",
         "health": 400,
@@ -287,16 +287,16 @@
         "xp": 230,
         "weapon": {
             "name": "dlt-19_rifle",
-            "icon": "<:dlt19:785409221096112138>"
+            "icon": "<:dlt19_rifle:793552350459199538>"
         },
-        "ammo": "rifle_bullet",
+        "ammo": "energy_cell",
         "extraDrops": 3,
         "loot": {
             "main": {
                 "40": {
                     "items": [
                         "dlt-19_rifle|1",
-                        "c4|1"
+                        "laser_mine|1"
                     ]
                 },
                 "60": {
@@ -310,22 +310,22 @@
                     "items": [
                         "ee-3_carabine|1",
                         "rskf-44_blaster|1",
-                        "rifle_bullet|1",
-                        "large_medkit|1",
+                        "energy_cell|1",
+                        "large_medpack|1",
                         "rocket_launcher|1",
                         "tech_trash|1",
-                        "medical_syringe|2"
+                        "bacta_patch|2"
                     ]
                 },
                 "15": {
                     "items": [
-                        "hv_rifle_bullet|1"
+                        "energy_double_cell|1"
                     ]
                 },
                 "10": {
                     "items": [
                         "rocket|1",
-                        "explosive_bullet|1"
+                        "he_energy_cell|1"
                     ]
                 }
             }
@@ -338,8 +338,8 @@
         "title": "AT-ST",
         "mentioned": "**AT-ST**",
         "artist": "",
-        "image": "https://i.ibb.co/hBv7QhR/at-st.jpg",
-        "leftImage": "https://i.ibb.co/q9qvSG2/desert.jpg",
+        "image": "https://cdn.discordapp.com/attachments/793405217017561108/793407075521921044/at-st.png",
+        "leftImage": "https://cdn.discordapp.com/attachments/793405217017561108/793407076646256640/at-st_left.png",
         "pronoun": "it",
         "special": "",
         "health": 600,
@@ -350,7 +350,7 @@
         "xp": 240,
         "weapon": {
             "name": "rocket_launcher",
-            "icon": "<:rocket_launcher:785402149814272000>"
+            "icon": "<:rocket_launcher:793552429517242368>"
         },
         "ammo": "rocket",
         "extraDrops": 3,
@@ -359,7 +359,7 @@
                 "55": {
                     "items": [
                         "dlt-19_rifle|1",
-                        "c4|1"
+                        "laser_mine|1"
                     ]
                 },
                 "45": {
@@ -371,11 +371,11 @@
             "extras": {
                 "50": {
                     "items": [
-                        "large_medkit|1",
-                        "hv_rifle_bullet|1",
+                        "large_medpack|1",
+                        "energy_double_cell|1",
                         "rskf-44_blaster|1",
                         "ee-3_carabine|1",
-                        "gunpowder|1"
+                        "gas_reactor|1"
                     ]
                 },
                 "35": {
@@ -388,7 +388,7 @@
                     "items": [
                         "supply_signal|1",
                         "rocket|1",
-                        "explosive_bullet|1"
+                        "he_energy_cell|1"
                     ]
                 }
             }

@@ -57,16 +57,16 @@ class Player {
 
         You can also use \`t-help <command>\` to see detailed command information and examples.
 
-        ⚠️ **ALT ACCOUNTS ARE NOT ALLOWED**, make sure to follow these [rules](https://www.merc-wars.online/rules)!
-        Check out the [faq](https://www.merc-wars.online/rules) and these [guides](https://www.merc-wars.online/guides) if you are confused!
+        ⚠️ **ALT ACCOUNTS ARE NOT ALLOWED**, make sure to follow these [rules](https://www.mercs-war.online/)!
+        Check out the [faq](https://www.mercs-war.online/faq/) and these [guides](https://www.mercs-war.online/clans/) if you are confused!
 
-        Join the [support server](https://discord.gg/W9kS9XGNCN) if you need more help!`)
-			.addField('Items Received', `1x ${this.app.itemdata.crate.icon}\`crate\`\nOpen it by __using__ it: \`t-use crate\`\n\nOnce you get a weapon, you can attack another player by __using__ a weapon on them: \`t-use rock @user\``)
+        Join the [support server](https://discord.gg/WKWCAt8yEd) if you need more help!`)
+			.addField('Items Received', `1x ${this.app.itemdata.crate.icon}\`crate\`\nOpen it by __using__ it: \`t-use crate\`\n\nOnce you get a weapon, you can attack another player by __using__ a weapon on them: \`t-use vibroblade @user\``)
 			.setFooter('This message will only be sent the first time your account is created.')
 		this.app.common.messageUser(id, newPlayer)
 
 		if (oldPlayers.includes(id)) {
-			await this.app.itm.addBadge(id, 'og_looter')
+			await this.app.itm.addBadge(id, 'primus_merc')
 		}
 	}
 
@@ -308,13 +308,13 @@ class Player {
 				}
 
 				if (row.level + 1 >= 5) {
-					await this.app.itm.addBadge(message.author.id, 'loot_goblin')
+					await this.app.itm.addBadge(message.author.id, 'merc_inceptive')
 				}
 				if (row.level + 1 >= 10) {
-					await this.app.itm.addBadge(message.author.id, 'loot_fiend')
+					await this.app.itm.addBadge(message.author.id, 'merc_fiend')
 				}
 				if (row.level + 1 >= 20) {
-					await this.app.itm.addBadge(message.author.id, 'loot_legend')
+					await this.app.itm.addBadge(message.author.id, 'merc_legend')
 				}
 
 				const guildRow = await this.app.common.getGuildInfo(message.channel.guild.id)

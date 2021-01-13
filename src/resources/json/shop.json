@@ -1,20 +1,20 @@
 {
-    "hv_rifle_bullet": {
-        "buyName": "hvscrap",
+    "energy_double_cell": {
+        "buyName": "doublecrap",
         "minPrice": 700000,
         "maxPrice": 1200000,
         "minStock": 1,
         "maxStock": 2
     },
-    "rifle_bullet": {
-        "buyName": "riflescrap",
+    "energy_cell": {
+        "buyName": "cellscrap",
         "minPrice": 200000,
         "maxPrice": 350000,
         "minStock": 1,
         "maxStock": 2
     },
-    "pistol_bullet": {
-        "buyName": "pistolscrap",
+    "gas_cell": {
+        "buyName": "gascellscrap",
         "minPrice": 125000,
         "maxPrice": 220000,
         "minStock": 1,
@@ -27,14 +27,14 @@
         "minStock": 1,
         "maxStock": 2
     },
-    "40mm_he_grenade": {
-        "buyName": "hescrap",
+    "grenade": {
+        "buyName": "grenscrap",
         "minPrice": 1000000,
         "maxPrice": 2000000,
         "minStock": 1,
         "maxStock": 1
     },
-    "40mm_smoke_grenade": {
+    "smoke_grenade": {
         "buyName": "smokescrap",
         "minPrice": 1000000,
         "maxPrice": 2000000,
@@ -48,8 +48,8 @@
         "minStock": 1,
         "maxStock": 1
     },
-    "gunpowder": {
-        "buyName": "gpscrap",
+    "gas_reactor": {
+        "buyName": "gasrscrap",
         "minPrice": 500000,
         "maxPrice": 1000000,
         "minStock": 1,
@@ -62,15 +62,15 @@
         "minStock": 1,
         "maxStock": 1
     },
-    "c4": {
-        "buyName": "c4scrap",
+    "laser_mine": {
+        "buyName": "lminescrap",
         "minPrice": 5000000,
         "maxPrice": 10000000,
         "minStock": 1,
         "maxStock": 1
     },
-    "bone_arrow": {
-        "buyName": "bonescrap",
+    "polymer_arrow": {
+        "buyName": "polyscrap",
         "minPrice": 80000,
         "maxPrice": 150000,
         "minStock": 1,
@@ -83,7 +83,7 @@
         "minStock": 1,
         "maxStock": 2
     },
-    "12g_slug": {
+    "hv_slug_projectile": {
         "buyName": "slugscrap",
         "minPrice": 450000,
         "maxPrice": 850000,
@@ -153,22 +153,22 @@
         "minStock": 2,
         "maxStock": 2
     },
-    "metal_spring": {
-        "buyName": "springscrap",
+    "metal_grip": {
+        "buyName": "gripscrap",
         "minPrice": 400000,
         "maxPrice": 600000,
         "minStock": 1,
         "maxStock": 1
     },
-    "semi_body": {
-        "buyName": "semiscrap",
+    "e-dc_body": {
+        "buyName": "edcscrap",
         "minPrice": 180000,
         "maxPrice": 300000,
         "minStock": 1,
         "maxStock": 2
     },
-    "smg_body": {
-        "buyName": "smgscrap",
+    "blaster_body": {
+        "buyName": "bbodyscrap",
         "minPrice": 300000,
         "maxPrice": 450000,
         "minStock": 1,
@@ -181,15 +181,15 @@
         "minStock": 1,
         "maxStock": 2
     },
-    "machete": {
-        "buyName": "machetescrap",
+    "polearm": {
+        "buyName": "polescrap",
         "minPrice": 50000,
         "maxPrice": 100000,
         "minStock": 2,
         "maxStock": 2
     },
-    "mace": {
-        "buyName": "macescrap",
+    "vibroblade": {
+        "buyName": "vbladescrap",
         "minPrice": 60000,
         "maxPrice": 100000,
         "minStock": 2,
@@ -202,15 +202,15 @@
         "minStock": 2,
         "maxStock": 3
     },
-    "medical_syringe": {
-        "buyName": "medscrap",
+    "bacta_patch": {
+        "buyName": "bactascrap",
         "minPrice": 130000,
         "maxPrice": 230000,
         "minStock": 2,
         "maxStock": 2
     },
-    "large_medkit": {
-        "buyName": "medkitscrap",
+    "large_medpack": {
+        "buyName": "medpackscrap",
         "minPrice": 350000,
         "maxPrice": 500000,
         "minStock": 1,

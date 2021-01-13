@@ -54,7 +54,7 @@ module.exports = {
 			return message.reply(`❌ **${user.nick || user.username}** is not level 3. The target player must be at least level 3.`)
 		}
 		else if (await app.cd.getCD(user.id, 'blinded')) {
-			return message.reply(`❌ **${user.nick || user.username}** is blinded by a ${app.itemdata['40mm_smoke_grenade'].icon}\`smoke_grenade\`!`)
+			return message.reply(`❌ **${user.nick || user.username}** is blinded by a ${app.itemdata['smoke_grenade'].icon}\`smoke_grenade\`!`)
 		}
 
 		const botMessage = await message.channel.createMessage(`<@${user.id}>, **${message.member.nick || message.member.username}** would like to trade with you!`)

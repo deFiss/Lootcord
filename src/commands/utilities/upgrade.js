@@ -18,7 +18,7 @@ module.exports = {
 		const upgrAmnt = upgrOptions.includes(upgrOpt) ? app.parse.numbers(args)[0] || 1 : 1
 
 		if (row.used_stats + upgrAmnt > 30) {
-			return message.reply(`❌ Upgrading that much would put you over the max (30 skills upgraded, you've upgraded \`${row.used_stats}\` times). You can use a \`reroll_scroll\` to reset your skills.`)
+			return message.reply(`❌ Upgrading that much would put you over the max (30 skills upgraded, you've upgraded \`${row.used_stats}\` times). You can use a \`reroll_chip\` to reset your skills.`)
 		}
 
 		let type = getType(upgrOpt)
@@ -38,7 +38,7 @@ module.exports = {
 						botMessage.edit('❌ Error: did your stats change while upgrading?')
 					}
 					else if (row.used_stats + upgrAmnt > 30) {
-						botMessage.edit('❌ Upgrading that much would put you over the max (30 skills upgraded). You can use a `reroll_scroll` to reset your skills.')
+						botMessage.edit('❌ Upgrading that much would put you over the max (30 skills upgraded). You can use a `reroll_chip` to reset your skills.')
 					}
 					else {
 						await app.query(`UPDATE scores SET used_stats = used_stats + ${upgrAmnt} WHERE userId = "${message.author.id}"`)
@@ -65,7 +65,7 @@ module.exports = {
 				.addField('💗 Health', `Increases max health by 5 (\`${row.maxHealth} HP\` →\`${row.maxHealth + 5} HP\`)`)
 				.addField('💥 Strength', `Increases damage by 3% (\`${row.scaledDamage.toFixed(2)}x\` → \`${(row.scaledDamage + 0.03).toFixed(2)}x\`)`)
 				.addField('🍀 Luck', `Increases luck by 2 (\`${row.luck}\` → \`${row.luck + 2}\`)`)
-				.setFooter('The cost to upgrade skills doubles after each purchase. You can reset skills with a reroll_scroll')
+				.setFooter('The cost to upgrade skills doubles after each purchase. You can reset skills with a reroll_chip')
 
 			const botMessage = await message.channel.createMessage(skillEmbed)
 

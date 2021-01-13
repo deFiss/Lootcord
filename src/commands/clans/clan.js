@@ -2,7 +2,7 @@ module.exports = {
 	name: 'clan',
 	aliases: ['clans'],
 	description: 'The base command for everything to do with Mercenaries clans!',
-	long: 'The base command for all clan commands. For a detailed look at all the clan commands and how clans work check out: https://http://www.merc-wars.online/guides/clans.',
+	long: 'The base command for all clan commands. For a detailed look at all the clan commands and how clans work check out: https://www.mercs-war.online/clans/',
 	args: {},
 	examples: ['clan info mod squad'],
 	ignoreHelp: true,

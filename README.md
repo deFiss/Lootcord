@@ -3,7 +3,7 @@
     <a href="https://discordapp.com/oauth2/authorize?&client_id=784863742827298848&scope=bot&permissions=387136"><img src="https://i.ibb.co/VN40QtP/small-icon.png"/></a>
   </p>
   <h1 align="center">
-    Lootcord
+    Star Wars Mercenaries War
   </h1>
   <p align="center">
     <a href="https://discordbots.org/bot/493316754689359874"><img src="https://discordbots.org/api/widget/lib/493316754689359874.svg"/></a>
@@ -14,12 +14,12 @@
 </div>
 
 ## About
-Website: https://www.merc-wars.online/<br>
+Website: http:/www.mercs-war.online/<br>
 Invite: https://discordapp.com/oauth2/authorize?&client_id=784863742827298848&scope=bot&permissions=387136<br>
-Discord Server: https://discord.gg/8KanHfaBfB<br>
+Discord Server: https://discord.gg/WKWCAt8yEd<br>
 
 ## Commands
-Commands can be found [here](https:/www.merc-wars.online/commands).
+Commands can be found [here](http:/www.mercs-war.online/commands/).
 
 ## Self-hosting when?
 

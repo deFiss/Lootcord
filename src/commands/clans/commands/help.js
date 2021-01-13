@@ -39,7 +39,7 @@ module.exports = {
 		const helpEmbed = new app.Embed()
 			.setTitle('Clan help')
 			.setColor(13451564)
-			.setDescription('Check out this page for specific help: [Clans Guide](https://www.merc-wars.online/guides/clans)\nTo use a clan command: `clan <command>`')
+			.setDescription('Check out this page for specific help: [Clans Guide](https://www.mercs-war.online/clans/)\nTo use a clan command: `clan <command>`')
 			.addField('Information', commands.join('\n'))
 			.setFooter('To see more about a clan command, use t-clan help <command>')
 

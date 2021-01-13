@@ -1,5 +1,5 @@
 {
-    "small_stash": {
+    "sling_bag": {
         "rarity": "Uncommon",
         "isWeap": false,
         "isItem": false,
@@ -21,22 +21,23 @@
         "buy": "",
         "sell": 12858,
         "desc": "Equip this storage box to gain **10** item slots!",
-        "image": "https://cdn.discordapp.com/attachments/497302646521069570/732929258648895529/small_stash.png",
+        "image": "https://cdn.discordapp.com/attachments/793403421419896852/793403717662539816/sling_bag.png",
         "equippable": true,
         "type": "backpack",
         "inv_slots": 10,
-        "icon": "<:small_stash:750835281938219102>",
+        "icon": "<:sling_bag:793589496980832276>",
         "breaksOnUse": "",
         "canBeStolen": false,
         "cooldown": "",
         "artist": "",
         "category": "Storage",
         "aliases": [
-            "stash"
+            "sling-bag",
+            "slingbag"
         ],
         "tier": 1
     },
-    "wood_box": {
+    "trooper_bag": {
         "rarity": "Epic",
         "isWeap": false,
         "isItem": false,
@@ -47,9 +48,9 @@
         "craftedWith": {
             "level": 6,
             "materials": [
-                "small_stash|1",
+                "sling_bag|1",
                 "cloth|4",
-                "wood|1"
+                "titanium|1"
             ]
         },
         "recyclesTo": {
@@ -60,24 +61,24 @@
         "buy": "",
         "sell": 31857,
         "desc": "Equip this storage box to gain **20** item slots!",
-        "image": "https://cdn.discordapp.com/attachments/497302646521069570/732930341978898472/wood_box.png",
-        "unboxImage": "https://cdn.discordapp.com/attachments/497302646521069570/732930341978898472/wood_box.png",
+        "image": "https://cdn.discordapp.com/attachments/793403421419896852/793403718850707456/trooper_bag.png",
+        "unboxImage": "https://cdn.discordapp.com/attachments/793403421419896852/793403718850707456/trooper_bag.png",
         "equippable": true,
         "type": "backpack",
         "inv_slots": 20,
-        "icon": "<:wood_box:750835298254061730>",
+        "icon": "<:trooper_bag:793589497206931496>",
         "breaksOnUse": "",
         "canBeStolen": false,
         "cooldown": "",
         "artist": "",
         "category": "Storage",
         "aliases": [
-            "box",
-            "container"
+            "trooper-bag",
+            "trooperbag"
         ],
         "tier": 2
     },
-    "large_wood_box": {
+    "large_backpack": {
         "rarity": "Legendary",
         "isWeap": false,
         "isItem": false,
@@ -88,34 +89,35 @@
         "craftedWith": {
             "level": 9,
             "materials": [
-                "wood_box|1",
+                "trooper_bag|1",
                 "cloth|5",
-                "wood|3",
+                "titanium|3",
                 "metal|3"
             ]
         },
         "recyclesTo": {
             "materials": [
                 "cloth|2",
-                "wood|1"
+                "titanium|1"
             ]
         },
         "buy": "",
         "sell": 77599,
         "desc": "Equip this storage box to gain **40** item slots!",
-        "image": "https://cdn.discordapp.com/attachments/732785161661317224/732871989156380772/large_wood_box.png",
-        "unboxImage": "https://cdn.discordapp.com/attachments/732785161661317224/732871989156380772/large_wood_box.png",
+        "image": "https://cdn.discordapp.com/attachments/793403421419896852/793403717503287306/large_backpack.png",
+        "unboxImage": "https://cdn.discordapp.com/attachments/793403421419896852/793403717503287306/large_backpack.png",
         "equippable": true,
         "type": "backpack",
         "inv_slots": 40,
-        "icon": "<:large_wood_box:750835317636071514>",
+        "icon": "<:large_backpack:793589497048596520>",
         "breaksOnUse": "",
         "canBeStolen": false,
         "cooldown": "",
         "artist": "",
         "category": "Storage",
         "aliases": [
-            "large_box"
+            "large-backpack",
+            "largebackpack"
         ],
         "tier": 3
     },
@@ -129,10 +131,7 @@
         "ammo": "",
         "craftedWith": "",
         "recyclesTo": {
-            "materials": [
-                "wood|1",
-                "bone_fragments|1"
-            ]
+            "materials": []
         },
         "buy": "",
         "sell": 40742,
@@ -180,7 +179,7 @@
         "aliases": [],
         "tier": 0
     },
-    "neros_crate": {
+    "dreams_backpack": {
         "rarity": "Limited",
         "isWeap": false,
         "isItem": false,
@@ -194,13 +193,13 @@
         },
         "buy": "",
         "sell": "",
-        "desc": "Equip this storage container to gain **45** item slots!",
-        "image": "",
+        "desc": "Equip this storage container to gain **50** item slots!",
+        "image": "https://cdn.discordapp.com/attachments/793403421419896852/793403716702568458/dreams_backpack.png",
         "unboxImage": "",
         "equippable": true,
         "type": "backpack",
-        "inv_slots": 45,
-        "icon": "<:neros_crate:738935263471861891>",
+        "inv_slots": 50,
+        "icon": "<:dreams_backpack:793589495756226600>",
         "breaksOnUse": "",
         "canBeStolen": false,
         "cooldown": "",

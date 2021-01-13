@@ -25,7 +25,7 @@ module.exports = {
 				itemAmounts = app.itm.combineItems(getItemList(sellItems, sellAmounts))
 			}
 			catch (err) {
-				return message.reply(`❌ You need to specify amounts when scrapping multiple items! For example: \`${prefix}scrap rock 1 rpg 3 item_box 2\``)
+				return message.reply(`❌ You need to specify amounts when scrapping multiple items! For example: \`${prefix}scrap vibroblade 1 rpg 3 item_box 2\``)
 			}
 
 			for (let i = 0; i < itemAmounts.length; i++) {

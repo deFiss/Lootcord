@@ -15,7 +15,7 @@ class Items {
 				return
 			}
 			for (let i = 0; i < item.length; i++) {
-				// store amounts in array as ["rock|5","ee-3|2"] then use split("|")
+				// store amounts in array as ["vibroblade|5","ee-3|2"] then use split("|")
 				const itemToCheck = item[i].split('|')
 				// Store id and item in array to bulk insert x times # of items.
 				const insertValues = Array(parseInt(itemToCheck[1])).fill([id, itemToCheck[0]])
@@ -32,7 +32,7 @@ class Items {
 	/**
      *
      * @param {*} id ID of user to remove item from.
-     * @param {*} item   Item to remove, can be an array ex.(["rock|2","item_box|3"])
+     * @param {*} item   Item to remove, can be an array ex.(["vibroblade|2","item_box|3"])
      * @param {*} amount Amount of item to remove.
      */
 	async removeItem(id, item, amount) {
@@ -41,7 +41,7 @@ class Items {
 				return
 			}
 			for (let i = 0; i < item.length; i++) {
-				// store amounts in array as ["rock|5","ee-3|2"] then use split("|")
+				// store amounts in array as ["vibroblade|5","ee-3|2"] then use split("|")
 				const itemToCheck = item[i].split('|')
 
 				await this.app.query(`DELETE FROM user_items WHERE userId = ${id} AND item = '${itemToCheck[0]}' LIMIT ${parseInt(itemToCheck[1])}`)
@@ -250,7 +250,7 @@ class Items {
 		let totalItemCt = 0
 		for (let i = 0; i < list.length; i++) {
 			// do stuff for each item
-			// store amounts in array as ["rock|5","ee-3|2"] then use split("|")
+			// store amounts in array as ["vibroblade|5","ee-3|2"] then use split("|")
 			const itemToCheck = list[i].split('|')
 			totalItemCt += parseInt(itemToCheck[1])
 		}

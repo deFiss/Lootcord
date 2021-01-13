@@ -54,7 +54,7 @@ module.exports = {
 					.setTitle(`You have been temporarily banned by ${`${message.author.username}#${message.author.discriminator}`}`)
 					.setDescription(`You have been banned for \`${app.cd.convertTime(banLength)}\`. If you wish to challenge this ban, you can appeal at our website.\`\`\`\n${RULES[rule].warn_message}\`\`\``)
 					.setColor(16734296)
-					.setFooter('https://www.merc-wars.online/rules | Only moderators can send you messages.')
+					.setFooter('https://www.mercs-war.online/ | Only moderators can send you messages.')
 
 				try {
 					await app.cd.setCD(userID, 'banned', banLength)

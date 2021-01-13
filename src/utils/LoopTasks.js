@@ -1,11 +1,11 @@
 const CronJob = require('cron').CronJob
 const shopData = require('../resources/json/shop')
 const STATUS_LIST = [
-	'Looting {users} players',
+	'In game {users} players',
 	'{users} Mercenaries',
 	'{guilds} servers!',
 	'Join the discord!',
-	'http://www.merc-wars.online/ 👀'
+	'https://www.mercs-war.online/'
 ]
 
 class LoopTasks {

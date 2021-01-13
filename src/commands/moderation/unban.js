@@ -39,8 +39,7 @@ module.exports = {
 				const banMsg = new app.Embed()
 					.setTitle(`😃 You have been unbanned by ${`${message.author.username}#${message.author.discriminator}`}`)
 					.setColor(720640)
-					.setFooter('https://www.merc-wars.online/rules | Only moderators can send you messages.')
-
+					.setFooter('https://www.mercs-war.online/ | Only moderators can send you messages.')
 				try {
 					await app.query(`DELETE FROM banned WHERE userId ="${userID}"`)
 					await app.cd.clearCD(userID, 'banned')

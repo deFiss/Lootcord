@@ -45,11 +45,11 @@ class CommandHandler {
 
 		const blindedCD = await this.app.cd.getCD(message.author.id, 'blinded')
 
-		// check if user is under effects of 40mm_smoke_grenade
+		// check if user is under effects of smoke_grenade
 		if (blindedCD && command.category !== 'admin' && command.category !== 'moderation') {
 			const smokedEmbed = new this.app.Embed()
 				.setAuthor(`${message.author.username}#${message.author.discriminator}`, message.author.avatarURL)
-				.setDescription(`❌ You are blinded by a ${this.app.itemdata['40mm_smoke_grenade'].icon}\`40mm_smoke_grenade\`!`)
+				.setDescription(`❌ You are blinded by a ${this.app.itemdata['smoke_grenade'].icon}\`smoke_grenade\`!`)
 				.setColor(16734296)
 				.setFooter(`The smoke will clear in ${blindedCD}.`)
 
@@ -80,10 +80,10 @@ class CommandHandler {
 
 		// check if command is patrons only
 		else if (command.patronTier1Only && !await this.app.patreonHandler.isPatron(message.author.id) && !this.app.sets.adminUsers.has(message.author.id)) {
-			return message.channel.createMessage(`❌ \`${command.name}\` is exclusive for patreon donators. Support Star Wars Mercenaries War on patreon to get access: https://www.patreon.com/`)
+			return message.channel.createMessage(`❌ \`${command.name}\` is exclusive for patreon donators. Support Star Wars Mercenaries War on patreon to get access: https://www.patreon.com/sw_rpg/`)
 		}
 		else if (command.patronTier2Only && !await this.app.patreonHandler.isPatron(message.author.id, 2) && !this.app.sets.adminUsers.has(message.author.id)) {
-			return message.channel.createMessage(`❌ \`${command.name}\` is exclusive for **Loot Hoarder**+ patreon donators. Support Star Wars Mercenaries War on patreon to get access: https://www.patreon.com/`)
+			return message.channel.createMessage(`❌ \`${command.name}\` is exclusive for **Mercenary master**+ patreon donators. Support Star Wars Mercenaries War on patreon to get access: https://www.patreon.com/sw_rpg/`)
 		}
 
 		// check if user has manage server permission before running guildModsOnly command

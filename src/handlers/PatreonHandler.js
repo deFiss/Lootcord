@@ -46,7 +46,7 @@ class PatreonHandler {
 		const patreonLogEmbed = new this.app.Embed()
 			.setTitle('New Patron!')
 			.addField('User', `\`\`\`fix\n${userId}\`\`\``, true)
-			.addField('Tier', '```\nTier 1 (Loot Fiend)```', true)
+			.addField('Tier', '```\nTier 1 (Mercenary Tier 1)```', true)
 			.setThumbnail('https://cdn.discordapp.com/attachments/497302646521069570/708499928586125372/1200px-Patreon_logomark.png')
 			.setColor('#f96854')
 
@@ -77,7 +77,7 @@ class PatreonHandler {
 		const patreonLogEmbed = new this.app.Embed()
 			.setTitle('New Patron!')
 			.addField('User', `\`\`\`fix\n${userId}\`\`\``, true)
-			.addField('Tier', '```\nTier 2 (Loot Hoarder)```', true)
+			.addField('Tier', '```\nTier 2 (Mercenary Tier 2)```', true)
 			.setThumbnail('https://cdn.discordapp.com/attachments/497302646521069570/708499928586125372/1200px-Patreon_logomark.png')
 			.setColor('#f96854')
 
@@ -108,7 +108,7 @@ class PatreonHandler {
 		const patreonLogEmbed = new this.app.Embed()
 			.setTitle('New Patron!')
 			.addField('User', `\`\`\`fix\n${userId}\`\`\``, true)
-			.addField('Tier', '```\nTier 3 (Loot Lord)```', true)
+			.addField('Tier', '```\nTier 3 (Mercenary Tier 3)```', true)
 			.setThumbnail('https://cdn.discordapp.com/attachments/497302646521069570/708499928586125372/1200px-Patreon_logomark.png')
 			.setColor('#f96854')
 
@@ -122,7 +122,7 @@ class PatreonHandler {
 			await this.app.query('INSERT INTO patrons (userId, tier, started) VALUES (?, ?, ?)', [userId, 3, Date.now()])
 			await this.app.cache.setNoExpire(`patron3|${userId}`, 'Patron Monthly Tier 3')
 			await this.addPatronItems(userId)
-			await this.app.itm.addBadge(userId, 'loot_lord')
+			await this.app.itm.addBadge(userId, 'merc_lord')
 
 			await this.app.common.messageUser(userId, patronEmbed, { throwErr: true })
 
@@ -140,7 +140,7 @@ class PatreonHandler {
 		const patreonLogEmbed = new this.app.Embed()
 			.setTitle('New Patron!')
 			.addField('User', `\`\`\`fix\n${userId}\`\`\``, true)
-			.addField('Tier', '```\nTier 4 (Ultra Looter)```', true)
+			.addField('Tier', '```\nTier 4 (Top Tier 4)```', true)
 			.setThumbnail('https://cdn.discordapp.com/attachments/497302646521069570/708499928586125372/1200px-Patreon_logomark.png')
 			.setColor('#f96854')
 
@@ -208,7 +208,7 @@ class PatreonHandler {
 			await this.app.query('DELETE FROM patrons WHERE userId = ? AND tier = ?', [userId, 3])
 			await this.app.cd.clearCD(userId, 'patron3')
 			await this.removePatronItems(userId)
-			await this.app.itm.removeBadge(userId, 'loot_lord')
+			await this.app.itm.removeBadge(userId, 'merc_lord')
 
 			const patreonLogEmbed = new this.app.Embed()
 				.setTitle('Perks Ended')

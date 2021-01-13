@@ -100,10 +100,10 @@ class Leaderboard {
 			}
 		}
 
-		await this.app.itm.addBadge(moneyRows[0].userId, 'elitist')
-		await this.app.itm.addBadge(scrapRows[0].userId, 'elitist')
-		await this.app.itm.addBadge(killRows[0].userId, 'elitist')
-		if (new Date().getDate() > 5) await this.app.itm.addBadge(levelRows[0].userId, 'elitist')
+		await this.app.itm.addBadge(moneyRows[0].userId, 'all-time')
+		await this.app.itm.addBadge(scrapRows[0].userId, 'all-time')
+		await this.app.itm.addBadge(killRows[0].userId, 'all-time')
+		if (new Date().getDate() > 5) await this.app.itm.addBadge(levelRows[0].userId, 'all-time')
 		clanLeaders[0] = clanLeaders.length ? clanLeaders[0] : 'No clans'
 
 		return {

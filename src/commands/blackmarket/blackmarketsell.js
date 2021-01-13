@@ -39,7 +39,7 @@ module.exports = {
 				return message.reply('That item cannot be sold on the market!')
 			}
 			else if (itemAmnt >= 2147483647) {
-				return message.reply('Please enter a lower value.')
+				return message.reply('What are you? A Hutt ? Please enter a lower value.')
 			}
 			else if (!await app.itm.hasItems(userItems, itemName, itemAmnt)) {
 				return message.reply('You don\'t have enough of that item.')
@@ -137,7 +137,7 @@ module.exports = {
 
 					if (newAmnt && !amount) {
 						if (newAmnt >= 2147483647) {
-							return m.channel.createMessage('Please enter a lower value.')
+							return m.channel.createMessage('What are you? A Hutt ? Please enter a lower value.')
 						}
 						else if (!await app.itm.hasItems(await app.itm.getItemObject(message.author.id), item, newAmnt)) {
 							return m.channel.createMessage('You don\'t have enough of that item.')
@@ -157,7 +157,7 @@ module.exports = {
 
 					if (newCost && !price) {
 						if (newCost >= 2147483647) {
-							return m.channel.createMessage('Please enter a lower value.')
+							return m.channel.createMessage('What are you? A Hutt ? Please enter a lower value.')
 						}
 						else if (newCost < 100) {
 							return m.channel.createMessage(`Please enter a higher price! Minimum **${app.common.formatNumber(100)}** Credits`)

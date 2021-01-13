@@ -1,5 +1,5 @@
 {
-    "wood": {
+    "titanium": {
         "rarity": "Common",
         "isWeap": false,
         "isItem": false,
@@ -15,8 +15,8 @@
         "buy": "",
         "sell": 169,
         "desc": "",
-        "image": "https://cdn.discordapp.com/attachments/497302646521069570/732928720301457488/wood.png",
-        "icon": "<:wood:732851777078034474>",
+        "image": "https://cdn.discordapp.com/attachments/793403027494928414/793409541445648414/titanium.png",
+        "icon": "<:titanium:793593229098221568>",
         "breaksOnUse": "",
         "canBeStolen": true,
         "cooldown": "",
@@ -41,8 +41,8 @@
         "buy": "",
         "sell": 8976,
         "desc": "",
-        "image": "https://cdn.discordapp.com/attachments/497302646521069570/732928581264605286/cloth.png",
-        "icon": "<:cloth:732853261110870058>",
+        "image": "https://cdn.discordapp.com/attachments/793403027494928414/793409523905069107/cloth.png",
+        "icon": "<:cloth:793593229936295966>",
         "breaksOnUse": "",
         "canBeStolen": true,
         "cooldown": "",
@@ -51,7 +51,7 @@
         "aliases": [],
         "tier": 0
     },
-    "semi_body": {
+    "e-dc_body": {
         "rarity": "Uncommon",
         "isWeap": false,
         "isItem": false,
@@ -69,18 +69,21 @@
         },
         "buy": "",
         "sell": 4701,
-        "desc": "Parts used to craft semi-auto pistols and rifles.",
-        "image": "https://cdn.discordapp.com/attachments/497302646521069570/732929662354980925/semi_body.png",
-        "icon": "<:semi_body:732853533325525074>",
+        "desc": "Parts used to craft blaster pistols and rifles.",
+        "image": "https://cdn.discordapp.com/attachments/793403027494928414/794006141902389338/e-dc_rifle_body.png",
+        "icon": "<:edc_riflebody:794006397112418322>",
         "breaksOnUse": "",
         "canBeStolen": true,
         "cooldown": "",
         "artist": "",
         "category": "Material",
-        "aliases": [],
+        "aliases": [
+            "edc-body",
+            "e-dc-body"
+        ],
         "tier": 0
     },
-    "bone_fragments": {
+    "poly_fragments": {
         "rarity": "Uncommon",
         "isWeap": false,
         "isItem": false,
@@ -96,16 +99,18 @@
         "buy": "",
         "sell": 525,
         "desc": "",
-        "image": "https://cdn.discordapp.com/attachments/732785297363959902/736661917283778570/bone_fragments.png",
-        "icon": "<:bone_fragments:736661799956381716>",
+        "image": "https://cdn.discordapp.com/attachments/793403027494928414/793409538983329822/poly_fragments.png",
+        "icon": "<:polymer_fragments:793593229290373210>",
         "breaksOnUse": "",
         "canBeStolen": true,
         "cooldown": "",
         "artist": "",
         "category": "Material",
         "aliases": [
-            "bones",
-            "bone_frags"
+            "plymer",
+            "poly-fragments",
+            "poly-frag",
+            "plymer_frags"
         ],
         "tier": 0
     },
@@ -125,8 +130,8 @@
         "buy": "",
         "sell": 4409,
         "desc": "",
-        "image": "https://cdn.discordapp.com/attachments/497302646521069570/732929785310740521/metal.png",
-        "icon": "<:metal_fragments:732853274465796157>",
+        "image": "https://cdn.discordapp.com/attachments/793403027494928414/793409530859356180/metal.png",
+        "icon": "<:metal:793593228145197077>",
         "breaksOnUse": "",
         "canBeStolen": true,
         "cooldown": "",
@@ -140,7 +145,7 @@
         ],
         "tier": 0
     },
-    "smg_body": {
+    "blaster_body": {
         "rarity": "Rare",
         "isWeap": false,
         "isItem": false,
@@ -158,15 +163,17 @@
         },
         "buy": "",
         "sell": 17189,
-        "desc": "Parts used to craft smaller automatic weapons.",
-        "image": "https://cdn.discordapp.com/attachments/497302646521069570/732930115603922965/smg_body.png",
-        "icon": "<:smg_body:732853543752695809>",
+        "desc": "Parts used to craft blaster weapons.",
+        "image": "https://cdn.discordapp.com/attachments/793403027494928414/793409520691970067/blaster_body.png",
+        "icon": "<:blaster_body:793593228720734231>",
         "breaksOnUse": "",
         "canBeStolen": true,
         "cooldown": "",
         "artist": "",
         "category": "Material",
-        "aliases": [],
+        "aliases": [
+            "blaster-body"
+        ],
         "tier": 0
     },
     "rifle_body": {
@@ -188,15 +195,15 @@
         "buy": "",
         "sell": 37499,
         "desc": "Parts used to craft high damage rifles.",
-        "image": "https://cdn.discordapp.com/attachments/732785161661317224/733244384061030470/rifle_body.png",
-        "icon": "<:rifle_body:732853600610549841>",
+        "image": "https://cdn.discordapp.com/attachments/793403027494928414/793904106481516595/rifle_body.png",
+        "icon": "<:rifle_body:793593229114212392>",
         "breaksOnUse": "",
         "canBeStolen": true,
         "cooldown": "",
         "artist": "",
         "category": "Material",
         "aliases": [
-            "body"
+            "rifle-body"
         ],
         "tier": 0
     },
@@ -216,9 +223,9 @@
         "buy": "",
         "sell": 11447,
         "desc": "",
-        "image": "https://cdn.discordapp.com/attachments/497302646521069570/732930339156131979/tech_trash.png",
-        "unboxImage": "https://cdn.discordapp.com/attachments/497302646521069570/732930339156131979/tech_trash.png",
-        "icon": "<:tech_trash:732853324377751635>",
+        "image": "https://cdn.discordapp.com/attachments/793403027494928414/793409015195238410/tech_trash.png",
+        "unboxImage": "https://cdn.discordapp.com/attachments/793403027494928414/793409015195238410/tech_trash.png",
+        "icon": "<:tech_trash:793593229294698566>",
         "breaksOnUse": "",
         "canBeStolen": true,
         "cooldown": "",
@@ -226,11 +233,12 @@
         "category": "Material",
         "aliases": [
             "tech",
+            "tech-trash",
             "trash"
         ],
         "tier": 0
     },
-    "metal_pipe": {
+    "metal_barrel": {
         "rarity": "Epic",
         "isWeap": false,
         "isItem": false,
@@ -246,20 +254,22 @@
         "buy": "",
         "sell": 5447,
         "desc": "",
-        "image": "https://cdn.discordapp.com/attachments/732785161661317224/732952040933949481/metal_pipe.png",
-        "unboxImage": "https://cdn.discordapp.com/attachments/732785161661317224/732952040933949481/metal_pipe.png",
-        "icon": "<:metal_pipe:732853612711247923>",
+        "image": "https://cdn.discordapp.com/attachments/793403027494928414/793409533447897088/metal_barrel.png",
+        "unboxImage": "https://cdn.discordapp.com/attachments/793403027494928414/793409533447897088/metal_barrel.png",
+        "icon": "<:metal_barrel:793593229026656257>",
         "breaksOnUse": "",
         "canBeStolen": true,
         "cooldown": "",
         "artist": "",
         "category": "Material",
         "aliases": [
-            "pipe"
+            "barrel",
+            "metal-barrel",
+            "metalbarrel"
         ],
         "tier": 0
     },
-    "metal_spring": {
+    "metal_grip": {
         "rarity": "Epic",
         "isWeap": false,
         "isItem": false,
@@ -275,20 +285,21 @@
         "buy": "",
         "sell": 20726,
         "desc": "",
-        "image": "https://cdn.discordapp.com/attachments/732785161661317224/732952060219097158/metal_spring.png",
-        "unboxImage": "https://cdn.discordapp.com/attachments/732785161661317224/732952060219097158/metal_spring.png",
-        "icon": "<:metal_spring:732853622873784360>",
+        "image": "https://cdn.discordapp.com/attachments/793403027494928414/793409537041367060/metal_grip.png",
+        "unboxImage": "https://cdn.discordapp.com/attachments/793403027494928414/793409537041367060/metal_grip.png",
+        "icon": "<:metal_grip:793593229631029269>",
         "breaksOnUse": "",
         "canBeStolen": true,
         "cooldown": "",
         "artist": "",
         "category": "Material",
         "aliases": [
-            "spring"
+            "grip",
+            "metal-grip"
         ],
         "tier": 0
     },
-    "gunpowder": {
+    "gas_reactor": {
         "rarity": "Epic",
         "isWeap": false,
         "isItem": false,
@@ -304,18 +315,18 @@
         "buy": "",
         "sell": 36627,
         "desc": "Makes things go boom. Useful for crafting ammunition.",
-        "image": "https://cdn.discordapp.com/attachments/497302646521069570/732930625966702622/gunpowder.png",
-        "unboxImage": "https://cdn.discordapp.com/attachments/497302646521069570/732930625966702622/gunpowder.png",
-        "icon": "<:gunpowder:732863772602925056>",
+        "image": "https://cdn.discordapp.com/attachments/793403027494928414/793409528397430784/gas_reactor.png",
+        "unboxImage": "https://cdn.discordapp.com/attachments/793403027494928414/793409528397430784/gas_reactor.png",
+        "icon": "<:gas_reactor:793593228791513089>",
         "breaksOnUse": "",
         "canBeStolen": true,
         "cooldown": "",
         "artist": "",
         "category": "Material",
         "aliases": [
-            "gp",
-            "boom",
-            "powder"
+            "greactor",
+            "gas-reactor",
+            "gasreactor"
         ],
         "tier": 0
     },
@@ -330,10 +341,8 @@
         "ammo": "",
         "craftedWith": "",
         "recyclesTo": {
-            "display": "1x bone_fragments",
-            "materials": [
-                "bone_fragments|1"
-            ]
+            "display": "1x poly_fragments",
+            "materials": []
         },
         "buy": "",
         "sell": 604,

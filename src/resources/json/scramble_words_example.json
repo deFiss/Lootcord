@@ -1,14 +1,140 @@
 [
     {
-        "word": "Crack",
+        "word": "Jedi",
         "difficulty": "easy",
-        "hint": "Rhymes with `back`, `black`, `track`.",
-        "define": "a blemish resulting from a break without complete separation of the parts"
+        "hint": "Rhymes with `hairdye`, `july`, `hentai`.",
+        "define": "Force Sensitive"
     },
     {
-        "word": "House",
+        "word": "Sith",
         "difficulty": "easy",
-        "hint": "Rhymes with `mouse`, `espouse`, `louse`.",
-        "define": "a building for human habitation, especially one that is lived in by a family or small group of people"
+        "hint": "Rhymes with `with`, `fifth`, `width`.",
+        "define": "Force Sensitive"
+    },
+    {
+        "word": "Leia",
+        "difficulty": "easy",
+        "hint": "Rhymes with `rayah`, `andreae`, `aurea`.",
+        "define": "A princess"
+    },
+    {
+        "word": "Mando",
+        "difficulty": "easy",
+        "hint": "Rhymes with `grando`, `orlando`, `fricando`.",
+        "define": "a human male who worked as a bounty hunter during the New Republic Era"
+    },
+    {
+        "word": "R2D2",
+        "difficulty": "easy",
+        "hint": "Rhymes with `arthur`, `though`, `although`.",
+        "define": "series astromech droid manufactured by Industrial Automaton"
+    },
+    {
+        "word": "Yoda",
+        "difficulty": "easy",
+        "hint": "Rhymes with `soda`, `rhoda`, `toyota`.",
+        "define": "legendary Jedi Master and stronger than most in his connection with the Force"
+    },
+    {
+        "word": "C3PO",
+        "difficulty": "easy",
+        "hint": "Rhymes with `city`, `pity`, `seniti`.",
+        "define": "a droid programmed for etiquette and protocol, built by the heroic Jedi"
+    },
+    {
+        "word": "Solo",
+        "difficulty": "easy",
+        "hint": "Rhymes with `whoa`, `frodo`, `luo`.",
+        "define": "Smuggler. Scoundrel. Hero"
+    },
+    {
+        "word": "Vader",
+        "difficulty": "easy",
+        "hint": "Rhymes with `ader`, `trader`, `evader`.",
+        "define": "prophesied Chosen One who would bring balance to the Force"
+    },
+    {
+        "word": "Lightsaber",
+        "difficulty": "hard",
+        "hint": "Rhymes with `skyscraper`, `vibrator`, `flypaper`.",
+        "define": "Meele weapon"
+    },
+    {
+        "word": "Chewbacca",
+        "difficulty": "hard",
+        "hint": "Rhymes with `tobackup`, `tobaco`, `twopack`.",
+        "define": "Han Solo's co-pilot"
+    },
+    {
+        "word": "DeathStar",
+        "difficulty": "hard",
+        "hint": "Rhymes with `dressedup`, `rest`, `letsstart`.",
+        "define": "a moon-sized space station with the ability to destroy an entire planet"
+    },
+    {
+        "word": "Tatooine",
+        "difficulty": "hard",
+        "hint": "Rhymes with `afternoon`, `spoon`, `raccoon`.",
+        "define": "A harsh desert world orbiting twin suns in the galaxy’s Outer Rim"
+    },
+    {
+        "word": "StormTrooper",
+        "difficulty": "hard",
+        "hint": "Rhymes with `born-loser`, `Fort-Rupert`, `default-router`.",
+        "define": "He serve as the army of the Galactic Empire"
+    },
+    {
+        "word": "Coruscant",
+        "difficulty": "hard",
+        "hint": "Rhymes with `transplant`, `grant`, `implant`.",
+        "define": "vibrant heart and capital of the galaxy"
+    },
+    {
+        "word": "Palpatine",
+        "difficulty": "hard",
+        "hint": "Rhymes with `past-eighteen`, `eighteen`, `calpain`.",
+        "define": "Scheming, powerful, and evil to the core."
+    },
+    {
+        "word": "Resistance",
+        "difficulty": "hard",
+        "hint": "Rhymes with `coexistence`, `radioresistance`, `self-subsistence`.",
+        "define": "a private military force that opposed the First Order and defended the New Republic"
+    },
+    {
+        "word": "Hyperdrive",
+        "difficulty": "hard",
+        "hint": "Rhymes with `hundredwife`, `twenty-five`, `otherwise`.",
+        "define": "allow starships to travel faster than the speed of light"
+    },
+    {
+        "word": "Separatist",
+        "difficulty": "hard",
+        "hint": "Rhymes with `generalist`, `Americanist`, `corporatist`.",
+        "define": "The Confederacy of Independent Systems"
+    },
+    {
+        "word": "Republic",
+        "difficulty": "hard",
+        "hint": "Rhymes with `publish`, `trouble`, `dublin`.",
+        "define": "an interstellar state"
+    },
+    {
+        "word": "Imperial",
+        "difficulty": "hard",
+        "hint": "Rhymes with `cereal`, `bacterial`, `nonmaterial`.",
+        "define": "military arm of the Galactic Empire in charge of maintaining security, peace and order in the galaxy."
+    },
+    {
+        "word": "Calrissian",
+        "difficulty": "hard",
+        "hint": "Rhymes with `Allison`, `garrison`, `Radhakrishnan`.",
+        "define": "Once a smooth-talking smuggler...."
+    },
+    {
+        "word": "Skywalker",
+        "difficulty": "hard",
+        "hint": "Rhymes with `sweettalker`, `rocker`, `jocker`.",
+        "define": "central characters in Star Wars Universe"
     }
 ]

@@ -4,7 +4,7 @@ module.exports = {
 	name: 'shop',
 	aliases: ['store', 'market', 'outpost'],
 	description: 'Shows all items that can be bought.',
-	long: 'Visit the Jawa Outpost and see what items can be bought. The homepage sales may change so be sure to check often!',
+	long: 'Visit the Blackmarket and see what items can be bought. The homepage sales may change so be sure to check often!',
 	args: {},
 	examples: [],
 	ignoreHelp: false,
@@ -42,7 +42,7 @@ async function generatePages(app, allItems, prefix, itemsPerPage) {
 
 		const pageEmbed = new app.Embed()
 			.setTitle('The Outpost Shop')
-			.setDescription(`Use \`${prefix}buy <item>\` to purchase.\n\nCan't find the item you want? Try searching the black market: \`${prefix}bm <item>\`.`)
+			.setDescription(`Use \`${prefix}buy <item>\` to purchase.\n\nCan't find the item you want? Try searching the blackmarket: \`${prefix}bm <item>\`.`)
 			.setColor(13451564)
 
 		for (const item of filteredItems) {
@@ -70,9 +70,9 @@ async function getHomePage(app, prefix) {
 	const timeUntilMidnight = midnight.getTime() - converted.getTime()
 
 	const firstEmbed = new app.Embed()
-	firstEmbed.setTitle('Welcome to the Outpost!')
+	firstEmbed.setTitle('Welcome to the Blackmarket!')
 	firstEmbed.setDescription(`We'll give you ${app.icons.scrap} Scrap for your ${app.icons.money} Credits:\n\`${prefix}buy scrap <amount>\``)
-	firstEmbed.setThumbnail('https://cdn.discordapp.com/attachments/497302646521069570/733741460868038706/outpost_shop_small.png')
+	firstEmbed.setThumbnail('https://cdn.discordapp.com/attachments/795858075827437589/796478946274181130/black-market-750x403.jpg')
 	firstEmbed.setColor(13451564)
 
 	const items = []

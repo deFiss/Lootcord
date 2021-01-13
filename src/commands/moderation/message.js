@@ -36,7 +36,7 @@ module.exports = {
 			.setDescription(messageIn)
 			.setColor(13451564)
 			.addBlankField()
-			.setFooter('https://www.merc-wars.online/ | Only moderators can send you messages.')
+			.setFooter('https://www.mercs-war.online/ | Only moderators can send you messages.')
 
 		if (Array.isArray(imageAttached) && imageAttached.length) {
 			if (imageAttached[0].url.endsWith('.mp4') || imageAttached[0].url.endsWith('.mp3')) {

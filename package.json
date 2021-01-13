@@ -10,7 +10,7 @@
     "lint": "eslint --ext .js .",
     "test": "jest && npm run lint"
   },
-  "author": "blobfysh#4679",
+  "author": "dre",
   "repository": {
     "type": "git",
     "url": "https://github.com/blobfysh/Lootcord.git"

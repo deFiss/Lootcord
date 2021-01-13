@@ -7,24 +7,24 @@
         "minDmg": 47,
         "maxDmg": 72,
         "ammo": [
-            "explosive_bullet",
-            "hv_rifle_bullet",
-            "rifle_bullet"
+            "he_energy_cell",
+            "energy_double_cell",
+            "energy_cell"
         ],
         "craftedWith": "",
         "recyclesTo": {
-            "display": "2x metal_spring\n1x rifle_body",
+            "display": "2x metal_grip\n1x rifle_body",
             "materials": [
-                "metal_spring|2",
+                "metal_grip|2",
                 "rifle_body|1"
             ]
         },
         "buy": "",
         "sell": 248305,
-        "desc": "Military light machine gun that can only drop from the Patrol Helicopter and Bradley.",
-        "image": "https://i.imgur.com/QkQJwuC.png",
-        "unboxImage": "https://i.imgur.com/QkQJwuC.png",
-        "icon": "<:dlt19:785409221096112138>",
+        "desc": "Imperial light machinegun. Rare drop.",
+        "image": "https://cdn.discordapp.com/attachments/793403000399200286/793552086608379904/dlt19_rifle.png",
+        "unboxImage": "https://cdn.discordapp.com/attachments/793403000399200286/793552086608379904/dlt19_rifle.png",
+        "icon": "<:dlt19_rifle:793552350459199538>",
         "breaksOnUse": false,
         "chanceToBreak": 0.08,
         "canBeStolen": true,
@@ -45,30 +45,30 @@
         "rarity": "Uncommon",
         "isWeap": true,
         "isItem": false,
-        "damage": "0 - 7",
-        "minDmg": 0,
+        "damage": "1 - 7",
+        "minDmg": 1,
         "maxDmg": 7,
         "ammo": [
-            "bone_arrow",
+            "polymer_arrow",
             "arrow"
         ],
         "craftedWith": {
             "level": 2,
             "materials": [
-                "wood|2",
+                "titanium|2",
                 "cloth|1"
             ]
         },
         "recyclesTo": {
             "materials": [
-                "wood|1"
+                "titanium|1"
             ]
         },
         "buy": "",
         "sell": 3356,
-        "desc": "",
-        "image": "https://i.ibb.co/fG6qdmc/bow.jpg",
-        "icon": "<:bow:785252804059070464>",
+        "desc": "A primitive weapon consisting of a flexible arc bent by a string at each end and used to launch pointed projectiles called arrows.",
+        "image": "https://cdn.discordapp.com/attachments/793403000399200286/793551186304565278/bow.png",
+        "icon": "<:bow:793552349712482304>",
         "breaksOnUse": false,
         "chanceToBreak": 0.5,
         "canBeStolen": true,
@@ -88,12 +88,12 @@
         "minDmg": 0,
         "maxDmg": 4,
         "ammo": [
-            "pistol_bullet"
+            "gas_cell"
         ],
         "craftedWith": {
             "level": 3,
             "materials": [
-                "metal_pipe|1",
+                "metal_barrel|1",
                 "metal|2"
             ]
         },
@@ -105,8 +105,8 @@
         "buy": "",
         "sell": 4037,
         "desc": "",
-        "image": "https://i.ibb.co/tqKhcgX/Blaster-Pistol.png",
-        "icon": "<:Blaster_Pistol:785243025886150656>",
+        "image": "https://cdn.discordapp.com/attachments/793403000399200286/793551182824079360/Blaster_pistol.png",
+        "icon": "<:Blaster_pistol:793552350399954954>",
         "breaksOnUse": false,
         "chanceToBreak": 0.34,
         "canBeStolen": true,
@@ -119,6 +119,7 @@
         "aliases": [
             "bpistol",
             "blasterpistol",
+            "blaster-pistol",
             "blaster"
         ],
         "tier": 1
@@ -130,27 +131,27 @@
         "minDmg": 17,
         "maxDmg": 28,
         "ammo": [
-            "pistol_bullet"
+            "gas_cell"
         ],
         "craftedWith": {
             "level": 6,
             "materials": [
-                "smg_body|2",
-                "metal_spring|1",
+                "blaster_body|2",
+                "metal_grip|1",
                 "metal|1"
             ]
         },
         "recyclesTo": {
-            "display": "1x smg_body",
+            "display": "1x blaster_body",
             "materials": [
-                "smg_body|1"
+                "blaster_body|1"
             ]
         },
         "buy": "",
         "sell": 19736,
         "desc": "",
-        "image": "https://i.ibb.co/GcLwDQh/rskf-44-blaster.png",
-        "icon": "<:RSKF44:785275160541790219>",
+        "image": "https://cdn.discordapp.com/attachments/793403000399200286/793551160002478171/rskf44_blaster.png",
+        "icon": "<:rskf44_blaster:793552428112019516>",
         "breaksOnUse": false,
         "chanceToBreak": 0.35,
         "canBeStolen": true,
@@ -163,6 +164,7 @@
         "aliases": [
             "rskf",
             "rskf-44",
+            "rskf-44-blaster",
             "rskf44"
         ],
         "tier": 2
@@ -174,27 +176,27 @@
         "minDmg": 21,
         "maxDmg": 30,
         "ammo": [
-            "pistol_bullet"
+            "gas_cell"
         ],
         "craftedWith": {
             "level": 7,
             "materials": [
-                "smg_body|2",
-                "metal_spring|2",
+                "blaster_body|2",
+                "metal_grip|2",
                 "metal|1"
             ]
         },
         "recyclesTo": {
             "materials": [
-                "smg_body|1",
-                "metal_spring|1"
+                "blaster_body|1",
+                "metal_grip|1"
             ]
         },
         "buy": "",
         "sell": 52573,
         "desc": "",
-        "image": "https://i.ibb.co/0tydRCY/e5.png",
-        "icon": "<:e5:785403752609611806>",
+        "image": "https://cdn.discordapp.com/attachments/793403000399200286/793551133917970542/e5_rifle.png",
+        "icon": "<:e5_rifle:793552387532783637>",
         "breaksOnUse": false,
         "chanceToBreak": 0.12,
         "canBeStolen": true,
@@ -207,6 +209,7 @@
         "aliases": [
             "e5",
             "e-5",
+            "e-5-rifle",
             "e5rifle"
         ],
         "tier": 3
@@ -218,25 +221,25 @@
         "minDmg": 11,
         "maxDmg": 21,
         "ammo": [
-            "pistol_bullet"
+            "gas_cell"
         ],
         "craftedWith": {
             "level": 5,
             "materials": [
-                "smg_body|2",
-                "metal_spring|1"
+                "blaster_body|2",
+                "metal_grip|1"
             ]
         },
         "recyclesTo": {
             "materials": [
-                "smg_body|1"
+                "blaster_body|1"
             ]
         },
         "buy": "",
         "sell": 17252,
         "desc": "",
-        "image": "https://i.ibb.co/3zB4Hzw/EL-16-rifle.png",
-        "icon": "<:EL16_rifle:785376605677289473>",
+        "image": "https://cdn.discordapp.com/attachments/793403000399200286/793551145326608424/el16_rifle.png",
+        "icon": "<:el16_rifle:793552392519286834>",
         "breaksOnUse": false,
         "chanceToBreak": 0.38,
         "canBeStolen": true,
@@ -249,6 +252,7 @@
         "aliases": [
             "el16",
             "el16rifle",
+            "el-16-rifle",
             "el-16"
         ],
         "tier": 2
@@ -260,25 +264,25 @@
         "minDmg": 25,
         "maxDmg": 33,
         "ammo": [
-            "pistol_bullet"
+            "gas_cell"
         ],
         "craftedWith": {
             "level": 6,
             "materials": [
-                "metal_spring|1",
-                "metal_pipe|2"
+                "metal_grip|1",
+                "metal_barrel|2"
             ]
         },
         "recyclesTo": {
             "materials": [
-                "metal_pipe|1"
+                "metal_barrel|1"
             ]
         },
         "buy": "",
         "sell": 17157,
         "desc": "",
-        "image": "https://i.ibb.co/qRxQVtG/Dl44.png",
-        "icon": "<:dl44:785349381435424808>",
+        "image": "https://cdn.discordapp.com/attachments/793403000399200286/793551193531875328/dl44_blaster.png",
+        "icon": "<:dl44_blaster:793552350508875826>",
         "breaksOnUse": false,
         "chanceToBreak": 0.59,
         "canBeStolen": true,
@@ -291,6 +295,7 @@
         "aliases": [
             "dl44",
             "dl44blaster",
+            "dl-44-blaster",
             "hansolo",
             "dl-44"
         ],
@@ -303,7 +308,7 @@
         "minDmg": 13,
         "maxDmg": 20,
         "ammo": [
-            "pistol_bullet"
+            "gas_cell"
         ],
         "craftedWith": "",
         "recyclesTo": {
@@ -314,8 +319,8 @@
         "buy": "",
         "sell": 18157,
         "desc": "",
-        "image": "https://i.ibb.co/Ht7xpgd/se-14.png",
-        "icon": "<:se_14:785374490993491998>",
+        "image": "https://cdn.discordapp.com/attachments/793403000399200286/793551168286228520/se14.png",
+        "icon": "<:se14:793552429341474888>",
         "breaksOnUse": false,
         "chanceToBreak": 0.27,
         "canBeStolen": true,
@@ -327,7 +332,8 @@
         "category": "Ranged",
         "aliases": [
             "se14",
-            "se14pistol"
+            "se14pistol",
+            "se-14-pistol"
         ],
         "tier": 2
     },
@@ -338,15 +344,15 @@
         "minDmg": 54,
         "maxDmg": 59,
         "ammo": [
-            "explosive_bullet",
-            "hv_rifle_bullet",
-            "rifle_bullet"
+            "he_energy_cell",
+            "energy_double_cell",
+            "energy_cell"
         ],
         "craftedWith": {
             "level": 9,
             "materials": [
                 "rifle_body|3",
-                "metal_spring|1",
+                "metal_grip|1",
                 "metal|1"
             ]
         },
@@ -358,8 +364,8 @@
         "buy": "",
         "sell": 96621,
         "desc": "",
-        "image": "https://i.ibb.co/HXb0Scv/amban.jpg",
-        "icon": "<:amban:785412739408592946>",
+        "image": "https://cdn.discordapp.com/attachments/793403000399200286/793551179870109706/amban_phase_blaster.png",
+        "icon": "<:amban_phase_blaster:793552348915826719>",
         "breaksOnUse": false,
         "chanceToBreak": 0.26,
         "canBeStolen": true,
@@ -373,6 +379,9 @@
             "amban",
             "sniper",
             "amban_rifle",
+            "amban-phase-blaster",
+            "amban-phase",
+            "amban-blaster",
             "amban_blaster"
         ],
         "tier": 3
@@ -384,29 +393,29 @@
         "minDmg": 5,
         "maxDmg": 17,
         "ammo": [
-            "explosive_bullet",
-            "hv_rifle_bullet",
-            "rifle_bullet"
+            "he_energy_cell",
+            "energy_double_cell",
+            "energy_cell"
         ],
         "craftedWith": {
             "level": 6,
             "materials": [
-                "semi_body|2",
-                "metal_spring|1",
+                "e-dc_body|2",
+                "metal_grip|1",
                 "metal|1"
             ]
         },
         "recyclesTo": {
-            "display": "1x semi_body",
+            "display": "1x e-dc_body",
             "materials": [
-                "semi_body|1"
+                "e-dc_body|1"
             ]
         },
         "buy": "",
         "sell": 21037,
         "desc": "",
-        "image": "https://i.ibb.co/8jCtdZ8/E11.png",
-        "icon": "<:e11:785345608462237696>",
+        "image": "https://cdn.discordapp.com/attachments/793403000399200286/793551138153955388/e11_rifle.png",
+        "icon": "<:e11_rifle:793552393119072296>",
         "breaksOnUse": false,
         "chanceToBreak": 0.35,
         "canBeStolen": true,
@@ -418,6 +427,7 @@
         "category": "Ranged",
         "aliases": [
             "e11",
+            "e11-rifle",
             "e11rifle"
         ],
         "tier": 2
@@ -429,25 +439,25 @@
         "minDmg": 5,
         "maxDmg": 15,
         "ammo": [
-            "pistol_bullet"
+            "gas_cell"
         ],
         "craftedWith": {
             "level": 4,
             "materials": [
-                "semi_body|2",
+                "e-dc_body|2",
                 "metal|1"
             ]
         },
         "recyclesTo": {
             "materials": [
-                "semi_body|1"
+                "e-dc_body|1"
             ]
         },
         "buy": "",
         "sell": 7156,
         "desc": "",
-        "image": "https://i.ibb.co/y60tcD2/Dc-17.png",
-        "icon": "<:Dc_17s:785347425778139156>",
+        "image": "https://cdn.discordapp.com/attachments/793403000399200286/793551189844688976/dc17_handgun.png",
+        "icon": "<:dc17_handgun:793552350094688296>",
         "breaksOnUse": false,
         "chanceToBreak": 0.3,
         "canBeStolen": true,
@@ -460,6 +470,7 @@
         "aliases": [
             "dc17",
             "dc-17",
+            "dc-17-pistol",
             "dc17pistol"
         ],
         "tier": 2
@@ -471,27 +482,27 @@
         "minDmg": 6,
         "maxDmg": 21,
         "ammo": [
-            "bone_arrow",
+            "polymer_arrow",
             "arrow"
         ],
         "craftedWith": {
             "level": 3,
             "materials": [
-                "wood|2",
+                "titanium|2",
                 "metal|2"
             ]
         },
         "recyclesTo": {
             "materials": [
-                "wood|1",
+                "titanium|1",
                 "metal|1"
             ]
         },
         "buy": "",
         "sell": 3662,
         "desc": "",
-        "image": "https://i.ibb.co/QrMdxfZ/Energy-Bow.png",
-        "icon": "<:Energy_Bow:785256565015445524>",
+        "image": "https://cdn.discordapp.com/attachments/793403000399200286/793551149562462238/energy_bow.png",
+        "icon": "<:energy_bow:793552393169272882>",
         "breaksOnUse": false,
         "chanceToBreak": 0.35,
         "canBeStolen": true,
@@ -505,6 +516,7 @@
             "ebow",
             "e-bow",
             "energybow",
+            "energy-bow",
             "enbow"
         ],
         "tier": 1
@@ -516,15 +528,15 @@
         "minDmg": 15,
         "maxDmg": 27,
         "ammo": [
-            "12g_slug",
-            "12g_buckshot",
-            "handmade_shell"
+            "hv_slug_projectile",
+            "slug_projectile",
+            "handmade_slug"
         ],
         "craftedWith": {
             "level": 6,
             "materials": [
-                "metal_spring|1",
-                "metal_pipe|2",
+                "metal_grip|1",
+                "metal_barrel|2",
                 "metal|2"
             ]
         },
@@ -536,8 +548,8 @@
         "buy": "",
         "sell": 24263,
         "desc": "",
-        "image": "https://i.ibb.co/7jZDNn1/8g-shotgun.png",
-        "icon": "<:8g_shotgun:785371094559096853>",
+        "image": "https://cdn.discordapp.com/attachments/793403000399200286/793551175773454346/8g_shotgun.png",
+        "icon": "<:8g_shotgun:793552344884969512>",
         "breaksOnUse": false,
         "chanceToBreak": 0.4,
         "canBeStolen": true,
@@ -552,6 +564,7 @@
             "8g",
             "shotty",
             "8gshootgun",
+            "8g-shootgun",
             "8gsg"
         ],
         "tier": 2
@@ -563,22 +576,22 @@
         "minDmg": 30,
         "maxDmg": 46,
         "ammo": [
-            "12g_slug",
-            "12g_buckshot",
-            "handmade_shell"
+            "hv_slug_projectile",
+            "slug_projectile",
+            "handmade_slug"
         ],
         "craftedWith": "",
         "recyclesTo": {
             "materials": [
-                "metal_spring|1",
-                "metal_pipe|1"
+                "metal_grip|1",
+                "metal_barrel|1"
             ]
         },
         "buy": "",
         "sell": 53621,
         "desc": "",
-        "image": "https://i.ibb.co/1zZfXzW/dp-23.jpg",
-        "icon": "<:dp_23:785391856342794281>",
+        "image": "https://cdn.discordapp.com/attachments/793403000399200286/793551235965255770/dp23_Shotgun.png",
+        "icon": "<:dp23_Shotgun:793552387327393852>",
         "breaksOnUse": false,
         "chanceToBreak": 0.22,
         "canBeStolen": true,
@@ -590,6 +603,7 @@
         "category": "Ranged",
         "aliases": [
             "dp-23",
+            "dp-23-shootgun",
             "dp23"
         ],
         "tier": 3
@@ -601,23 +615,23 @@
         "minDmg": 30,
         "maxDmg": 38,
         "ammo": [
-            "explosive_bullet",
-            "hv_rifle_bullet",
-            "rifle_bullet"
+            "he_energy_cell",
+            "energy_double_cell",
+            "energy_cell"
         ],
         "craftedWith": "",
         "recyclesTo": {
-            "display": "1x rifle_body\n1x metal_spring",
+            "display": "1x rifle_body\n1x metal_grip",
             "materials": [
                 "rifle_body|1",
-                "metal_spring|1"
+                "metal_grip|1"
             ]
         },
         "buy": "",
         "sell": 65623,
         "desc": "",
-        "image": "https://i.ibb.co/4N9PKmk/t-21.png",
-        "icon": "<:t21:785404981956182016>",
+        "image": "https://cdn.discordapp.com/attachments/793403000399200286/793551172178280518/t21_rifle.png",
+        "icon": "<:t21_rifle:793552429639663631>",
         "breaksOnUse": false,
         "chanceToBreak": 0.15,
         "canBeStolen": true,
@@ -630,6 +644,7 @@
         "aliases": [
             "t21",
             "t-21",
+            "t-21-rifle",
             "t21rifle"
         ],
         "tier": 3
@@ -641,29 +656,29 @@
         "minDmg": 34,
         "maxDmg": 45,
         "ammo": [
-            "explosive_bullet",
-            "hv_rifle_bullet",
-            "rifle_bullet"
+            "he_energy_cell",
+            "energy_double_cell",
+            "energy_cell"
         ],
         "craftedWith": {
             "level": 9,
             "materials": [
                 "rifle_body|2",
-                "metal_spring|1",
+                "metal_grip|1",
                 "metal|1"
             ]
         },
         "recyclesTo": {
             "materials": [
                 "rifle_body|1",
-                "metal_spring|1"
+                "metal_grip|1"
             ]
         },
         "buy": "",
         "sell": 82571,
         "desc": "",
-        "image": "https://cdn.discordapp.com/emojis/785414903778377728.png",
-        "icon": "<:ee_3_carbine:785414903778377728>",
+        "image": "https://cdn.discordapp.com/attachments/793403000399200286/793551141966315530/ee3_carabine.png",
+        "icon": "<:ee3_carabine:793552392759017533>",
         "breaksOnUse": false,
         "chanceToBreak": 0.23,
         "canBeStolen": true,
@@ -676,6 +691,7 @@
         "aliases": [
             "carbine",
             "ee-3",
+            "ee-3-carabine",
             "ee3",
             "eecarabine"
         ],
@@ -688,16 +704,16 @@
         "minDmg": 0,
         "maxDmg": 28,
         "ammo": [
-            "12g_slug",
-            "12g_buckshot",
-            "handmade_shell"
+            "hv_slug_projectile",
+            "slug_projectile",
+            "handmade_slug"
         ],
         "craftedWith": {
             "level": 3,
             "materials": [
-                "metal_pipe|1",
+                "metal_barrel|1",
                 "metal|1",
-                "wood|1"
+                "titanium|1"
             ]
         },
         "recyclesTo": {
@@ -709,8 +725,8 @@
         "buy": "",
         "sell": 5419,
         "desc": "",
-        "image": "https://i.ibb.co/r3LgHp5/ACP-array-gun.webp",
-        "icon": "<:salv_shotg:785237676772294687>",
+        "image": "https://cdn.discordapp.com/attachments/793403000399200286/793551164502966302/Salvaged_shotgun.png",
+        "icon": "<:Salvaged_shotgun:793552429785546783>",
         "breaksOnUse": false,
         "chanceToBreak": 0.76,
         "canBeStolen": true,
@@ -722,6 +738,7 @@
         "category": "Ranged",
         "aliases": [
             "salvagedshotgun",
+            "salvaged-shotgun",
             "sshotgun",
             "ssg"
         ],
@@ -738,17 +755,17 @@
         ],
         "craftedWith": "",
         "recyclesTo": {
-            "display": "2x metal_pipe",
+            "display": "2x metal_barrel",
             "materials": [
-                "metal_pipe|2"
+                "metal_barrel|2"
             ]
         },
         "buy": "",
         "sell": 112330,
         "desc": "",
-        "image": "https://i.ibb.co/1rrqnpV/rocket-launcher.png",
-        "unboxImage": "https://i.ibb.co/1rrqnpV/rocket-launcher.png",
-        "icon": "<:rocket_launcher:785402149814272000>",
+        "image": "https://cdn.discordapp.com/attachments/793403000399200286/793551156374536222/rocket_launcher.png",
+        "unboxImage": "https://cdn.discordapp.com/attachments/793403000399200286/793551156374536222/rocket_launcher.png",
+        "icon": "<:rocket_launcher:793552429517242368>",
         "breaksOnUse": false,
         "chanceToBreak": 0.15,
         "canBeStolen": true,
@@ -760,6 +777,7 @@
         "category": "Ranged",
         "aliases": [
             "rpg",
+            "rocket-launcher",
             "launcher"
         ],
         "tier": 3
@@ -771,21 +789,21 @@
         "minDmg": 0,
         "maxDmg": 25,
         "ammo": [
-            "40mm_he_grenade",
-            "40mm_smoke_grenade"
+            "grenade",
+            "smoke_grenade"
         ],
         "craftedWith": "",
         "recyclesTo": {
             "materials": [
-                "metal_pipe|2",
+                "metal_barrel|2",
                 "metal|1"
             ]
         },
         "buy": "",
         "sell": 108427,
         "desc": "",
-        "image": "https://i.ibb.co/kGhTTg3/grenade-launcher.png",
-        "icon": "<:grenade_launcher:785410552963923988>",
+        "image": "https://cdn.discordapp.com/attachments/793403000399200286/793551152662446120/grenade_launcher.png",
+        "icon": "<:grenade_launcher:793552393143975966>",
         "breaksOnUse": false,
         "chanceToBreak": 0.13,
         "canBeStolen": true,
@@ -796,7 +814,9 @@
         "artist": "",
         "category": "Ranged",
         "aliases": [
-            "gl"
+            "gl",
+            "grenadelauncher",
+            "grenade-launcher"
         ],
         "tier": 3
     }

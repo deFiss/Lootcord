@@ -4,14 +4,14 @@ const QUOTES = [
 	'**You earned a free {icon}{item}!** Open it to see what\'s inside: `{prefix}use Military`\n\nWant more? Try the `hourly`, `vote` commands.'
 ]
 const OFFICIAL_QUOTES = [
-	'You gained **2x** {icon}{item} for playing in the official Star Wars Mercenaries War server! 😎'
+	'You gained **2x** {icon}{item} for playing in the official Star Wars Mercenaries War server! <:sunglassesatnight:790363776792526888>'
 ]
 
 module.exports = {
 	name: 'daily',
 	aliases: [''],
 	description: 'Receive a free Military every day!',
-	long: 'Use this command to receive a free Military every day.\n\n**Receive double the reward when used in the official Discord!**',
+	long: 'Use this command to receive a free Military every day.\n\n**Receive double the reward when used in the official Discord!**<:sunglassesatnight:790363776792526888>',
 	args: {},
 	examples: [],
 	ignoreHelp: false,
