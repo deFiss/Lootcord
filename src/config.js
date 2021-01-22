@@ -93,7 +93,7 @@ exports.activeRoleGuilds = {
 exports.requiredPerms = {
 	sendMessages: 'Send Messages',
 	addReactions: 'Add Reactions',
-	manageMessages: 'Manage Messages',
+	// manageMessages: 'Manage Messages',
 	embedLinks: 'Embed Links',
 	attachFiles: 'Attach Files',
 	externalEmojis: 'Use External Emoji',

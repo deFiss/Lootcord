@@ -2,14 +2,6 @@ const Canvas = require('canvas')
 
 Canvas.registerFont('src/resources/fonts/BebasNeue-Regular.ttf', { family: 'Bebas Neue' })
 
-let oldPlayers
-
-try {
-	oldPlayers = require('../resources/json/og_looters')
-}
-catch (err) {
-	oldPlayers = []
-}
 
 class Player {
 	constructor(app) {
@@ -64,9 +56,20 @@ class Player {
 			.addField('Items Received', `1x ${this.app.itemdata.crate.icon}\`crate\`\nOpen it by __using__ it: \`t-use crate\`\n\nOnce you get a weapon, you can attack another player by __using__ a weapon on them: \`t-use vibroblade @user\``)
 			.setFooter('This message will only be sent the first time your account is created.')
 		this.app.common.messageUser(id, newPlayer)
-
-		if (oldPlayers.includes(id)) {
+		
+		// check new old users
+		if (new Date('2021-02-01T03:00') > new Date()) {
 			await this.app.itm.addBadge(id, 'primus_merc')
+
+			const newOld = new this.app.Embed()
+			.setTitle('123123')
+			.setColor(13451564)
+			.setThumbnail(this.app.bot.user.avatarURL)
+			.setDescription(`awd`)
+			.addField('')
+			.setFooter('This message will only be sent the first time your account is created.')
+
+			this.app.common.messageUser(id, newOld)
 		}
 	}
 
