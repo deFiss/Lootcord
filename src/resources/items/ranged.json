@@ -26,7 +26,7 @@
         "unboxImage": "https://cdn.discordapp.com/attachments/793403000399200286/793552086608379904/dlt19_rifle.png",
         "icon": "<:dlt19_rifle:793552350459199538>",
         "breaksOnUse": false,
-        "chanceToBreak": 0.08,
+        "chanceToBreak": 0.28,
         "canBeStolen": true,
         "cooldown": {
             "seconds": 6720
@@ -198,7 +198,7 @@
         "image": "https://cdn.discordapp.com/attachments/793403000399200286/793551133917970542/e5_rifle.png",
         "icon": "<:e5_rifle:793552387532783637>",
         "breaksOnUse": false,
-        "chanceToBreak": 0.12,
+        "chanceToBreak": 0.32,
         "canBeStolen": true,
         "cooldown": {
             "seconds": 3984
@@ -284,7 +284,7 @@
         "image": "https://cdn.discordapp.com/attachments/793403000399200286/793551193531875328/dl44_blaster.png",
         "icon": "<:dl44_blaster:793552350508875826>",
         "breaksOnUse": false,
-        "chanceToBreak": 0.59,
+        "chanceToBreak": 0.33,
         "canBeStolen": true,
         "cooldown": {
             "seconds": 4123
@@ -322,7 +322,7 @@
         "image": "https://cdn.discordapp.com/attachments/793403000399200286/793551168286228520/se14.png",
         "icon": "<:se14:793552429341474888>",
         "breaksOnUse": false,
-        "chanceToBreak": 0.27,
+        "chanceToBreak": 0.3,
         "canBeStolen": true,
         "cooldown": {
             "seconds": 2742
@@ -367,7 +367,7 @@
         "image": "https://cdn.discordapp.com/attachments/793403000399200286/793551179870109706/amban_phase_blaster.png",
         "icon": "<:amban_phase_blaster:793552348915826719>",
         "breaksOnUse": false,
-        "chanceToBreak": 0.26,
+        "chanceToBreak": 0.2,
         "canBeStolen": true,
         "cooldown": {
             "seconds": 5626
@@ -551,7 +551,7 @@
         "image": "https://cdn.discordapp.com/attachments/793403000399200286/793551175773454346/8g_shotgun.png",
         "icon": "<:8g_shotgun:793552344884969512>",
         "breaksOnUse": false,
-        "chanceToBreak": 0.4,
+        "chanceToBreak": 0.3,
         "canBeStolen": true,
         "cooldown": {
             "seconds": 3432
@@ -767,7 +767,7 @@
         "unboxImage": "https://cdn.discordapp.com/attachments/793403000399200286/793551156374536222/rocket_launcher.png",
         "icon": "<:rocket_launcher:793552429517242368>",
         "breaksOnUse": false,
-        "chanceToBreak": 0.15,
+        "chanceToBreak": 0.12,
         "canBeStolen": true,
         "cooldown": {
             "seconds": 5383

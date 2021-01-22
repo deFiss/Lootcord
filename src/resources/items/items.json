@@ -83,8 +83,8 @@
         "artist": "",
         "category": "Item",
         "aliases": [
-            "item_box",
-            "item",
+            "crate",
+            "crate",
             "loot"
         ],
         "tier": 0
