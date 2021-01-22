@@ -62,11 +62,9 @@ class Player {
 			await this.app.itm.addBadge(id, 'primus_merc')
 
 			const newOld = new this.app.Embed()
-			.setTitle('123123')
+			.setTitle('Mercenary, thank you for your dedication.')
 			.setColor(13451564)
-			.setThumbnail(this.app.bot.user.avatarURL)
-			.setDescription(`awd`)
-			.addField('')
+			.setDescription(`You get a bonus banner, Primus Mercenary \nFor joining us on early game stage (until February 1, 2021). :tada:`)
 			.setFooter('This message will only be sent the first time your account is created.')
 
 			this.app.common.messageUser(id, newOld)
