@@ -361,7 +361,7 @@ class Player {
 		const WIDTH = 108
 		const HEIGHT = 128
 		const image = await Canvas.loadImage('src/resources/images/LvlUp2.png')
-		// const overlay = await Canvas.loadImage('src/resources/images/LvlUpHalloweenOverlay.png')
+		// const overlay = await Canvas.loadImage('src/resources/images/LvlUpChristmasOverlay.png')
 		const avatar = await Canvas.loadImage(playerImage)
 		const canvas = Canvas.createCanvas(WIDTH, HEIGHT)
 		const ctx = canvas.getContext('2d')
@@ -381,7 +381,7 @@ class Player {
 		ctx.font = '45px Bebas Neue'
 		ctx.textAlign = 'center'
 		// ctx.lineWidth = 3
-		// ctx.strokeStyle = '#CCCCCC'
+		// ctx.strokeStyle = '#161616'
 		// ctx.strokeText(`LVL ${level}`, WIDTH / 2, 120)
 		ctx.fillText(`LVL ${level}`, WIDTH / 2, 120)
 

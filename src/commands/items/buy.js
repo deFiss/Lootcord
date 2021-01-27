@@ -96,7 +96,7 @@ module.exports = {
 					const confirmed = await app.react.getConfirmation(message.author.id, botMessage)
 
 					if (confirmed) {
-						// if user bought 3 rpgs at 5 tokens each, they would need 3 - 15 = -12 space in their inventory
+						// if user bought 3 rocks at 5 tokens each, they would need 3 - 15 = -12 space in their inventory
 						// if they had 20/10 slots at time of purchasing, this would return true because 20 - 12 = 8/10 slots
 						const userItems = await app.itm.getItemObject(message.author.id)
 						const itemCt = await app.itm.getItemCount(userItems, await app.player.getRow(message.author.id))
@@ -366,8 +366,8 @@ async function boughtGame(app, user, itemRow) {
 
 	try {
 		const buyerEmbed = new app.Embed()
-			.setTitle('✅ Game Purchased!')
-			.setDescription('The moderators have received confirmation that you purchased a game the shop and will respond with your key soon.')
+			.setTitle('✅ Shop Item Purchased!')
+			.setDescription('The moderators have received confirmation that you purchased a product from the shop and will respond with your key soon.')
 			.setFooter('Please do not message asking "Where is my code?" unless at least 12 hours have passed. We have the right to cancel this purchase if we suspect you of cheating.')
 			.setTimestamp()
 
@@ -380,12 +380,12 @@ async function boughtGame(app, user, itemRow) {
 	}
 
 	const soldEmbed = new app.Embed()
-		.setTitle('✅ Game Purchased')
-		.addField('Game Sold', itemRow.itemDisplay)
+		.setTitle('✅ Shop Item Purchased')
+		.addField('Product Sold', itemRow.itemDisplay)
 		.addField('Buyer', `${user.username}#${user.discriminator} ID: \`\`\`\n${user.id}\`\`\``)
 
 	app.messager.messageMods(soldEmbed)
-	console.warn(`A game (${itemRow.itemName}) was sold to id: ${user.id}`)
+	console.warn(`A shop item (${itemRow.itemName}) was sold to id: ${user.id}`)
 }
 
 async function getShopData(app) {
