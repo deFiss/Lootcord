@@ -34,11 +34,16 @@ module.exports = {
 
 		if (message.channel.guild.id === app.config.supportGuildID) {
 			await app.itm.addItem(message.author.id, 'military_crate', 2)
-			message.reply(OFFICIAL_QUOTES[Math.floor(Math.random() * OFFICIAL_QUOTES.length)].replace('{icon}', app.itemdata.military_crate.icon).replace('{item}', '`military_crate`'))
+			message.reply(OFFICIAL_QUOTES[Math.floor(Math.random() * OFFICIAL_QUOTES.length)]
+				.replace('{icon}', app.itemdata.military_crate.icon)
+				.replace('{item}', '`military_crate`'))
 		}
 		else {
 			await app.itm.addItem(message.author.id, 'military_crate', 1)
-			message.reply(QUOTES[Math.floor(Math.random() * QUOTES.length)].replace('{icon}', app.itemdata.military_crate.icon).replace('{item}', '`military_crate`').replace('{prefix}', prefix))
+			message.reply(QUOTES[Math.floor(Math.random() * QUOTES.length)]
+				.replace('{icon}', app.itemdata.military_crate.icon)
+				.replace('{item}', '`military_crate`')
+				.replace('{prefix}', prefix))
 		}
 	}
 }
