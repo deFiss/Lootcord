@@ -6,7 +6,7 @@ class Items {
 	/**
      *
      * @param {*} id ID of user to add item to.
-     * @param {*} item   Item to add, can be array ex.(["item_box|2","awp|1"])
+     * @param {*} item   Item to add, can be array ex.(["crate|2","semi_rifle|1"])
      * @param {*} amount Amount of item to add, must be number.
      */
 	async addItem(id, item, amount) {
@@ -55,7 +55,7 @@ class Items {
 	/**
      *
      * @param {*} userItems User's item object.
-     * @param {*} item   Item to check user has, can be an array ex.(["awp|1","glock|2"])
+     * @param {*} item   Item to check user has, can be an array ex.(["assault_rifle|1","rock|2"])
      * @param {*} amount Amount of item check for.
      */
 	async hasItems(userItems, item, amount) {
