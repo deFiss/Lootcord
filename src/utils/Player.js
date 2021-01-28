@@ -58,13 +58,13 @@ class Player {
 		this.app.common.messageUser(id, newPlayer)
 		
 		// check new old users
-		if (new Date('2021-02-01T03:00') > new Date()) {
+		if (new Date('2021-03-01T03:00') > new Date()) {
 			await this.app.itm.addBadge(id, 'primus_merc')
 
 			const newOld = new this.app.Embed()
 			.setTitle('Mercenary, thank you for your dedication.')
 			.setColor(13451564)
-			.setDescription(`You get a bonus banner, Primus Mercenary \nFor joining us on early game stage (until February 1, 2021). :tada:`)
+			.setDescription(`You get a bonus banner, Primus Mercenary \nFor joining us on early game stage (until March 1, 2021). :tada:`)
 			.setFooter('This message will only be sent the first time your account is created.')
 
 			this.app.common.messageUser(id, newOld)

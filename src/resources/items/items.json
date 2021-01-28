@@ -322,7 +322,7 @@
                     "rskf-44_blaster|1",
                     "e-11_rifle|1",
                     "supply_signal|1",
-                    "ee-3_carabine|1"
+                    "ee-3_carbine|1"
                 ]
             }
         },
@@ -362,7 +362,7 @@
                 "xp": 140,
                 "items": [
                     "rocket|1",
-                    "ee-3_carabine|1",
+                    "ee-3_carbine|1",
                     "amban_phase_blaster|1",
                     "dp-23_shotgun|1"
                 ]
@@ -466,7 +466,7 @@
                     "energy_double_cell|1",
                     "beskar_armor|1",
                     "large_medpack|1",
-                    "ee-3_carabine|1",
+                    "ee-3_carbine|1",
                     "dl-44_blaster|1",
                     "se-14_pistol|1",
                     "dp-23_shotgun|1",

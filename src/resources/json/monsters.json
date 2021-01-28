@@ -228,7 +228,7 @@
                 "30": {
                     "items": [
                         "e-5_rifle|1",
-                        "ee-3_carabine|1",
+                        "ee-3_carbine|1",
                         "dp-23_shotgun|1",
                         "grenade_launcher|1",
                         "smoke_grenade|1"
@@ -308,7 +308,7 @@
             "extras": {
                 "75": {
                     "items": [
-                        "ee-3_carabine|1",
+                        "ee-3_carbine|1",
                         "rskf-44_blaster|1",
                         "energy_cell|1",
                         "large_medpack|1",
@@ -374,7 +374,7 @@
                         "large_medpack|1",
                         "energy_double_cell|1",
                         "rskf-44_blaster|1",
-                        "ee-3_carabine|1",
+                        "ee-3_carbine|1",
                         "gas_reactor|1"
                     ]
                 },

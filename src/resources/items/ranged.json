@@ -649,7 +649,7 @@
         ],
         "tier": 3
     },
-    "ee-3_carabine": {
+    "ee-3_carbine": {
         "rarity": "Rare",
         "isWeap": true,
         "isItem": false,
@@ -691,9 +691,9 @@
         "aliases": [
             "carbine",
             "ee-3",
-            "ee-3-carabine",
+            "ee-3-carbine",
             "ee3",
-            "eecarabine"
+            "eecarbine"
         ],
         "tier": 3
     },
