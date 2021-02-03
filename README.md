@@ -6,9 +6,9 @@
     Star Wars Mercenaries War
   </h1>
   <p align="center">
-    <a href="https://discordbots.org/bot/493316754689359874"><img src="https://discordbots.org/api/widget/lib/493316754689359874.svg"/></a>
-    <a href="https://discordbots.org/bot/493316754689359874"><img src="https://discordbots.org/api/widget/upvotes/493316754689359874.svg"/></a>
-    <a href="https://discordbots.org/bot/493316754689359874"><img src="https://discordbots.org/api/widget/servers/493316754689359874.svg"/></a>
+    <a href="https://discordbots.org/bot/784863742827298848"><img src="https://discordbots.org/api/widget/lib/493316754689359874.svg"/></a>
+    <a href="https://discordbots.org/bot/784863742827298848"><img src="https://discordbots.org/api/widget/upvotes/493316754689359874.svg"/></a>
+    <a href="https://discordbots.org/bot/784863742827298848"><img src="https://discordbots.org/api/widget/servers/493316754689359874.svg"/></a>
   </p>
   <h3 align="center"><strong>Collect items and battle your friends!</strong></h3>
 </div>

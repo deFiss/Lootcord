@@ -73,7 +73,7 @@ exports.botLists = [
 		token: process.env.BFD_API_TOKEN
 	},
 	{
-		url: 'https://discordbotlist.com/api/v1/bots/493316754689359874/stats',
+		url: 'https://discordbotlist.com/api/v1/bots/784863742827298848/stats',
 		token: process.env.DBL_API_TOKEN
 	}
 ]

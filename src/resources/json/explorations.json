@@ -617,7 +617,7 @@
                     "type": "health",
                     "value": 28
                 },
-                "quote": "**{user}** discovers that the tunnels were occupied by 7 <:trooper_helm:796532018946375780>> Troopers! **{user}** sneaks by them and finds {reward} but is shot for **{damage}** damage while trying to run away!"
+                "quote": "**{user}** discovers that the tunnels were occupied by 7 <:trooper_helm:796532018946375780> Troopers! **{user}** sneaks by them and finds {reward} but is shot for **{damage}** damage while trying to run away!"
             }
         ],
         "failed": [
@@ -628,7 +628,7 @@
                 },
                 "item": "",
                 "item2": "",
-                "quote": "**{user}** enters the tunnels... Only to be shot by 3 <:trooper_helm:796532018946375780>> Troopers for **{damage}** damage!"
+                "quote": "**{user}** enters the tunnels... Only to be shot by 3 <:trooper_helm:796532018946375780> Troopers for **{damage}** damage!"
             },
             {
                 "loss": {
