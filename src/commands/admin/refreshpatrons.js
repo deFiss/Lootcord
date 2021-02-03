@@ -21,15 +21,15 @@ module.exports = {
 				const member = await app.common.fetchMember(message.channel.guild, patrons[i].userId)
 
 				if (patrons[i].tier === 1 && !member.roles.includes(app.config.donatorRoles.tier1Patreon)) {
-					app.patreonHandler.lostTier1(patrons[i].userId, `\`${patrons[i].userId}\`'s tier 1 donator perks expried.`)
+					app.patreonHandler.lostTier(patrons[i].userId, 1, `\`${patrons[i].userId}\`'s tier 1 donator perks expried.`)
 					removed++
 				}
 				else if (patrons[i].tier === 2 && !member.roles.includes(app.config.donatorRoles.tier2Patreon)) {
-					app.patreonHandler.lostTier2(patrons[i].userId, `\`${patrons[i].userId}\`'s tier 2 donator perks expried.`)
+					app.patreonHandler.lostTier(patrons[i].userId, 2, `\`${patrons[i].userId}\`'s tier 2 donator perks expried.`)
 					removed++
 				}
 				else if (patrons[i].tier === 3 && !member.roles.includes(app.config.donatorRoles.tier3Patreon)) {
-					app.patreonHandler.lostTier3(patrons[i].userId, `\`${patrons[i].userId}\`'s tier 3 donator perks expried.`)
+					app.patreonHandler.lostTier(patrons[i].userId, 3, `\`${patrons[i].userId}\`'s tier 3 donator perks expried.`)
 					removed++
 				}
 			}
